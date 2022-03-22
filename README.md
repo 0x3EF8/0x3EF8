@@ -3,14 +3,6 @@
 
 I'm Patrick Cano A self-taught front-end developer in the Philippines. I've also been involved in many back-end projects in the past, and I'm still working on it. Internet and web development is my passion and I believe in helping people with my skills and knowledge. I've been learning these things for the last two years, and it feels like learning more is part of my life
 
-
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20views&color=0e75b6&style=flat" alt="0x3ef8" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=0x3ef8" alt="0x3ef8" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/0x3ef8" target="blank"><img src="https://img.shields.io/twitter/follow/0x3ef8?logo=twitter&style=for-the-badge" alt="0x3ef8" /></a> </p>
-
 - 🌱 I’m currently learning **PHP , PYTHON ,**
 
 - 👨‍💻 All of my projects are available at [https://0x3ef8.github.io/](https://0x3ef8.github.io/)
@@ -18,6 +10,14 @@ I'm Patrick Cano A self-taught front-end developer in the Philippines. I've also
 - 📫 How to reach me **0XEF8@GMAIL.COM**
 
 - 📄 Know about my experiences [https://0x3ef8.github.io/#resume](https://0x3ef8.github.io/#resume)
+
+
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20views&color=0e75b6&style=flat" alt="0x3ef8" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=0x3ef8" alt="0x3ef8" /></a> </p>
+
+<p align="left"> <a href="https://twitter.com/0x3ef8" target="blank"><img src="https://img.shields.io/twitter/follow/0x3ef8?logo=twitter&style=for-the-badge" alt="0x3ef8" /></a> </p>
 
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=0x3ef8&show_icons=true&locale=en&layout=compact" alt="0x3ef8" /></p>
