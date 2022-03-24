@@ -10,7 +10,7 @@ I'm Jay Patrick Cano, a self-taught front-end developer in the Philippines. I've
 
 - 👨‍💻 All of my projects are available at [https://0x3ef8.github.io/](https://0x3ef8.github.io/)
 
-- 📫 How to reach me **0XEF8@GMAIL.COM**
+- 📫 How to reach me **0x3EF8@Gmail.com**
 
 - 📄 Know about my experiences [https://0x3ef8.github.io/#resume](https://0x3ef8.github.io/#resume)
 
