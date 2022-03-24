@@ -13,8 +13,6 @@ I'm Patrick Cano A self-taught front-end developer in the Philippines. I've also
 
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20views&color=0e75b6&style=flat" alt="0x3ef8" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=0x3ef8" alt="0x3ef8" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/0x3ef8" target="blank"><img src="https://img.shields.io/twitter/follow/0x3ef8?logo=twitter&style=for-the-badge" alt="0x3ef8" /></a> </p>
