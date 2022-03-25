@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Pat</h1>
-<h3 align="center">A passionate frontend developer from philippines</h3>
+
 
 I'm Jay Patrick Cano, a self-taught front-end developer in the Philippines. I've also been involved in many back-end projects in the past, and I'm still working on them. The Internet and web development are my passions, and I believe in helping people with my skills and knowledge. I've been learning these things for the last two years, and it feels like learning more is a part of my life.
 
