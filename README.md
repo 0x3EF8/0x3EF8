@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jay Patrick Cano</h1>
-<h3 align="center">A passionate frontend developer from Philippines</h3>
+<p align="center">I'm Jay Patrick Cano, a self-taught front-end developer in the Philippines. I've also been involved in many back-end projects in the past, and I'm still working on them. The Internet and web development are my passions, and I believe in helping people with my skills and knowledge. I've been learning these things for the last two years, and it feels like learning more is a part of my life.</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20views&color=000000&style=plastic" alt="0x3ef8" /> </p>
 
