@@ -2,9 +2,9 @@
 <h3 align="center">A passionate frontend developer from Philippines</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20views&color=000000&style=plastic" alt="0x3ef8" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=0x3ef8" alt="0x3ef8" /></a> </p>
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/0x3EF8/0x3EF8.github.io/main/assets/img/icon.png">
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=0x3ef8" alt="0x3ef8" /></a> </p>
+
 <p align="left"> <a href="https://twitter.com/0x3ef8" target="blank"><img src="https://img.shields.io/twitter/follow/0x3ef8?logo=twitter&style=for-the-badge" alt="0x3ef8" /></a> </p>
 
 - 🌱 I’m currently learning **Frameworks**
