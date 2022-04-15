@@ -37,7 +37,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/c6/3c/ae/c63cae1344766f14d9d184e5aafed065.gif">
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=0x3ef8&show_icons=true&theme=dracula&locale=en&layout=compact" alt="0x3ef8" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=0x3ef8&show_icons=true&theme=dracula&locale=en&layout=compact" alt="0x3ef8" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=0x3ef8&show_icons=true&theme=dracula&locale=en" alt="0x3ef8" /></p>
 
