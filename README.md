@@ -38,7 +38,7 @@
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/e1/85/18/e18518c6d24257c6fb02e3c95a862d85.gif">
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=0x3ef8&show_icons=true&theme=dracula&locale=en&layout=compact" alt="0x3ef8" /></p>
-
+<img align="right" alt="Coding" width="300" src="https://c.tenor.com/vMS8fFQR0OAAAAAC/anime-computer.gif">
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=0x3ef8&show_icons=true&theme=dracula&locale=en" alt="0x3ef8" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0x3ef8&theme=dark" alt="0x3ef8" /></p>
