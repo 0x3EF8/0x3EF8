@@ -40,6 +40,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=0x3ef8&show_icons=true&theme=dracula&locale=en&layout=compact" alt="0x3ef8" /></p>
 
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=0x3ef8&show_icons=true&theme=dracula&locale=en" alt="0x3ef8" /></p>
-
+<img align="right" alt="Coding" width="200" src="https://c.tenor.com/vMS8fFQR0OAAAAAC/anime-computer.gif">
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=0x3ef8&theme=dark" alt="0x3ef8" /></p>
-<img align="right" alt="Coding" width="250" src="https://c.tenor.com/vMS8fFQR0OAAAAAC/anime-computer.gif">
+x
