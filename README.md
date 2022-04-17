@@ -13,7 +13,7 @@
 
 - 👨‍💻 All of my projects are available at [https://0x3ef8.github.io](https://0x3ef8.github.io)
 
-- 📝 I regularly write articles on [https://0x3ef8.blogspot.com](https://0x3ef8.blogspot.com)
+- 📝 I regularly write articles on [https://0x3ef8.github.io/#blog](https://0x3ef8.github.io/#blog)
 
 - 📫 How to reach me **0x3EF8@gmail.com**
 
