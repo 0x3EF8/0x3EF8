@@ -33,7 +33,7 @@ me.say_hi()
 
 <p>
 <div align="center">
-   <image src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix&row=1&no-bg=true&no-frame=true">    
+   <image src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix">    
 </div>
 </p>
 
