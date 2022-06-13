@@ -59,10 +59,10 @@ me.say_hi()
 
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=0x3EF82&show_icons=true&hide_border=true&theme=radical" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=0x3EF82&hide_border=true&theme=radical" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&hide_border=true&theme=radical" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=0x3EF8&hide_border=true&theme=radical" />
 </p>
 
 ## 🔝 Most used languages
 
-  <img alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF82&layout=compact&hide_border=true&theme=radical" />
+  <img alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&hide_border=true&theme=radical" />
