@@ -1,4 +1,4 @@
-# Hey!! Great to see you here! <img src="/src/wave.gif" width="30px" height="30px">
+# Hey!! Great to see you here! <img src="prog.png" width="30px" height="30px">
 
   ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
