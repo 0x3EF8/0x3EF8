@@ -1,6 +1,4 @@
-
-
-<h1 align="center">Hi 👋, I'm Jay Patrick Cano</h1>
+# Hey!! Great to see you here! <img src="/src/wave.gif" width="30px" height="30px">
 
   ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
