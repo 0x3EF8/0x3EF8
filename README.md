@@ -49,8 +49,8 @@ me.say_hi()
 <p>
 <div align="center">
    <image src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix&row=1&no-bg=true&no-frame=true">    
-   <image src="https://github-readme-stats.vercel.app/api?username=0x3EF8&theme=blue-green&no-bg=true&no-frame=true">    
-   <image src="https://github-readme-stats.vercel.app/api/top-langs/?username={username}&theme=blue-green&no-bg=true&no-frame=true">    
+   <image src="https://github-readme-stats.vercel.app/api?username=0x3EF8&theme=blue-green&no-bg=true">    
+   <image src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&theme=blue-green&no-bg=true">    
 </div>
 </p>
 
