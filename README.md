@@ -35,25 +35,3 @@ me.say_hi()
     <img height="" src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=juicyfresh"/>
 	 <img height="" src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix"/>
 </div>-->
-
-<p align="center" width="100%">
-	<!--
- <span ><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
- -->
- <image src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix&row=1&no-bg=true&no-frame=true">    
-</p>
-	
-<div align="center">
-<!-- width="50%" -->
-  <image 
-   height="400px" 
-   src="https://raw.githubusercontent.com/0x3EF8/0x3EF8/main/profile-3d-contrib/profile-night-green.svg"
-   >
-	
-</div>
-	
-<p align="right">
-	<a href="#top"><img src="https://img.shields.io/static/v1?label&message=back+to+top&color=#171515&style=flat&logo"></a>
-</p>
-
-
