@@ -31,7 +31,17 @@ me = FrontendDeveloper()
 me.say_hi()
 ```
 
+
+
+### 🌱Social &nbsp;&nbsp;&nbsp;&nbsp; 
 <!--<div align="left">
     <img height="" src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=juicyfresh"/>
 	 <img height="" src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix"/>
 </div>-->
+
+<p align="center" width="100%">
+	<!--
+ <span ><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+ -->
+ <image src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix&row=1&no-bg=true&no-frame=true">    
+</p>
