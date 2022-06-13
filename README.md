@@ -30,7 +30,7 @@ class FrontendDeveloper:
 me = FrontendDeveloper()
 me.say_hi()
 ```
-
+### 🚀 Languages and Tools
 <div align="center">
    <p>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -57,6 +57,7 @@ me.say_hi()
 ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/assets/github-contribution-grid-snake.svg)          
 
 
+## 📈 Stats
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&hide_border=true&theme=radical" />
