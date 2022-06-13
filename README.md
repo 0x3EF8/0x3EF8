@@ -19,6 +19,7 @@ class FrontendDeveloper:
         self.role = "Frontend Developer"
         self.language_spoken = ["fil", "jap", "en_us"]
         self.web = "https://github.com/0x3EF8"
+        self.facebook = "@0x3EF8"
 
 
     def say_hi(self):
