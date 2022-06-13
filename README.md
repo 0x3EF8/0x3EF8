@@ -54,17 +54,15 @@ me.say_hi()
   </p>
   </div>
 
-![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/assets/github-contribution-grid-snake.svg)               
-<details>
-<summary>Click for GitHub Stats</summary>
-  <div align=left>
-<img src="https://profile-counter.glitch.me/0x3EF8/count.svg" />
-</div>
-<p>
-    <img align='left' alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&hide=issues&icon_color=000000&hide_border=true&title_color=5391FE&text_color=555&theme=radical">
-    <img align='left' height="170" alt = "Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&hide=html,&hide_border=true&title_color=5391FE&text_color=555&theme=radical"
+![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/assets/github-contribution-grid-snake.svg)          
 
+
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=0x3EF82&show_icons=true&hide_border=true&theme=radical" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=0x3EF82&hide_border=true&theme=radical" />
 </p>
 
-  
-</details>
+## 🔝 Most used languages
+
+  <img alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF82&layout=compact&hide_border=true&theme=radical" />
