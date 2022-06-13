@@ -31,7 +31,6 @@ me = FrontendDeveloper()
 me.say_hi()
 ```
 
-### 🌱Social &nbsp;&nbsp;&nbsp;&nbsp; 
 <!--<div align="left">
     <img height="" src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=juicyfresh"/>
 	 <img height="" src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix"/>
