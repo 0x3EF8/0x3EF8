@@ -32,5 +32,5 @@ me.say_hi()
 ```
 
 <p align="center" width="100%">
- <image src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=matrix">    
+ <image src="https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=matrix">    
 </p>
