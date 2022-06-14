@@ -29,7 +29,7 @@ class FrontendDeveloper:
 me = FrontendDeveloper()
 me.say_hi()
 ```
-### 🚀 Languages and Tools
+### 🚀 Technologies
 <div align="center">
    <p>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
