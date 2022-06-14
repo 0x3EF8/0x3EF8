@@ -1,4 +1,4 @@
-# Hey!! Great to see you here! <img src="prog.png" width="50px" height="50px">
+# Hey!! Great to see you here! <img src="prog.png" width="100px" height="100px">
 
   ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
