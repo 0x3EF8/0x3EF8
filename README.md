@@ -6,28 +6,27 @@
 
 
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+```JavaScript
+const introduction = {
+  name: "Jay Patrick Cano",
+  profession: "Self-taught Front-end Developer",
+  location: "Philippines",
+  passions: ["Web Development", "Learning"],
+  skills: ["HTML", "CSS", "JavaScript", "AngularJS", "ReactJS"],
+  portfolio: "https://0x3ef8.github.io/",
+  github: "https://github.com/0x3ef8",
+  socialMedia: ["https://0x3ef8.github.io/linktree"],
+  quote: "Programming knowledge is the key to unlocking the power of a god. ~ 0x3EF8"
+};
 
+const introduceMyself = ({ name, profession, location, passions, skills, portfolio, github, socialMedia, quote }) => {
+  console.log(`Hi there, I'm ${name}, a ${profession} from ${location}. My passion lies in ${passions[0]} and ${passions[1]}, and I continuously strive to expand my skillset and knowledge in ${skills.join(", ")} and other programming languages. I am proud to give back to the community by actively contributing to open-source projects through my Github profile at ${github}, and my portfolio at ${portfolio} showcases a small portion of my work. If you're interested in my personal and professional journey, feel free to connect with me on my social media accounts at ${socialMedia.join(", ")}. 
 
-class FrontendDeveloper:
+One of my favorite quotes is "${quote}", and I believe that with dedication and hard work, anything is possible. Let's connect and create something amazing together!"`);
+};
 
-    def __init__(self):
-        self.name = "Jay Patrick Cano"
-        self.usernane = "0x3EF8"
-        self.role = "Frontend Developer"
-        self.language_spoken = ["fil", "jap", "en_us"]
-        self.web = "https://github.com/0x3EF8"
-        self.facebook = "@0x3EF8"
+introduceMyself(introduction);
 
-
-    def say_hi(self):
-        print("I am Jay Patrick Cano, a self-taught front-end developer in the Philippines. I've also been involved in many back-end projects in the past, and I'm still working on them. The Internet and web development are my passions, and I believe in helping people with my skills and knowledge. I've been learning these things for the last two years, and it feels like learning more is a part of my life.")
-
-
-me = FrontendDeveloper()
-me.say_hi()
 ```
 ### 🚀 Technologies
 <div align="center">
