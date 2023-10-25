@@ -30,6 +30,6 @@ jobs:
           destination-github-username: '0x3EF8'
           destination-repository-name: '0x3EF8'
           target-directory: gen
-          user-email: mrepol742@gmail.com
-          commit-message: Initial Commit
+          user-email: 0x3ef8@gmail.com
+          commit-message: Update Changes
           target-branch: main
