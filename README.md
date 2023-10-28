@@ -28,6 +28,8 @@ One of my favorite quotes is "${quote}", and I believe that with dedication and 
 introduceMyself(introduction);
 
 ```
+[![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
+
 ### 🚀 Technologies
 <div align="center">
    <p>
