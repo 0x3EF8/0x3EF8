@@ -2,9 +2,10 @@
 
   ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
-
-
-
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/0x3EF8/count.svg" />
+</p>
 
 ```JavaScript
 const introduction = {
@@ -28,10 +29,6 @@ One of my favorite quotes is "${quote}", and I believe that with dedication and 
 introduceMyself(introduction);
 
 ```
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/0x3EF8/count.svg" />
-</p>
 
 [![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
 
