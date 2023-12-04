@@ -55,6 +55,10 @@ introduceMyself(introduction);
    </p>
   </div>
 
+  <div align="center">
+<img src="https://github.com/0x3ef8/0x3ef8/blob/output/github-snake-dark.svg">
+</div>
+
 ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/assets/github-contribution-grid-snake.svg)          
 
 
