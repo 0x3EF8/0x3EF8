@@ -26,13 +26,15 @@ introduceMyself(introduction);
 
 ```
 
+<div align="center">
+
 [![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
 
-![](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
 
 ### 🚀 Technologies
-<div align="center">
-   <p>
+
+<p>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -50,8 +52,7 @@ introduceMyself(introduction);
   <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white">
   <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">
   <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white">
-   </p>
-  </div>
+</p>
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
 
@@ -61,7 +62,6 @@ introduceMyself(introduction);
 
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=dark)
 
-
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=darkhub)
 
-
+</div>
