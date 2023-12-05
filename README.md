@@ -55,12 +55,12 @@ introduceMyself(introduction);
 
   ![GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
 
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=light)
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=dark)
 
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&theme=light)
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&theme=dark)
 
-  ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=light)
+  ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=dark)
 
-  ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=lighthub)
+  ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=darkhub)
 
 </div>
