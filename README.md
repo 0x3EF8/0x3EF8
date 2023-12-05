@@ -28,6 +28,8 @@ introduceMyself(introduction);
 
 [![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
 
+![](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
+
 ### 🚀 Technologies
 <div align="center">
    <p>
@@ -51,19 +53,7 @@ introduceMyself(introduction);
    </p>
   </div>
 
-  ## 🏆 Badges
-
-[![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
-
-
-[![3D Badge](https://img.shields.io/badge/3D-Cool-blue?style=for-the-badge&logo=shields.io)](https://shields.io/)
-
-## 📊 3D GitHub Contribution Graph
-
-![3D GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
-
-  
-![](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
+![GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=dark)
 
