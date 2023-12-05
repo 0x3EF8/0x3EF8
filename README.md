@@ -28,40 +28,39 @@ introduceMyself(introduction);
 
 <div align="center">
 
-[![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
+  [![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
+  
+  <img src="https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square">
 
-![Profile Views](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
+  ## 🚀 Technologies
+  <p>
+    <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+    <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"> 
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+    <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white">
+    <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white">
+    <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
+    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+    <img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white">
+    <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white">
+    <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">
+    <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white">
+  </p>
 
-### 🚀 Technologies
+  ![GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
 
-<p>
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"> 
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white">
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white">
-  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
-  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white">
-  <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">
-  <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white">
-</p>
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=light)
 
-![GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&theme=light)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=dark)
+  ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=light)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&theme=dark)
-
-![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=dark)
-
-![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=darkhub)
+  ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=lighthub)
 
 </div>
