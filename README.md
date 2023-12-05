@@ -2,7 +2,6 @@
 
   ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
-
 ```JavaScript
 const introduction = {
   name: "Jay Patrick Cano",
@@ -55,12 +54,12 @@ introduceMyself(introduction);
 
   ![GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
 
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=dark)
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x3EF8&show_icons=true&theme=light)
 
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&theme=dark)
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x3EF8&layout=compact&theme=light)
 
-  ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=dark)
+  ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=light)
 
-  ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=darkhub)
+  ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=lighthub)
 
 </div>
