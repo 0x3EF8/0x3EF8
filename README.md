@@ -1,4 +1,4 @@
-# Hey!! Great to see you here! <img src="prog.png" width="50px" height="50px">
+# Hi there, I'm Pat! <img src="prog.png" width="50px" height="50px">
 
   ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
@@ -50,6 +50,17 @@ introduceMyself(introduction);
   <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white">
    </p>
   </div>
+
+  ## 🏆 Badges
+
+[![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
+
+[![3D Badge](https://img.shields.io/badge/3D-Cool-blue?style=for-the-badge&logo=shields.io)](https://shields.io/)
+
+## 📊 3D GitHub Contribution Graph
+
+<iframe src="https://ghchart.rshah.org/0x3ef8" width="100%" height="300"></iframe>
+
   
 ![](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
 
@@ -59,10 +70,6 @@ introduceMyself(introduction);
 
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=dark)
 
-
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=0x3EF8&theme=github)
-
-![Recent Activity](https://github-readme-activity-graph.herokuapp.com/graph?username=0x3EF8&theme=dark)
 
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=darkhub)
 
