@@ -60,7 +60,7 @@ introduceMyself(introduction);
 
 ## 📊 3D GitHub Contribution Graph
 
-<iframe src="https://ghchart.rshah.org/0x3ef8" width="100%" height="300"></iframe>
+![3D GitHub Contribution Graph](https://ghchart.rshah.org/0x3ef8)
 
   
 ![](https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square)
