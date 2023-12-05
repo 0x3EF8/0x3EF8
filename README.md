@@ -59,17 +59,11 @@ introduceMyself(introduction);
 
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=dark)
 
-![Contributions](https://github-readme-stats.vercel.app/api/wakatime?username=0x3EF8&theme=dark)
 
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=0x3EF8&theme=github)
 
 ![Recent Activity](https://github-readme-activity-graph.herokuapp.com/graph?username=0x3EF8&theme=dark)
 
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=darkhub)
-
-![Codewars](https://www.codewars.com/users/0x3EF8/badges/micro)
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/yourusername/)](https://www.linkedin.com/in/yourusername/)
-
 
 
