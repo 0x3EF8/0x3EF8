@@ -62,6 +62,7 @@ introduceMyself(introduction);
 
   ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=lighthub)
 
+</div>
 
  ## 🚀 Community
 
@@ -98,4 +99,4 @@ Ready to dive into the world of coding with us? Click the link below to join Cod
 Join us in our journey to sync minds and code, connect, and grow together!
 
 
-</div>
+
