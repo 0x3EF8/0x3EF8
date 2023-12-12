@@ -62,4 +62,40 @@ introduceMyself(introduction);
 
   ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=lighthub)
 
+
+ ## 🚀 Community
+
+# CodeSync PH - Uniting Filipino Programmers
+
+CodeSync PH is where Filipino programmers come together to share knowledge, collaborate on projects, and fuel their passion for coding. Join our community of tech enthusiasts, developers, and programmers from across the Philippines who are:
+
+- Collaborating on exciting projects.
+- Sharing coding knowledge and tips.
+- Exploring the latest tech trends.
+- Fueling their passion for programming.
+
+## Why Join CodeSync PH?
+
+- **Networking:** Connect with fellow programmers, developers, and tech enthusiasts from the Philippines.
+  
+- **Learning:** Share your knowledge, learn from others, and stay updated on industry trends.
+  
+- **Projects:** Collaborate on coding projects, hackathons, and challenges.
+  
+- **Community:** Be part of a vibrant and supportive tech community in the Philippines.
+
+Ready to dive into the world of coding with us? Click the link below to join CodeSync PH now!
+
+**Discord:**
+[Join CodeSync PH on Discord](https://discord.com/invite/cpNguAqNGr)
+
+**Facebook Groupchat:**
+[Join CodeSync PH on Messenger](https://m.me/j/AbY8czobJRw5X4aF/)
+
+**Facebook Group:**
+[CodeSync PH Facebook Group](https://m.facebook.com/groups/571688097220281)
+
+Join us in our journey to sync minds and code, connect, and grow together!
+
+
 </div>
