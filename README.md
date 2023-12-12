@@ -5,12 +5,6 @@
     <a href="https://user-badge.committers.top/philippines/0x3EF8">
         <img src="https://user-badge.committers.top/philippines/0x3EF8.svg" alt="committers.top badge">
     </a>
-    <a href="https://discord.com/users/822758455604543491">
-        <img src="https://img.shields.io/badge/-0x3ef8-3F4EEE?style=flat&logo=discord&logoColor=white&link=https://discord.com/users/822758455604543491" alt="Add me as Friend :<">
-    </a>
-    <a href="https://discord.gg/He4UVdHmj5">
-        <img src="https://discordapp.com/api/guilds/969965106471514212/widget.png?style=shield" alt="Join my Discord Server">
-    </a>
     <img align="right" src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20Views&color=565f89&style=flat" alt="Views">
 </div>
 <div align="center">
