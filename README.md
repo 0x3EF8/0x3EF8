@@ -1,6 +1,6 @@
-# Hi there, I'm Pat! <img src="prog.png" width="50px" height="50px">
+![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
 
-  ![](https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png)
+# Hi there, I'm Pat! <img src="prog.png" width="50px" height="50px">
 
 ```JavaScript
 const introduction = {
@@ -63,6 +63,7 @@ introduceMyself(introduction);
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=0x3EF8&theme=light)
 
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=0x3EF8&theme=lighthub)
+</div>
 
 ## 🚀 Community
 
