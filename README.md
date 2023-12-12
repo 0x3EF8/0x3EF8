@@ -2,14 +2,14 @@
     <a href="https://www.facebook.com/x3ef8">
         <img src="https://img.shields.io/badge/-x3ef8-blue?style=flat&logo=facebook&logoColor=white&link=https://facebook.com/x3ef8" alt="Stalk Me, also click FOLLOW button">
     </a>
+    <a href="https://github.com/0x3ef8">
+    <img src="https://img.shields.io/github/followers/0x3ef8?label=follow&style=social" alt="GitHub">
+</a>
     <a href="https://user-badge.committers.top/philippines/0x3EF8">
         <img src="https://user-badge.committers.top/philippines/0x3EF8.svg" alt="committers.top badge">
     </a>
     <img align="right" src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20Views&color=565f89&style=flat" alt="Views">
 </div>
-<a href="https://github.com/0x3ef8">
-    <img src="https://img.shields.io/github/followers/0x3ef8?label=follow&style=social" alt="GitHub">
-</a>
 <div align="center">
     <img width="100%" src="https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png" />
 </div>
