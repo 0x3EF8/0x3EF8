@@ -44,10 +44,6 @@ introduceMyself(introduction);
 
 <div align="center">
 
-  [![committers.top badge](https://user-badge.committers.top/philippines/0x3EF8.svg)](https://user-badge.committers.top/philippines/0x3EF8)
-  
-  <img src="https://komarev.com/ghpvc/?username=0x3EF8&color=blue&style=flat-square">
-
   ## 🚀 Technologies
   <p>
     <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
