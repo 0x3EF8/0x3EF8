@@ -17,8 +17,6 @@
     <img width="100%" src="https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png" />
 </div>
 
-# Hi there, I'm Pat! <img src="prog.png" width="50px" height="50px">
-
 ```JavaScript
 const introduction = {
   name: "Jay Patrick Cano",
