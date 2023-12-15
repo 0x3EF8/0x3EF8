@@ -33,3 +33,7 @@ jobs:
           user-email: 0x3ef8@gmail.com
           commit-message: Update Changes
           target-branch: main
+
+                        - name: Metrics embed
+                uses: lowlighter/metrics@v3.34
+            
