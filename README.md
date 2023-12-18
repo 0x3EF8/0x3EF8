@@ -34,9 +34,9 @@ One of my favorite quotes is "${quote}", and I believe that with dedication and 
 introduceMyself(introduction);
 
 ```
-<p><img align="right" src="lappy.gif" alt="lappy" width = "150" height = "140" /></p>   
 
 ### Currently learning 
+<p><img align="right" src="lappy.gif" alt="lappy" width = "150" height = "140" /></p>   
 <p align="left">
   <a href="https://www.w3.org/html/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/>
