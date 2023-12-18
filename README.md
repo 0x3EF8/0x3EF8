@@ -94,7 +94,7 @@ introduceMyself(introduction);
   <img src="https://skillicons.dev/icons?i=androidstudio" height="40" alt="androidstudio logo" title="Android Studio" />
 </div>
 
-###Stats 
+### GitHub Stats 
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="650" height="auto" />
 
@@ -106,9 +106,9 @@ introduceMyself(introduction);
 
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="300" height="auto" style="display: inline;" />
 </div>
-### 🚀 Community
+###Community
 
-# CodeSync PH - Uniting Filipino Programmers
+### CodeSync PH - Uniting Filipino Programmers
 
 CodeSync PH is where Filipino programmers come together to share knowledge, collaborate on projects, and fuel their passion for coding. Join our community of tech enthusiasts, developers, and programmers from across the Philippines who are:
 
