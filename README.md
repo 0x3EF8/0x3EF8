@@ -99,15 +99,16 @@ introduceMyself(introduction);
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="650" height="auto" />
 </div>
 <div align="right">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0x3ef8&theme=prussian" width="300" height="auto" style="display: inline;" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0x3ef8&theme=prussian" width="200" height="auto" style="display: inline;" />
 
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0x3ef8&theme=prussian" width="300" height="auto" style="display: inline;" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0x3ef8&theme=prussian" width="3
+      200" height="auto" style="display: inline;" />
 </div>
 
 <div align="left">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=0x3ef8&theme=prussian" width="300" height="auto" style="display: inline;" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=0x3ef8&theme=prussian" width="200" height="auto" style="display: inline;" />
 
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="300" height="auto" style="display: inline;" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="200" height="auto" style="display: inline;" />
 </div>
 
 ### Community
