@@ -106,6 +106,7 @@ introduceMyself(introduction);
 
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="300" height="auto" style="display: inline;" />
 </div>
+
 ###Community
 
 ### CodeSync PH - Uniting Filipino Programmers
