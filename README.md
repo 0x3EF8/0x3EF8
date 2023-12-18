@@ -34,6 +34,19 @@ One of my favorite quotes is "${quote}", and I believe that with dedication and 
 introduceMyself(introduction);
 
 ```
+### GitHub Stats 
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="100%" height="auto" />
+</div>
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
+</div>
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="48%" height="auto" style="display: inline;" />
+</div>
+
 <p><img align="right" src="lappy.gif" alt="lappy" width = "150" height = "140" /></p>   
 
 ### Language and tools
@@ -92,19 +105,6 @@ introduceMyself(introduction);
   <img src="https://skillicons.dev/icons?i=visualstudio" height="40" alt="visualstudio logo" title="Visual Studio" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=androidstudio" height="40" alt="androidstudio logo" title="Android Studio" />
-</div>
-
-### GitHub Stats 
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="100%" height="auto" />
-</div>
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-</div>
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="48%" height="auto" style="display: inline;" />
 </div>
 
 
