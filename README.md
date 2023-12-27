@@ -12,9 +12,6 @@
     <img align="right" src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20Views&color=565f89&style=flat" alt="Views">
 </div>
 
-
-
-
 <div align="center">
     <img width="100%" src="https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png" />
 </div>
