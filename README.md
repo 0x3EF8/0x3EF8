@@ -9,10 +9,11 @@
         <img src="https://img.shields.io/badge/-Join%20Discord-blue?style=flat&logo=discord&logoColor=white" alt="Discord">
     </a>
     <div align="right">
-    <img src="https://img.shields.io/github/followers/0x3ef8?label=follow&style=social" alt="GitHub">
-    <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20Views&color=565f89&style=flat" alt="Views">
+        <img src="https://img.shields.io/github/followers/0x3ef8?label=follow&style=social" alt="GitHub">
+        <img src="https://komarev.com/ghpvc/?username=0x3ef8&label=Profile%20Views&color=565f89&style=flat" alt="Views">
+    </div>
 </div>
-</div>
+
 
 <div align="center">
     <img width="100%" src="https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png" />
