@@ -12,16 +12,6 @@
     <img width="100%" src="https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png" />
 </div>
 
-<div align="left">
-    <a href="https://discord.com/invite/H8MSmX7ZuW">
-        <img src="https://img.shields.io/badge/-Join%20Discord-blue?style=flat&logo=discord&logoColor=white" alt="Discord">
-    </a>
-    <a href="https://github.com/0x3ef8" alt="GitHub">
-        <img src="https://img.shields.io/github/followers/0x3ef8?label=follow&style=social" alt="GitHub">
-    </a>
-</div>
-
-
 ```JavaScript
 const introduction = {
   name: "Jay Patrick Cano",
