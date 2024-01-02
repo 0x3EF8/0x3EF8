@@ -47,12 +47,11 @@ introduceMyself(introduction);
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="48%" height="auto" style="display: inline;" />
 </div>
 
-<p><img align="right" src="lappy.gif" alt="lappy" width = "150" height = "140" /></p>   
 
-### Language and tools
+### Programming Languages
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  title="C"/>
+  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo" title="C"/>
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo" title="C++" />
   <img width="12" />
@@ -60,11 +59,21 @@ introduceMyself(introduction);
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo" title="HTML" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  title="CSS"/>
+  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo" title="CSS"/>
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  title="JavaScript"/>
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" title="JavaScript"/>
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  title="Node.js"/>
+  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" title="TypeScript" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo" title="Python" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=dart" height="40" alt="dart logo" title="Dart" />
+</div>
+
+### Tools and Technologies
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo" title="Node.js"/>
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo" title="Express.js" />
   <img width="12" />
@@ -74,13 +83,9 @@ introduceMyself(introduction);
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo" title="Tailwind Css" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" title="TypeScript" />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo" title="MongoDB" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo" title="MySQL" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=dart" height="40" alt="dart logo" title="Dart" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="flutter logo" title="Flutter" />
   <img width="12" />
@@ -89,8 +94,6 @@ introduceMyself(introduction);
   <img src="https://skillicons.dev/icons?i=supabase" height="40" alt="supabase logo" title="Supabase" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=electron" height="40" alt="electron logo" title="Electron.js" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo" title="Python" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo" title="Figma" />
   <img width="12" />
@@ -106,6 +109,7 @@ introduceMyself(introduction);
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=androidstudio" height="40" alt="androidstudio logo" title="Android Studio" />
 </div>
+
 
 
 ### Community
