@@ -17,7 +17,7 @@ const introduction = {
   name: "Jay Patrick Cano",
   profession: "Self-taught MERN Stack Developer",
   location: "Philippines",
-  passions: ["Web Development", "Learning"],
+  passions: ["Building with the MERN Stack", "Continuous Learning"],
   skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React.js", "MongoDB"],
   portfolio: "https://0x3ef8.github.io/",
   github: "https://github.com/0x3ef8",
