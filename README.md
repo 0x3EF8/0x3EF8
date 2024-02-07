@@ -105,7 +105,7 @@ introduceMyself(introduction);
 
 ### Community
 
-Hi there! Are you a Filipino programmer who wants to learn, grow, and collaborate in the digital world? If yes, then you should check out [CodeSync.PH](http://codesync.ph/)!
+Hi there! Are you a Filipino programmer who wants to learn, grow, and collaborate in the digital world? If yes, then you should check out [CodeSync.PH]([http://codesync.ph/](https://facebook.com/groups/571688097220281/))!
 
 CodeSync.PH is a group for Filipino programmers who want to learn, grow, and collaborate in the digital world. Whether you are a beginner, a professional, or somewhere in between, you are welcome to join our community and share your passion for coding.
 
@@ -123,8 +123,7 @@ In this group, you can:
 
 ### How to Join
 
-To join CodeSync.PH, you can visit their [website](http://codesync.ph/), [Discord server](https://discord.com/invite/cpNguAqNGr), [Facebook Group Chat](https://m.me/j/AbY8czobJRw5X4aF/), or [Facebook Group](https://facebook.com/groups/571688097220281/).
+To join CodeSync.PH, you can visit our [website](http://codesync.ph/), [Discord server](https://discord.com/invite/cpNguAqNGr), [Facebook Group Chat](https://m.me/j/AbY8czobJRw5X4aF/), or [Facebook Group](https://facebook.com/groups/571688097220281/).
 
 Don’t miss this opportunity to sync minds and code, create and innovate with CodeSync.PH! Join the coding revolution and bring your ideas to life with fellow Filipino programmers! 
 
-#CodeSyncPH #philippineprogrammers
