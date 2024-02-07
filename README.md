@@ -15,10 +15,10 @@
 ```JavaScript
 const introduction = {
   name: "Jay Patrick Cano",
-  profession: "Self-taught Front-end Developer",
+  profession: "Self-taught MERN Stack Developer",
   location: "Philippines",
   passions: ["Web Development", "Learning"],
-  skills: ["HTML", "CSS", "JavaScript", "AngularJS", "ReactJS"],
+  skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React.js", "MongoDB"],
   portfolio: "https://0x3ef8.github.io/",
   github: "https://github.com/0x3ef8",
   socialMedia: ["https://0x3ef8.github.io/linktree"],
@@ -32,8 +32,8 @@ One of my favorite quotes is "${quote}", and I believe that with dedication and 
 };
 
 introduceMyself(introduction);
-
 ```
+
 ### GitHub Stats 
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="100%" height="auto" />
@@ -67,7 +67,6 @@ introduceMyself(introduction);
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo" title="Python" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=dart" height="40" alt="dart logo" title="Dart" />
 </div>
 
 ### Tools and Technologies
@@ -91,17 +90,7 @@ introduceMyself(introduction);
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo" title="Firebase" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=supabase" height="40" alt="supabase logo" title="Supabase" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=electron" height="40" alt="electron logo" title="Electron.js" />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo" title="Figma" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=xd" height="40" alt="xd logo" title="Adobe XD" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ai" height="40" alt="adobeillustrator logo" title="Adobe Illustrator" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ps" height="40" alt="adobephotoshop logo" title="Adobe Photoshop" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo" title="VS Code" />
   <img width="12" />
@@ -109,6 +98,9 @@ introduceMyself(introduction);
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=androidstudio" height="40" alt="androidstudio logo" title="Android Studio" />
 </div>
+
+**Note:** I'm also continuously learning new things and expanding my skillset beyond the MERN stack. I'm not an expert in all of these technologies; I'm still a learner.
+
 
 
 
