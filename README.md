@@ -121,7 +121,7 @@ In this group, you can:
 
 **Our MISSION** is to provide Filipino programmers with a vibrant and inclusive community where they can share knowledge, work on projects, and access quality education and career guidance.
 
-### How to Join
+### How to Join?
 
 To join CodeSync.PH, you can visit our [website](http://codesync.ph/), [Discord server](https://discord.com/invite/cpNguAqNGr), [Facebook Group Chat](https://m.me/j/AbY8czobJRw5X4aF/), or [Facebook Group](https://facebook.com/groups/571688097220281/).
 
