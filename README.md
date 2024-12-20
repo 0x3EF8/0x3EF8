@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-    <img width="100%" src="https://cdn.jsdelivr.net/gh/0x3EF8/0x3EF8/header_.png" />
+    <img width="100%" src="https://github.com/0x3EF8/0x3EF8/blob/main/images/header_.png" />
 </div>
 
 ```JavaScript
