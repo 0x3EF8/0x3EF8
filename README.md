@@ -15,7 +15,7 @@
 ```JavaScript
 const introduction = {
   name: "Jay Patrick Cano",
-  profession: "Self-taught MERN Stack Developer",
+  profession: "Self-taught Developer",
   location: "Philippines",
   passions: ["Building with the MERN Stack", "Continuous Learning"],
   skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React.js", "MongoDB"],
