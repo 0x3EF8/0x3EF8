@@ -15,23 +15,45 @@
 ```JavaScript
 const introduction = {
   name: "Jay Patrick Cano",
-  profession: "Self-taught Developer",
+  profession: "Developer",
+  description: "A self-taught developer always eager to learn",
   location: "Philippines",
-  passions: ["Building with the MERN Stack", "Continuous Learning"],
-  skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "React.js", "MongoDB"],
+  passions: ["Learning new technologies", "Building useful tools"],
+  experienceAreas: [
+    "Web Development",
+    "Software Development",
+    "Computer Formatting & Software Installation",
+    "Scripting, Bots & Automation",
+    "IT Support & Troubleshooting",
+    "Database Management"
+  ],
+  skills: {
+    frontend: [
+      "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "jQuery",
+      "Bootstrap", "Tailwind CSS", "Sass", "Responsive Design", "Web Accessibility (a11y)",
+      "Redux / Context API", "React Router"
+    ],
+    backend: [
+      "Node.js", "Express.js", "MongoDB", "MySQL", "PostgreSQL", "PHP", "Laravel",
+      "REST APIs", "GraphQL", "Authentication & Authorization", "Server-side Rendering"
+    ],
+    tools: [
+      "Git", "GitHub", "VS Code", "Postman", "npm / yarn", "Chrome DevTools", "Docker Basics",
+      "Terminal / Bash", "Webpack", "ESLint / Prettier", "Cloud Platforms (AWS, GCP, Azure)",
+      "AI Development Tools (OpenAI API, ChatGPT, Copilot, Hugging Face)",
+      "Antigravity (just for fun 😉)", "Figma / UI Design Tools", "CI/CD Pipelines (GitHub Actions, Jenkins)"
+    ],
+    automation: [
+      "Python Scripting", "Batch Scripts", "Shell Scripts", "Web Scraping", "Task Automation"
+    ]
+  },
   portfolio: "https://0x3ef8.github.io/",
   github: "https://github.com/0x3ef8",
-  socialMedia: ["https://0x3ef8.github.io/linktree"],
-  quote: "Programming knowledge is the key to unlocking the power of a god. ~ 0x3EF8"
+  socialMediaLinks: ["https://0x3ef8.github.io/linktree"],
+  quote: "I enjoy learning and improving every day."
 };
 
-const introduceMyself = ({ name, profession, location, passions, skills, portfolio, github, socialMedia, quote }) => {
-  console.log(`Hi there, I'm ${name}, a ${profession} from ${location}. My passion lies in ${passions[0]} and ${passions[1]}, and I continuously strive to expand my skillset and knowledge in ${skills.join(", ")} and other programming languages. I am proud to give back to the community by actively contributing to open-source projects through my Github profile at ${github}, and my portfolio at ${portfolio} showcases a small portion of my work. If you're interested in my personal and professional journey, feel free to connect with me on my social media accounts at ${socialMedia.join(", ")}. 
-
-One of my favorite quotes is "${quote}", and I believe that with dedication and hard work, anything is possible. Let's connect and create something amazing together!"`);
-};
-
-introduceMyself(introduction);
+export default introduction;
 ```
 
 ### GitHub Stats 
