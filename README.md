@@ -41,16 +41,16 @@ const introduction = {
       "Git", "GitHub", "VS Code", "Postman", "npm / yarn", "Chrome DevTools", "Docker Basics",
       "Terminal / Bash", "Webpack", "ESLint / Prettier", "Cloud Platforms (AWS, GCP, Azure)",
       "AI Development Tools (OpenAI API, ChatGPT, Copilot, Hugging Face)",
-      "Antigravity (just for fun 😉)", "Figma / UI Design Tools", "CI/CD Pipelines (GitHub Actions, Jenkins)"
+      "Antigravity", "Figma / UI Design Tools", "CI/CD Pipelines (GitHub Actions, Jenkins)"
     ],
     automation: [
       "Python Scripting", "Batch Scripts", "Shell Scripts", "Web Scraping", "Task Automation"
     ]
   },
-  portfolio: "https://0x3ef8.github.io/",
+  portfolio: "https://jaypatrickcano.vercel.app",
   github: "https://github.com/0x3ef8",
   socialMediaLinks: ["https://0x3ef8.github.io/linktree"],
-  quote: "I enjoy learning and improving every day."
+  quote: "Programming knowledge is the key to unlocking the power of a god. ~ 0x3EF8"
 };
 
 export default introduction;
