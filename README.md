@@ -41,13 +41,13 @@ const developer = {
 export default developer;
 ```
 
-### 📊 Stats & Proficiency
+### Stats & Proficiency
 
 ```text
-⚡ 0x3EF8 · GitHub Language Breakdown   (30+ public repos)
+0x3EF8 · GitHub Language Breakdown   (30+ public repos)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- 💬 Languages by Repository Count
+ Languages by Repository Count
  Python       ████████████████░░░░░░░░   40.7 %   (11 repos)
  TypeScript   ██████░░░░░░░░░░░░░░░░░░   14.8 %   ( 4 repos)
  HTML / CSS   ████░░░░░░░░░░░░░░░░░░░░   11.1 %   ( 3 repos)
@@ -57,10 +57,10 @@ export default developer;
  Java         █░░░░░░░░░░░░░░░░░░░░░░░    3.7 %   ( 1 repo )
  PowerShell   █░░░░░░░░░░░░░░░░░░░░░░░    3.7 %   ( 1 repo )
 
- 📦 Repository Overview
+ Repository Overview
  Total Public Repos    30+
- Total Stars           21 ⭐
- Top Repo              Nero-Facebook-Bot  ⭐ 5   🍴 6
+ Total Stars           21
+ Top Repo              Nero-Facebook-Bot   5 stars   6 forks
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  Data sourced from GitHub API · github.com/0x3EF8
