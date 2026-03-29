@@ -11,6 +11,7 @@
 <div align="center">
     <img width="100%" src="https://github.com/0x3EF8/0x3EF8/blob/main/images/header_.png" />
 </div>
+
 ```typescript
 const developer = {
   name:       "Jay Patrick Cano",
