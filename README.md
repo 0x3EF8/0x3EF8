@@ -1,6 +1,6 @@
 <div align="left">
     <a href="https://www.facebook.com/x3ef8">
-        <img src="https://img.shields.io/badge/-x3ef8-blue?style=flat&logo=facebook&logoColor=white&link=https://facebook.com/x3ef8" alt="Stalk Me, also click FOLLOW button">
+        <img src="https://img.shields.io/badge/-x3ef8-blue?style=flat&logo=facebook&logoColor=white&link=https://facebook.com/0x3ef8.dev" alt="Stalk Me, also click FOLLOW button">
     </a>
     <a href="https://user-badge.committers.top/philippines/0x3EF8">
         <img src="https://user-badge.committers.top/philippines/0x3EF8.svg" alt="committers.top badge">
@@ -41,18 +41,30 @@ const developer = {
 export default developer;
 ```
 
-### GitHub Stats 
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="100%" height="auto" />
-</div>
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-</div>
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="48%" height="auto" style="display: inline;" />
-</div>
+### 📊 Stats & Proficiency
+
+```text
+⚡ 0x3EF8 · GitHub Language Breakdown   (30+ public repos)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 💬 Languages by Repository Count
+ Python       ████████████████░░░░░░░░   40.7 %   (11 repos)
+ TypeScript   ██████░░░░░░░░░░░░░░░░░░   14.8 %   ( 4 repos)
+ HTML / CSS   ████░░░░░░░░░░░░░░░░░░░░   11.1 %   ( 3 repos)
+ Batchfile    ████░░░░░░░░░░░░░░░░░░░░   11.1 %   ( 3 repos)
+ JavaScript   ███░░░░░░░░░░░░░░░░░░░░░    7.4 %   ( 2 repos)
+ PHP          ███░░░░░░░░░░░░░░░░░░░░░    7.4 %   ( 2 repos)
+ Java         █░░░░░░░░░░░░░░░░░░░░░░░    3.7 %   ( 1 repo )
+ PowerShell   █░░░░░░░░░░░░░░░░░░░░░░░    3.7 %   ( 1 repo )
+
+ 📦 Repository Overview
+ Total Public Repos    30+
+ Total Stars           21 ⭐
+ Top Repo              Nero-Facebook-Bot  ⭐ 5   🍴 6
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Data sourced from GitHub API · github.com/0x3EF8
+```
 
 
 ### Programming Languages
