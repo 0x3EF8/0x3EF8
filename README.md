@@ -11,49 +11,33 @@
 <div align="center">
     <img width="100%" src="https://github.com/0x3EF8/0x3EF8/blob/main/images/header_.png" />
 </div>
+```typescript
+const developer = {
+  name:       "Jay Patrick Cano",
+  alias:      "0x3EF8",
+  role:       "Full-Stack Developer",
+  location:   "Philippines 🇵🇭",
+  status:     "Open to opportunities · Always learning",
 
-```JavaScript
-const introduction = {
-  name: "Jay Patrick Cano",
-  profession: "Developer",
-  description: "A self-taught developer always eager to learn",
-  location: "Philippines",
-  passions: ["Learning new technologies", "Building useful tools"],
-  experienceAreas: [
-    "Web Development",
-    "Software Development",
-    "Computer Formatting & Software Installation",
-    "Scripting, Bots & Automation",
-    "IT Support & Troubleshooting",
-    "Database Management"
-  ],
-  skills: {
-    frontend: [
-      "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "jQuery",
-      "Bootstrap", "Tailwind CSS", "Sass", "Responsive Design", "Web Accessibility (a11y)",
-      "Redux / Context API", "React Router"
-    ],
-    backend: [
-      "Node.js", "Express.js", "MongoDB", "MySQL", "PostgreSQL", "PHP", "Laravel",
-      "REST APIs", "GraphQL", "Authentication & Authorization", "Server-side Rendering"
-    ],
-    tools: [
-      "Git", "GitHub", "VS Code", "Postman", "npm / yarn", "Chrome DevTools", "Docker Basics",
-      "Terminal / Bash", "Webpack", "ESLint / Prettier", "Cloud Platforms (AWS, GCP, Azure)",
-      "AI Development Tools (OpenAI API, ChatGPT, Copilot, Hugging Face)",
-      "Antigravity", "Figma / UI Design Tools", "CI/CD Pipelines (GitHub Actions, Jenkins)"
-    ],
-    automation: [
-      "Python Scripting", "Batch Scripts", "Shell Scripts", "Web Scraping", "Task Automation"
-    ]
+  stack: {
+    languages:  ["JavaScript", "TypeScript", "Python", "PHP", "C#"],
+    frontend:   ["React", "Next.js", "Vue.js", "Tailwind CSS", "Sass"],
+    backend:    ["Node.js", "Express.js", "Laravel", "REST APIs", "GraphQL"],
+    databases:  ["MongoDB", "MySQL", "PostgreSQL", "Firebase"],
+    devOps:     ["Git", "Docker", "GitHub Actions", "CI/CD", "AWS · GCP · Azure"],
+    automation: ["Python Scripting", "Web Scraping", "Shell & Batch Scripts"],
   },
-  portfolio: "https://jaypatrickcano.vercel.app",
-  github: "https://github.com/0x3ef8",
-  socialMediaLinks: ["https://0x3ef8.github.io/linktree"],
-  quote: "Programming knowledge is the key to unlocking the power of a god. ~ 0x3EF8"
-};
 
-export default introduction;
+  links: {
+    portfolio:  "https://jaypatrickcano.vercel.app",
+    github:     "https://github.com/0x3ef8",
+    linktree:   "https://0x3ef8.github.io/linktree",
+  },
+
+  quote: "Programming knowledge is the key to unlocking the power of a god.",
+} as const;
+
+export default developer;
 ```
 
 ### GitHub Stats 
