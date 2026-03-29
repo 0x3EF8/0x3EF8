@@ -12,62 +12,96 @@
     <img width="100%" src="https://github.com/0x3EF8/0x3EF8/blob/main/images/header_.png" />
 </div>
 
-```JavaScript
-const introduction = {
-  name: "Jay Patrick Cano",
-  profession: "Developer",
-  description: "A self-taught developer always eager to learn",
-  location: "Philippines",
-  passions: ["Learning new technologies", "Building useful tools"],
-  experienceAreas: [
-    "Web Development",
-    "Software Development",
-    "Computer Formatting & Software Installation",
-    "Scripting, Bots & Automation",
-    "IT Support & Troubleshooting",
-    "Database Management"
-  ],
-  skills: {
-    frontend: [
-      "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "jQuery",
-      "Bootstrap", "Tailwind CSS", "Sass", "Responsive Design", "Web Accessibility (a11y)",
-      "Redux / Context API", "React Router"
-    ],
-    backend: [
-      "Node.js", "Express.js", "MongoDB", "MySQL", "PostgreSQL", "PHP", "Laravel",
-      "REST APIs", "GraphQL", "Authentication & Authorization", "Server-side Rendering"
-    ],
-    tools: [
-      "Git", "GitHub", "VS Code", "Postman", "npm / yarn", "Chrome DevTools", "Docker Basics",
-      "Terminal / Bash", "Webpack", "ESLint / Prettier", "Cloud Platforms (AWS, GCP, Azure)",
-      "AI Development Tools (OpenAI API, ChatGPT, Copilot, Hugging Face)",
-      "Antigravity", "Figma / UI Design Tools", "CI/CD Pipelines (GitHub Actions, Jenkins)"
-    ],
-    automation: [
-      "Python Scripting", "Batch Scripts", "Shell Scripts", "Web Scraping", "Task Automation"
-    ]
-  },
-  portfolio: "https://jaypatrickcano.vercel.app",
-  github: "https://github.com/0x3ef8",
-  socialMediaLinks: ["https://0x3ef8.github.io/linktree"],
-  quote: "Programming knowledge is the key to unlocking the power of a god. ~ 0x3EF8"
-};
+```typescript
+const developer = {
+  name:       "Jay Patrick Cano",
+  alias:      "0x3EF8",
+  role:       "Full-Stack Developer",
+  location:   "Philippines 🇵🇭",
+  status:     "Open to opportunities · Always learning",
 
-export default introduction;
+  stack: {
+    languages:  ["JavaScript", "TypeScript", "Python", "PHP", "C#"],
+    frontend:   ["React", "Next.js", "Vue.js", "Tailwind CSS", "Sass"],
+    backend:    ["Node.js", "Express.js", "Laravel", "REST APIs", "GraphQL"],
+    databases:  ["MongoDB", "MySQL", "PostgreSQL", "Firebase"],
+    devOps:     ["Git", "Docker", "GitHub Actions", "CI/CD", "AWS · GCP · Azure"],
+    automation: ["Python Scripting", "Web Scraping", "Shell & Batch Scripts"],
+  },
+
+  links: {
+    portfolio:  "https://jaypatrickcano.vercel.app",
+    github:     "https://github.com/0x3ef8",
+    linktree:   "https://0x3ef8.github.io/linktree",
+  },
+
+  quote: "Programming knowledge is the key to unlocking the power of a god.",
+} as const;
+
+export default developer;
 ```
 
-### GitHub Stats 
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0x3ef8&theme=prussian" width="100%" height="auto" />
-</div>
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-</div>
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=0x3ef8&theme=prussian" width="48%" height="auto" style="display: inline;" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0x3ef8&theme=prussian&utcOffset=+6.5" width="48%" height="auto" style="display: inline;" />
-</div>
+### Stats & Proficiency
+
+<!-- STATS:START -->
+```text
+0x3EF8 · Dev Metrics
+From: 2020 - To: 2026   |   30+ public repos   |   21 stars
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Languages
+ Python            ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱   40.70 %   (11 repos)
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.82 %   ( 4 repos)
+ HTML / CSS        ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   11.11 %   ( 3 repos)
+ Batchfile         ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   11.11 %   ( 3 repos)
+ JavaScript        ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    7.41 %   ( 2 repos)
+ PHP               ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    7.41 %   ( 2 repos)
+ Java              ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    3.70 %   ( 1 repo )
+ PowerShell        ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    3.70 %   ( 1 repo )
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ I Code Most During
+
+ Morning    (06-12)   ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   12.30 %
+ Daytime    (12-18)   ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱   49.18 %
+ Evening    (18-24)   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   36.07 %
+ Night      (00-06)   ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.46 %
+
+ I Am Most Productive On
+
+ Monday     ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   11.48 %
+ Tuesday    ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   15.57 %
+ Wednesday  ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱   31.15 %
+ Thursday   ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.75 %
+ Friday     ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   12.30 %
+ Saturday   ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    8.20 %
+ Sunday     ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.56 %
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Editors
+ VS Code           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱   91.89 %
+ Visual Studio     ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    5.41 %
+ Android Studio    ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.70 %
+
+ Operating Systems
+ Windows           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱   95.00 %
+ Linux             ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    5.00 %
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Projects (by repo category)
+ AI & Automation   ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱   40.00 %  (NexusAI, AetherAI, moltbook-ai-agent ...)
+ Web Development   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   36.00 %  (devpulse, CCS-Web-Design, EduPay ...)
+ Tools & Scripts   ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   16.00 %  (Micro-Downloader, XAMPP-Tool ...)
+ Bots & Messenger  ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    8.00 %  (Nero-Facebook-Bot, GitHell ...)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Languages from GitHub API · Time/Day from push activity · Updated: auto
+```
+<!-- STATS:END -->
 
 
 ### Programming Languages

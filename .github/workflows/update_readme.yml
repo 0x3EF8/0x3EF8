@@ -1,0 +1,44 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *'   # Every day at 00:00 and 12:00 UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:          # Manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    name: Fetch and Update Stats
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate stats and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet && echo "Nothing to commit." || (
+            git commit -m "chore(readme): auto-update dev metrics [skip ci]" &&
+            git push
+          )
