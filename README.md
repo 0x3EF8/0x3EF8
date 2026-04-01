@@ -46,19 +46,19 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics
-From: 2020 - To: 2026   |   46+ public repos   |   50 stars
+From: 2020 - To: 2026   |   47+ public repos   |   52 stars
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Python            ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱   29.55 %   (13 repos)
- JavaScript        ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   27.27 %   (12 repos)
- HTML              ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   11.36 %   (5 repos)
- Batchfile         ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.82 %   (3 repos)
- PHP               ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.82 %   (3 repos)
- TypeScript        ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    4.55 %   (2 repos)
- Visual Basic .NET ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    4.55 %   (2 repos)
- Java              ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.27 %   (1 repo )
+ Python            ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱   28.89 %   (13 repos)
+ JavaScript        ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   26.67 %   (12 repos)
+ HTML              ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   11.11 %   (5 repos)
+ TypeScript        ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.67 %   (3 repos)
+ Batchfile         ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.67 %   (3 repos)
+ PHP               ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.67 %   (3 repos)
+ Visual Basic .NET ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    4.44 %   (2 repos)
+ Java              ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.22 %   (1 repo )
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -93,13 +93,13 @@ From: 2020 - To: 2026   |   46+ public repos   |   50 stars
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects (by repo category)
- AI & Automation   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   34.78 %  (0x3EF8, GitHell, Unified-API-Server ...)
- Web Development   ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   15.22 %  (CCS-Web-Design, EduPay, CCS-WebDesign-Contest ...)
- Tools & Scripts   ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    8.70 %  (PsychoNet-ARP-Spoofing-Tool, WordCloud-Generator, KMS-Activator-Pro-Windows-Office-Activation-Tool ...)
- Bots & Messenger  ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   15.22 %  (Nero-Facebook-Bot, Nero-Spectrum-AI, Micro-Downloader ...)
+ AI & Automation   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   36.17 %  (Claude-Code-Leak-Rebuild, 0x3EF8, GitHell ...)
+ Web Development   ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.89 %  (CCS-Web-Design, EduPay, CCS-WebDesign-Contest ...)
+ Tools & Scripts   ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    8.51 %  (PsychoNet-ARP-Spoofing-Tool, WordCloud-Generator, KMS-Activator-Pro-Windows-Office-Activation-Tool ...)
+ Bots & Messenger  ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.89 %  (Nero-Facebook-Bot, Nero-Spectrum-AI, Micro-Downloader ...)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages from GitHub API · Time/Day from push activity · Updated: 2026-03-31 13:50 UTC
+ Languages from GitHub API · Time/Day from push activity · Updated: 2026-04-01 03:29 UTC
 ```
 <!-- STATS:END -->
 
