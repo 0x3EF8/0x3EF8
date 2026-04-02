@@ -83,10 +83,8 @@ Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- Editors
+ Editors and Operating Systems
  VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                     | Keyboard-first workflow.
-
- Operating Systems
  Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                     | Stable dev environment.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

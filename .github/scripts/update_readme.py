@@ -547,22 +547,19 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(SEP)
     L.append("")
 
-    # Editors (WakaTime)
-    L.append(" Editors")
-    editor_rows = wt_editors or [("Unknown", 0.0, 0.0)]
-    editor_right = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, len(editor_rows))
-    for idx, (name, pct, seconds) in enumerate(editor_rows):
-        row = f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
-        L.append(with_right(row, editor_right[idx]))
-    L.append("")
+    # Editors + Operating systems (WakaTime)
+    L.append(" Editors and Operating Systems")
+    top_editor = (wt_editors or [("Unknown", 0.0, 0.0)])[0]
+    top_editor_note = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, 1)[0]
+    editor_name, editor_pct, editor_seconds = top_editor
+    editor_row = f" {editor_name:<17} {progress_bar(editor_pct)}   {editor_pct:5.2f} %   | {format_hours(editor_seconds):>7}"
+    L.append(with_right(editor_row, top_editor_note))
 
-    # Operating systems (WakaTime)
-    L.append(" Operating Systems")
-    os_rows = wt_os or [("Unknown", 0.0, 0.0)]
-    os_right = rotate_pick(OS_RIGHT_NOTES, seed + 53, len(os_rows))
-    for idx, (name, pct, seconds) in enumerate(os_rows):
-        row = f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
-        L.append(with_right(row, os_right[idx]))
+    top_os = (wt_os or [("Unknown", 0.0, 0.0)])[0]
+    top_os_note = rotate_pick(OS_RIGHT_NOTES, seed + 53, 1)[0]
+    os_name, os_pct, os_seconds = top_os
+    os_row = f" {os_name:<17} {progress_bar(os_pct)}   {os_pct:5.2f} %   | {format_hours(os_seconds):>7}"
+    L.append(with_right(os_row, top_os_note))
     L.append("")
     L.append(SEP)
     L.append("")
