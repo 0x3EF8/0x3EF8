@@ -214,12 +214,12 @@ def format_hours(seconds: float) -> str:
         return "n/a"
     return f"{seconds / 3600:5.2f} h"
 
-def with_right(main_text: str, side_text: str = "") -> str:
+def with_right(main_text: str, side_text: str = "", max_len: int = 30) -> str:
     side = (side_text or "").rstrip()
     if not side.strip():
         return main_text
-    if len(side) > 30:
-        side = side[:27].rstrip() + "..."
+    if max_len > 0 and len(side) > max_len:
+        side = side[:max_len - 3].rstrip() + "..."
     return f"{main_text:<{MAIN_COL_WIDTH}} | {side}"
 
 def rotation_seed(now_text: str) -> int:
@@ -499,21 +499,24 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     tracked_sessions = len(wakatime_durations)
 
     L = []
-    L.append(with_right("0x3EF8 · Dev Metrics", "Quick Insights"))
+    L.append(with_right("0x3EF8 · Dev Metrics", "├── Quick Insights", max_len=48))
     L.append(
         with_right(
             f"From: {START_YEAR} - To: {year}   |   {len(own)}+ public repos   |   {stars} stars",
-            f"Top Lang : {top_lang_name} ({top_lang_pct:5.2f}%)",
+            f"│   ├── Range   : {START_YEAR} - {year}",
+            max_len=48,
         )
     )
     L.append(
         with_right(
             f"WakaTime (last 7d): {total_time} total · {daily_avg} daily avg",
-            f"Peak Time: {peak_slot} ({peak_slot_pct:5.2f}%)",
+            f"│   ├── Top Lang: {top_lang_name} ({top_lang_pct:5.2f}%)",
+            max_len=48,
         )
     )
-    L.append(with_right("", f"Peak Day : {peak_day} ({peak_day_pct:5.2f}%)"))
-    L.append(with_right("", f"Activity : {tracked_sessions} chunks"))
+    L.append(with_right("", f"│   ├── Peak Time: {peak_slot} ({peak_slot_pct:5.2f}%)", max_len=48))
+    L.append(with_right("", f"│   ├── Peak Day : {peak_day} ({peak_day_pct:5.2f}%)", max_len=48))
+    L.append(with_right("", f"│   └── Activity : {tracked_sessions} chunks", max_len=48))
     L.append("Stats & Proficiency")
     L.append("")
     L.append(SEP)

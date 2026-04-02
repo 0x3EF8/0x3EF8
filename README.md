@@ -43,11 +43,12 @@ export default developer;
 
 <!-- STATS:START -->
 ```text
-0x3EF8 · Dev Metrics                                                     | Quick Insights
-From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | Top Lang : TypeScript (44.99%)
-WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | Peak Time: Night (53.09%)
-                                                                         | Peak Day : Monday (32.82%)
-                                                                         | Activity : 44 chunks
+0x3EF8 · Dev Metrics                                                     | ├── Quick Insights
+From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | │   ├── Range   : 2020 - 2026
+WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | │   ├── Top Lang: TypeScript (44.99%)
+                                                                         | │   ├── Peak Time: Night (53.09%)
+                                                                         | │   ├── Peak Day : Monday (32.82%)
+                                                                         | │   └── Activity : 44 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
