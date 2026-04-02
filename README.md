@@ -53,26 +53,26 @@ WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | Peak
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- Languages                                                               | Pet + Tech Notes
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                      |  /^ ^\ 
- Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                      | / 0 0 \
- Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                      |  V\ Y /V
- SQL               ▰▱▱▱▱▱▱▱▱▱    7.81 %   |  1.44 h                      | "Simple code survives long-term."
- JSON              ▱▱▱▱▱▱▱▱▱▱    4.31 %   |  0.80 h                      | Tip: Consistency compounds quality.
- Bash              ▱▱▱▱▱▱▱▱▱▱    4.15 %   |  0.77 h                      | Tip: Simple code survives long-term.
- Text              ▱▱▱▱▱▱▱▱▱▱    2.48 %   |  0.46 h                      | Tip: Ship small. Learn fast.
- Git Config        ▱▱▱▱▱▱▱▱▱▱    1.48 %   |  0.27 h                      | Tip: Readable code scales teams.
+ Languages
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                      |  (\_/)
+ Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                      |  (o.o)
+ Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                      |  /|_|\ 
+ SQL               ▰▱▱▱▱▱▱▱▱▱    7.81 %   |  1.44 h                      | "Readable code scales teams."
+ JSON              ▱▱▱▱▱▱▱▱▱▱    4.31 %   |  0.80 h                      | Automation buys thinking time.
+ Bash              ▱▱▱▱▱▱▱▱▱▱    4.15 %   |  0.77 h                      | Refactor early, ship confidently.
+ Text              ▱▱▱▱▱▱▱▱▱▱    2.48 %   |  0.46 h                      | Great DX creates great UX.
+ Git Config        ▱▱▱▱▱▱▱▱▱▱    1.48 %   |  0.27 h                      | Consistency compounds quality.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- I Code Most During                                                      | Rhythm Notes
+ I Code Most During
 
  Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    1.68 %   |  0.29 h                   | Review and polish.
  Daytime    (12-18)   ▰▰▱▱▱▱▱▱▱▱   19.21 %   |  3.29 h                   | Debug and refine.
  Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   26.96 %   |  4.62 h                   | Plan and warm up.
  Night      (00-06)   ▰▰▰▰▰▱▱▱▱▱   52.15 %   |  8.94 h                   | Build and iterate.
 
- I Am Most Productive On                                                 | Weekly Notes
+ I Am Most Productive On
 
  Monday     ▰▰▰▱▱▱▱▱▱▱   33.48 %   |  5.74 h                             | Planning day
  Tuesday    ▰▰▰▱▱▱▱▱▱▱   25.33 %   |  4.34 h                             | Momentum day
@@ -84,15 +84,15 @@ WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | Peak
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- Editors                                                                 | Tooling Notes
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                     | Keyboard-first workflow.
+ Editors
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                     | Fast feedback loop.
 
- Operating Systems                                                       | Platform Notes
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                     | Stable dev environment.
+ Operating Systems
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                     | Toolchain optimized.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- Projects (by repo category)                                             | Category Notes
+ Projects (by repo category)
  AI & Automation   ▰▰▰▰▱▱▱▱▱▱   36.17 %                                  | 17 repos · Utility and ops track.
  Web Development   ▰▱▱▱▱▱▱▱▱▱   14.89 %                                  |  7 repos · Community-facing track.
  Tools & Scripts   ▰▱▱▱▱▱▱▱▱▱    8.51 %                                  |  4 repos · Long-term investment.

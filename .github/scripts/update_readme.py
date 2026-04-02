@@ -212,9 +212,12 @@ def format_hours(seconds: float) -> str:
     return f"{seconds / 3600:5.2f} h"
 
 def with_right(main_text: str, side_text: str = "") -> str:
-    if not side_text:
+    side = " ".join((side_text or "").split())
+    if not side:
         return main_text
-    return f"{main_text:<{MAIN_COL_WIDTH}} | {side_text}"
+    if len(side) > 30:
+        side = side[:27] + "..."
+    return f"{main_text:<{MAIN_COL_WIDTH}} | {side}"
 
 def rotation_seed(now_text: str) -> int:
     run_id = os.environ.get("GITHUB_RUN_ID") or "local"
@@ -237,12 +240,12 @@ def language_side_lines(seed: int, count: int) -> list:
         pet[0],
         pet[1],
         pet[2],
-        f'"{quote}"',
+        quote,
     ]
 
     if len(lines) < count:
         remaining = count - len(lines)
-        lines.extend([f"Tip: {q}" for q in rotate_pick(TECH_QUOTES, seed + 7, remaining)])
+        lines.extend(rotate_pick(TECH_QUOTES, seed + 7, remaining))
 
     return lines[:count]
 
@@ -505,7 +508,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append("")
 
     # Languages (WakaTime)
-    L.append(with_right(" Languages", "Pet + Tech Notes"))
+    L.append(" Languages")
     if wt_languages:
         lang_right = language_side_lines(seed, len(wt_languages))
         for idx, (lang_name, lang_pct, lang_seconds) in enumerate(wt_languages):
@@ -518,7 +521,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append("")
 
     # Time of day (WakaTime durations)
-    L.append(with_right(" I Code Most During", "Rhythm Notes"))
+    L.append(" I Code Most During")
     L.append("")
     time_right = rotate_pick(TIME_RIGHT_NOTES, seed + 11, 4)
     for slot, rng in [("Morning", "06-12"), ("Daytime", "12-18"), ("Evening", "18-24"), ("Night", "00-06")]:
@@ -528,7 +531,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         L.append(with_right(row, time_right.pop(0)))
 
     L.append("")
-    L.append(with_right(" I Am Most Productive On", "Weekly Notes"))
+    L.append(" I Am Most Productive On")
     L.append("")
     day_total = sum(day_map.values())
     day_right = rotate_pick(DAY_RIGHT_NOTES, seed + 29, 7)
@@ -542,7 +545,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append("")
 
     # Editors (WakaTime)
-    L.append(with_right(" Editors", "Tooling Notes"))
+    L.append(" Editors")
     editor_rows = wt_editors or [("Unknown", 0.0, 0.0)]
     editor_right = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, len(editor_rows))
     for idx, (name, pct, seconds) in enumerate(editor_rows):
@@ -551,7 +554,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append("")
 
     # Operating systems (WakaTime)
-    L.append(with_right(" Operating Systems", "Platform Notes"))
+    L.append(" Operating Systems")
     os_rows = wt_os or [("Unknown", 0.0, 0.0)]
     os_right = rotate_pick(OS_RIGHT_NOTES, seed + 53, len(os_rows))
     for idx, (name, pct, seconds) in enumerate(os_rows):
@@ -562,7 +565,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append("")
 
     # Project categories
-    L.append(with_right(" Projects (by repo category)", "Category Notes"))
+    L.append(" Projects (by repo category)")
     category_names = ["AI & Automation", "Web Development", "Tools & Scripts", "Bots & Messenger"]
     project_right = rotate_pick(PROJECT_RIGHT_NOTES, seed + 67, len(category_names))
     for idx, cat_name in enumerate(category_names):
