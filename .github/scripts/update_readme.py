@@ -26,6 +26,7 @@ BAR_WIDTH       = 10
 START_YEAR      = 2020
 MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
+MAIN_COL_WIDTH  = 72
 
 # Philippines Standard Time = UTC+8 (no DST)
 LOCAL_TZ = timezone(timedelta(hours=8))
@@ -147,6 +148,16 @@ def _to_float(value: any, default: float = 0.0) -> float:
     except (TypeError, ValueError):
         return default
 
+def format_hours(seconds: float) -> str:
+    if seconds <= 0:
+        return "n/a"
+    return f"{seconds / 3600:5.2f} h"
+
+def with_right(main_text: str, side_text: str = "") -> str:
+    if not side_text:
+        return main_text
+    return f"{main_text:<{MAIN_COL_WIDTH}} | {side_text}"
+
 def wakatime_get(resource: str, params: dict | None = None, retries: int = 3) -> any:
     url = f"{WAKATIME_BASE_URL}/{resource}"
     for attempt in range(retries):
@@ -195,7 +206,12 @@ def fetch_wakatime_durations(days: int = 7, retries: int = 3) -> list:
             durations.extend(day_data)
     return durations
 
-def extract_wakatime_percentages(wakatime_stats: any, key: str, limit: int = 0) -> list:
+def extract_wakatime_percentages(
+    wakatime_stats: any,
+    key: str,
+    limit: int = 0,
+    fallback_total_seconds: float = 0.0,
+) -> list:
     rows = []
     if not isinstance(wakatime_stats, dict):
         return rows
@@ -205,7 +221,10 @@ def extract_wakatime_percentages(wakatime_stats: any, key: str, limit: int = 0) 
             continue
         name = (item.get("name") or "Unknown").strip() or "Unknown"
         pct = max(0.0, min(100.0, _to_float(item.get("percent"), 0.0)))
-        rows.append((name, pct))
+        total_seconds = _to_float(item.get("total_seconds"), 0.0)
+        if total_seconds <= 0 and fallback_total_seconds > 0 and pct > 0:
+            total_seconds = fallback_total_seconds * (pct / 100.0)
+        rows.append((name, pct, total_seconds))
 
     rows.sort(key=lambda x: -x[1])
     return rows[:limit] if limit > 0 else rows
@@ -213,6 +232,8 @@ def extract_wakatime_percentages(wakatime_stats: any, key: str, limit: int = 0) 
 def wakatime_activity_stats(wakatime_durations: list) -> tuple:
     hour_map = {"Morning": 0.0, "Daytime": 0.0, "Evening": 0.0, "Night": 0.0}
     day_map: dict = defaultdict(float)
+    hour_count_map = {"Morning": 0, "Daytime": 0, "Evening": 0, "Night": 0}
+    day_count_map: dict = defaultdict(int)
     total_seconds = 0.0
 
     for item in wakatime_durations:
@@ -238,9 +259,11 @@ def wakatime_activity_stats(wakatime_durations: list) -> tuple:
         )
         hour_map[bucket] += duration_sec
         day_map[local_dt.strftime("%A")] += duration_sec
+        hour_count_map[bucket] += 1
+        day_count_map[local_dt.strftime("%A")] += 1
         total_seconds += duration_sec
 
-    return hour_map, dict(day_map), total_seconds
+    return hour_map, dict(day_map), total_seconds, hour_count_map, dict(day_count_map)
 
 def wakatime_day_stats_from_summary(wakatime_stats: any) -> dict:
     day_map: dict = defaultdict(float)
@@ -324,10 +347,28 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     cats = categorize_repos(repos)
     cat_total = sum(len(v) for v in cats.values()) or 1
 
-    wt_languages = extract_wakatime_percentages(wakatime_stats, "languages", limit=8)
-    wt_editors = extract_wakatime_percentages(wakatime_stats, "editors", limit=5)
-    wt_os = extract_wakatime_percentages(wakatime_stats, "operating_systems", limit=5)
-    hour_map, day_map, duration_total = wakatime_activity_stats(wakatime_durations)
+    hour_map, day_map, duration_total, hour_count_map, day_count_map = wakatime_activity_stats(
+        wakatime_durations
+    )
+
+    wt_languages = extract_wakatime_percentages(
+        wakatime_stats,
+        "languages",
+        limit=8,
+        fallback_total_seconds=duration_total,
+    )
+    wt_editors = extract_wakatime_percentages(
+        wakatime_stats,
+        "editors",
+        limit=5,
+        fallback_total_seconds=duration_total,
+    )
+    wt_os = extract_wakatime_percentages(
+        wakatime_stats,
+        "operating_systems",
+        limit=5,
+        fallback_total_seconds=duration_total,
+    )
 
     if sum(day_map.values()) == 0:
         day_map = wakatime_day_stats_from_summary(wakatime_stats)
@@ -338,10 +379,42 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         total_time = wakatime_stats.get("human_readable_total") or "n/a"
         daily_avg = wakatime_stats.get("human_readable_daily_average") or "n/a"
 
+    top_lang_name = "n/a"
+    top_lang_pct = 0.0
+    if wt_languages:
+        top_lang_name, top_lang_pct, _ = wt_languages[0]
+
+    if duration_total > 0:
+        peak_slot, peak_slot_seconds = max(hour_map.items(), key=lambda x: x[1])
+        peak_slot_pct = peak_slot_seconds / duration_total * 100
+    else:
+        peak_slot, peak_slot_pct = "n/a", 0.0
+
+    day_total_for_peak = sum(day_map.values())
+    if day_total_for_peak > 0:
+        peak_day, peak_day_seconds = max(day_map.items(), key=lambda x: x[1])
+        peak_day_pct = peak_day_seconds / day_total_for_peak * 100
+    else:
+        peak_day, peak_day_pct = "n/a", 0.0
+
+    tracked_sessions = len(wakatime_durations)
+
     L = []
-    L.append("0x3EF8 · Dev Metrics")
-    L.append(f"From: {START_YEAR} - To: {year}   |   {len(own)}+ public repos   |   {stars} stars")
-    L.append(f"WakaTime (last 7d): {total_time} total · {daily_avg} daily avg")
+    L.append(with_right("0x3EF8 · Dev Metrics", "Quick Insights"))
+    L.append(
+        with_right(
+            f"From: {START_YEAR} - To: {year}   |   {len(own)}+ public repos   |   {stars} stars",
+            f"Top Lang : {top_lang_name} ({top_lang_pct:5.2f}%)",
+        )
+    )
+    L.append(
+        with_right(
+            f"WakaTime (last 7d): {total_time} total · {daily_avg} daily avg",
+            f"Peak Time: {peak_slot} ({peak_slot_pct:5.2f}%)",
+        )
+    )
+    L.append(with_right("", f"Peak Day : {peak_day} ({peak_day_pct:5.2f}%)"))
+    L.append(with_right("", f"Sessions : {tracked_sessions} tracked"))
     L.append("")
     L.append(SEP)
     L.append("")
@@ -349,8 +422,10 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     # Languages (WakaTime)
     L.append(" Languages")
     if wt_languages:
-        for lang_name, lang_pct in wt_languages:
-            L.append(f" {lang_name:<17} {progress_bar(lang_pct)}   {lang_pct:5.2f} %")
+        for lang_name, lang_pct, lang_seconds in wt_languages:
+            L.append(
+                f" {lang_name:<17} {progress_bar(lang_pct)}   {lang_pct:5.2f} %   | {format_hours(lang_seconds):>7}"
+            )
     else:
         L.append(" WakaTime data unavailable (set WAKATIME_API_KEY).")
     L.append("")
@@ -361,31 +436,38 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(" I Code Most During")
     L.append("")
     for slot, rng in [("Morning", "06-12"), ("Daytime", "12-18"), ("Evening", "18-24"), ("Night", "00-06")]:
-        c = hour_map.get(slot, 0.0)
-        pct = c / duration_total * 100 if duration_total else 0
-        L.append(f" {slot:<10} ({rng})   {progress_bar(pct)}   {pct:5.2f} %")
+        seconds = hour_map.get(slot, 0.0)
+        sessions = hour_count_map.get(slot, 0)
+        pct = seconds / duration_total * 100 if duration_total else 0
+        L.append(
+            f" {slot:<10} ({rng})   {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7} | {sessions:2d} sess"
+        )
 
     L.append("")
     L.append(" I Am Most Productive On")
     L.append("")
     day_total = sum(day_map.values())
     for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
-        pct = day_map.get(day, 0) / day_total * 100
-        L.append(f" {day:<10} {progress_bar(pct)}   {pct:5.2f} %")
+        seconds = day_map.get(day, 0.0)
+        sessions = day_count_map.get(day, 0)
+        pct = seconds / day_total * 100 if day_total else 0
+        L.append(
+            f" {day:<10} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7} | {sessions:2d} sess"
+        )
     L.append("")
     L.append(SEP)
     L.append("")
 
     # Editors (WakaTime)
     L.append(" Editors")
-    for name, pct in (wt_editors or [("Unknown", 0.0)]):
-        L.append(f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %")
+    for name, pct, seconds in (wt_editors or [("Unknown", 0.0, 0.0)]):
+        L.append(f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}")
     L.append("")
 
     # Operating systems (WakaTime)
     L.append(" Operating Systems")
-    for name, pct in (wt_os or [("Unknown", 0.0)]):
-        L.append(f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %")
+    for name, pct, seconds in (wt_os or [("Unknown", 0.0, 0.0)]):
+        L.append(f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}")
     L.append("")
     L.append(SEP)
     L.append("")
