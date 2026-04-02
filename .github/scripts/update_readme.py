@@ -26,9 +26,7 @@ BAR_WIDTH       = 10
 START_YEAR      = 2020
 MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
-MAIN_COL_WIDTH  = 60
-MIN_RIGHT_GAP   = 3
-MAX_RIGHT_GAP   = 8
+MAIN_COL_WIDTH  = 72
 
 PET_ARTS = [
     [" /\\_/\\ ", "( o.o )", " > ^ < "],
@@ -219,9 +217,7 @@ def with_right(main_text: str, side_text: str = "") -> str:
         return main_text
     if len(side) > 30:
         side = side[:27] + "..."
-    gap = MAIN_COL_WIDTH - len(main_text)
-    gap = max(MIN_RIGHT_GAP, min(MAX_RIGHT_GAP, gap))
-    return f"{main_text}{' ' * gap}| {side}"
+    return f"{main_text:<{MAIN_COL_WIDTH}} | {side}"
 
 def rotation_seed(now_text: str) -> int:
     run_id = os.environ.get("GITHUB_RUN_ID") or "local"
