@@ -45,48 +45,50 @@ export default developer;
 
 <!-- STATS:START -->
 ```text
-0x3EF8 · Dev Metrics
-From: 2020 - To: 2026   |   47+ public repos   |   52 stars
-WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg
+0x3EF8 · Dev Metrics                                                     | Quick Insights
+From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | Top Lang : TypeScript (35.03%)
+WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg       | Peak Time: Night (51.27%)
+                                                                         | Peak Day : Monday (34.10%)
+                                                                         | Sessions : 43 tracked
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   35.03 %
- Python            ▰▰▱▱▱▱▱▱▱▱   20.43 %
- SQL               ▰▱▱▱▱▱▱▱▱▱   14.37 %
- Markdown          ▰▱▱▱▱▱▱▱▱▱   12.25 %
- JSON              ▰▱▱▱▱▱▱▱▱▱    5.56 %
- Text              ▱▱▱▱▱▱▱▱▱▱    3.17 %
- PHP               ▱▱▱▱▱▱▱▱▱▱    2.17 %
- Bash              ▱▱▱▱▱▱▱▱▱▱    2.02 %
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   35.03 %   |  4.91 h
+ Python            ▰▰▱▱▱▱▱▱▱▱   20.43 %   |  2.86 h
+ SQL               ▰▱▱▱▱▱▱▱▱▱   14.37 %   |  2.01 h
+ Markdown          ▰▱▱▱▱▱▱▱▱▱   12.25 %   |  1.72 h
+ JSON              ▰▱▱▱▱▱▱▱▱▱    5.56 %   |  0.78 h
+ Text              ▱▱▱▱▱▱▱▱▱▱    3.17 %   |  0.44 h
+ PHP               ▱▱▱▱▱▱▱▱▱▱    2.17 %   |  0.30 h
+ Bash              ▱▱▱▱▱▱▱▱▱▱    2.02 %   |  0.28 h
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    1.58 %
- Daytime    (12-18)   ▰▰▱▱▱▱▱▱▱▱   18.01 %
- Evening    (18-24)   ▰▰▱▱▱▱▱▱▱▱   24.11 %
- Night      (00-06)   ▰▰▰▰▰▰▱▱▱▱   56.30 %
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    1.71 %   |  0.29 h |  2 sess
+ Daytime    (12-18)   ▰▰▱▱▱▱▱▱▱▱   19.56 %   |  3.29 h |  5 sess
+ Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   27.45 %   |  4.62 h | 19 sess
+ Night      (00-06)   ▰▰▰▰▰▱▱▱▱▱   51.27 %   |  8.63 h | 13 sess
 
  I Am Most Productive On
 
- Monday     ▰▰▰▱▱▱▱▱▱▱   31.39 %
- Tuesday    ▰▰▱▱▱▱▱▱▱▱   23.75 %
- Wednesday  ▰▱▱▱▱▱▱▱▱▱    6.91 %
- Thursday   ▰▰▱▱▱▱▱▱▱▱   24.77 %
- Friday     ▰▱▱▱▱▱▱▱▱▱    9.16 %
- Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %
- Sunday     ▱▱▱▱▱▱▱▱▱▱    4.01 %
+ Monday     ▰▰▰▱▱▱▱▱▱▱   34.10 %   |  5.74 h | 13 sess
+ Tuesday    ▰▰▰▱▱▱▱▱▱▱   25.80 %   |  4.34 h |  5 sess
+ Wednesday  ▰▱▱▱▱▱▱▱▱▱    7.51 %   |  1.26 h |  7 sess
+ Thursday   ▰▰▰▱▱▱▱▱▱▱   28.16 %   |  4.74 h |  9 sess
+ Friday     ▱▱▱▱▱▱▱▱▱▱    0.07 %   |  0.01 h |  1 sess
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a |  0 sess
+ Sunday     ▱▱▱▱▱▱▱▱▱▱    4.36 %   |  0.73 h |  4 sess
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 14.01 h
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 14.01 h
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -97,6 +99,6 @@ WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg
  Bots & Messenger  ▰▱▱▱▱▱▱▱▱▱   14.89 %  (Nero-Facebook-Bot, Nero-Spectrum-AI, Micro-Downloader ...)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: 2026-04-02 23:50 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: 2026-04-03 00:03 PHT
 ```
 <!-- STATS:END -->
