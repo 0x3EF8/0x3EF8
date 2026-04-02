@@ -520,9 +520,11 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(with_right("", f"Peak Day : {peak_day} ({peak_day_pct:5.2f}%)"))
     L.append(with_right("", f"Activity : {tracked_sessions} chunks"))
     L.append("├── Stats & Proficiency")
+    L.append("│")
 
     # Languages (WakaTime)
     L.append("│   ├── Languages")
+    L.append("│   │")
     if wt_languages:
         lang_right = language_side_lines(seed, len(wt_languages))
         for idx, (lang_name, lang_pct, lang_seconds) in enumerate(wt_languages):
@@ -530,17 +532,21 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
             L.append(with_right(row, lang_right[idx]))
     else:
         L.append(with_right("│   │   └── WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
+    L.append("│   │")
 
     # Time of day (WakaTime durations)
     L.append("│   ├── I Code Most During")
+    L.append("│   │")
     time_right = rotate_pick(TIME_RIGHT_NOTES, seed + 11, 4)
     for slot, rng in [("Morning", "06-12"), ("Daytime", "12-18"), ("Evening", "18-24"), ("Night", "00-06")]:
         seconds = hour_map.get(slot, 0.0)
         pct = seconds / duration_total * 100 if duration_total else 0
         row = f"│   │   ├── {slot:<10} ({rng})   {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
         L.append(with_right(row, time_right.pop(0)))
+    L.append("│   │")
 
     L.append("│   ├── I Am Most Productive On")
+    L.append("│   │")
     day_total = sum(day_map.values())
     day_right = rotate_pick(DAY_RIGHT_NOTES, seed + 29, 7)
     for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
@@ -548,9 +554,11 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         pct = seconds / day_total * 100 if day_total else 0
         row = f"│   │   ├── {day:<10} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
         L.append(with_right(row, day_right.pop(0)))
+    L.append("│   │")
 
     # Editors + Operating systems (WakaTime)
     L.append("│   ├── Editors and Operating Systems")
+    L.append("│   │")
     top_editor = (wt_editors or [("Unknown", 0.0, 0.0)])[0]
     top_editor_note = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, 1)[0]
     editor_name, editor_pct, editor_seconds = top_editor
@@ -562,6 +570,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     os_name, os_pct, os_seconds = top_os
     os_row = f"│   │   ├── {os_name:<17} {progress_bar(os_pct)}   {os_pct:5.2f} %   | {format_hours(os_seconds):>7}"
     L.append(with_right(os_row, top_os_note))
+    L.append("│   │")
 
     # Project categories
     L.append("│   └── Projects (by repo category)")
