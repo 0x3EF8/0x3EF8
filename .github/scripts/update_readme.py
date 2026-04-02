@@ -29,11 +29,11 @@ MARKER_END      = "<!-- STATS:END -->"
 MAIN_COL_WIDTH  = 72
 
 PET_ARTS = [
-    [" /\\_/\\", "( o.o )", " > ^ <"],
-    [" (\\_/)", " (o.o)", " /|_|\\"],
-    ["  ^__^", "  (oo)\\_______", "  (__)\\       )\\/\\"],
-    [" /^ ^\\", "/ 0 0 \\", " V\\ Y /V"],
-    ["  ,_,", " (o,o)", " (\"_\")"],
+    ["/\\_/\\", "( o.o )", "> ^ <"],
+    ["(\\_/)", "(o.o)", "/|_|\\"],
+    ["^__^", "(oo)\\_______", "(__)\\       )\\/\\"],
+    ["/^ ^\\", "/ 0 0 \\", "V\\ Y /V"],
+    [",_,", "(o,o)", "(\"_\")"],
 ]
 
 TECH_QUOTES = [
@@ -214,8 +214,8 @@ def format_hours(seconds: float) -> str:
     return f"{seconds / 3600:5.2f} h"
 
 def with_right(main_text: str, side_text: str = "") -> str:
-    side = (side_text or "").rstrip()
-    if not side.strip():
+    side = (side_text or "").strip()
+    if not side:
         return main_text
     if len(side) > 30:
         side = side[:27].rstrip() + "..."
