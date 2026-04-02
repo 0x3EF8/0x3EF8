@@ -47,60 +47,62 @@ export default developer;
 ```text
 0x3EF8 · Dev Metrics
 From: 2020 - To: 2026   |   47+ public repos   |   52 stars
+WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Python            ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱   28.89 %   (13 repos)
- JavaScript        ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   26.67 %   (12 repos)
- HTML              ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   11.11 %   (5 repos)
- TypeScript        ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.67 %   (3 repos)
- Batchfile         ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.67 %   (3 repos)
- PHP               ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    6.67 %   (3 repos)
- Visual Basic .NET ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    4.44 %   (2 repos)
- Java              ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.22 %   (1 repo )
+ TypeScript        ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   35.03 %
+ Python            ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   20.43 %
+ SQL               ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.37 %
+ Markdown          ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   12.25 %
+ JSON              ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    5.56 %
+ Text              ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    3.17 %
+ PHP               ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.17 %
+ Bash              ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.02 %
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06–12)   ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   21.93 %
- Daytime    (12–18)   ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   23.68 %
- Evening    (18–24)   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   36.84 %
- Night      (00–06)   ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   17.54 %
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    1.60 %
+ Daytime    (12-18)   ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   18.25 %
+ Evening    (18-24)   ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   23.09 %
+ Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱   57.06 %
 
  I Am Most Productive On
 
- Monday     ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    7.02 %
- Tuesday    ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    3.51 %
- Wednesday  ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   24.56 %
- Thursday   ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   24.56 %
- Friday     ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   12.28 %
- Saturday   ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.63 %
- Sunday     ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   25.44 %
+ Monday     ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱   31.82 %
+ Tuesday    ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   24.07 %
+ Wednesday  ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    7.01 %
+ Thursday   ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   23.75 %
+ Friday     ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    9.29 %
+ Saturday   ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    0.00 %
+ Sunday     ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    4.07 %
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱   91.89 %
- Visual Studio     ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    5.41 %
- Android Studio    ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    2.70 %
+ VS Code           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰   100.00 %
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱   95.00 %
- Linux             ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    5.00 %
+ Windows           ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰   100.00 %
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects (by repo category)
- AI & Automation   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   36.17 %  (GitHell, 0x3EF8, Claude-Code-Leak-Rebuild ...)
+ AI & Automation   ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱   36.17 %  (0x3EF8, GitHell, Claude-Code-Leak-Rebuild ...)
  Web Development   ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.89 %  (CCS-Web-Design, EduPay, CCS-WebDesign-Contest ...)
  Tools & Scripts   ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱    8.51 %  (PsychoNet-ARP-Spoofing-Tool, WordCloud-Generator, KMS-Activator-Pro-Windows-Office-Activation-Tool ...)
  Bots & Messenger  ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱   14.89 %  (Nero-Facebook-Bot, Nero-Spectrum-AI, Micro-Downloader ...)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages from GitHub API · Time/Day from push activity · Updated: 2026-04-02 13:44 UTC
+ Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: 2026-04-02 22:35 PHT
 ```
 <!-- STATS:END -->
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5d47e43 (feat(readme): integrate WakaTime-powered activity metrics)
