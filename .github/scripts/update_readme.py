@@ -477,9 +477,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     for cat_name in ["AI & Automation","Web Development","Tools & Scripts","Bots & Messenger"]:
         repos_in = cats.get(cat_name, [])
         pct      = len(repos_in) / cat_total * 100
-        sample   = ", ".join(repos_in[:3])
-        suffix   = f"  ({sample} ...)" if sample else ""
-        L.append(f" {cat_name:<17} {progress_bar(pct)}   {pct:5.2f} %{suffix}")
+        L.append(f" {cat_name:<17} {progress_bar(pct)}   {pct:5.2f} %")
     L.append("")
     L.append(SEP)
     L.append(f" Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: {now}")
