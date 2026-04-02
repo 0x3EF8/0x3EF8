@@ -46,22 +46,22 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                     | Quick Insights
-From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | Top Lang : TypeScript (35.03%)
-WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg       | Peak Time: Night (51.27%)
+From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | Top Lang : TypeScript (46.87%)
+WakaTime (last 7d): 17 hrs 1 min total · 2 hrs 50 mins daily avg         | Peak Time: Night (51.27%)
                                                                          | Peak Day : Monday (34.10%)
                                                                          | Sessions : 43 tracked
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   35.03 %   |  4.91 h
- Python            ▰▰▱▱▱▱▱▱▱▱   20.43 %   |  2.86 h
- SQL               ▰▱▱▱▱▱▱▱▱▱   14.37 %   |  2.01 h
- Markdown          ▰▱▱▱▱▱▱▱▱▱   12.25 %   |  1.72 h
- JSON              ▰▱▱▱▱▱▱▱▱▱    5.56 %   |  0.78 h
- Text              ▱▱▱▱▱▱▱▱▱▱    3.17 %   |  0.44 h
- PHP               ▱▱▱▱▱▱▱▱▱▱    2.17 %   |  0.30 h
- Bash              ▱▱▱▱▱▱▱▱▱▱    2.02 %   |  0.28 h
+ TypeScript        ▰▰▰▰▰▱▱▱▱▱   46.87 %   |  8.00 h
+ Python            ▰▰▱▱▱▱▱▱▱▱   18.18 %   |  3.10 h
+ Markdown          ▰▱▱▱▱▱▱▱▱▱   14.09 %   |  2.40 h
+ SQL               ▰▱▱▱▱▱▱▱▱▱    8.47 %   |  1.44 h
+ JSON              ▱▱▱▱▱▱▱▱▱▱    4.65 %   |  0.79 h
+ Text              ▱▱▱▱▱▱▱▱▱▱    2.69 %   |  0.46 h
+ Bash              ▱▱▱▱▱▱▱▱▱▱    1.71 %   |  0.29 h
+ Git Config        ▱▱▱▱▱▱▱▱▱▱    1.60 %   |  0.27 h
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -85,10 +85,10 @@ WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg       | Peak
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 14.01 h
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 17.06 h
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 14.01 h
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 17.06 h
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -99,6 +99,6 @@ WakaTime (last 7d): 13 hrs 46 mins total · 2 hrs 17 mins daily avg       | Peak
  Bots & Messenger  ▰▱▱▱▱▱▱▱▱▱   14.89 %
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: 2026-04-03 00:03 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: 2026-04-03 00:06 PHT
 ```
 <!-- STATS:END -->
