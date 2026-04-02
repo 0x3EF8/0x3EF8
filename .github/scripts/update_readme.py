@@ -499,7 +499,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         )
     )
     L.append(with_right("", f"Peak Day : {peak_day} ({peak_day_pct:5.2f}%)"))
-    L.append(with_right("", f"Sessions : {tracked_sessions} tracked"))
+    L.append(with_right("", f"Activity : {tracked_sessions} chunks"))
     L.append("")
     L.append(SEP)
     L.append("")

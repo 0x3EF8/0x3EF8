@@ -49,7 +49,7 @@ export default developer;
 From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | Top Lang : TypeScript (44.99%)
 WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | Peak Time: Night (52.05%)
                                                                          | Peak Day : Monday (33.55%)
-                                                                         | Sessions : 43 tracked
+                                                                         | Activity : 43 chunks
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
