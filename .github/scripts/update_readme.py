@@ -28,6 +28,64 @@ MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
 MAIN_COL_WIDTH  = 72
 
+PET_ARTS = [
+    [" /\\_/\\ ", "( o.o )", " > ^ < "],
+    [" (\\_/)", " (o.o)", " /|_|\\ "],
+    [" /^ ^\\ ", "/ 0 0 \\", " V\\ Y /V"],
+]
+
+TECH_QUOTES = [
+    "Ship small. Learn fast.",
+    "Readable code scales teams.",
+    "Tests turn fear into speed.",
+    "Automation buys thinking time.",
+    "Refactor early, ship confidently.",
+    "Great DX creates great UX.",
+    "Consistency compounds quality.",
+    "Simple code survives long-term.",
+]
+
+TIME_RIGHT_NOTES = [
+    "Plan and warm up.",
+    "Build and iterate.",
+    "Feature flow window.",
+    "Deep focus zone.",
+    "Review and polish.",
+    "Debug and refine.",
+]
+
+DAY_RIGHT_NOTES = [
+    "Momentum day",
+    "Shipping day",
+    "Refactor day",
+    "Review day",
+    "Automation day",
+    "Learning day",
+    "Planning day",
+]
+
+EDITOR_RIGHT_NOTES = [
+    "Keyboard-first workflow.",
+    "Fast feedback loop.",
+    "Plugins tuned for speed.",
+    "Focus mode ready.",
+]
+
+OS_RIGHT_NOTES = [
+    "Stable dev environment.",
+    "Toolchain optimized.",
+    "Build-ready setup.",
+    "Automation friendly.",
+]
+
+PROJECT_RIGHT_NOTES = [
+    "Core growth lane.",
+    "Product-facing track.",
+    "Utility and ops track.",
+    "Community-facing track.",
+    "Long-term investment.",
+]
+
 # Philippines Standard Time = UTC+8 (no DST)
 LOCAL_TZ = timezone(timedelta(hours=8))
 
@@ -56,10 +114,10 @@ def _extract_section_percentages(block: str, start_title: str, end_title: str) -
     in_section = False
     for line in block.splitlines():
         stripped = line.strip()
-        if stripped == start_title:
+        if stripped.startswith(start_title):
             in_section = True
             continue
-        if in_section and stripped == end_title:
+        if in_section and stripped.startswith(end_title):
             break
         if not in_section:
             continue
@@ -158,6 +216,36 @@ def with_right(main_text: str, side_text: str = "") -> str:
         return main_text
     return f"{main_text:<{MAIN_COL_WIDTH}} | {side_text}"
 
+def rotation_seed(now_text: str) -> int:
+    run_id = os.environ.get("GITHUB_RUN_ID") or "local"
+    run_attempt = os.environ.get("GITHUB_RUN_ATTEMPT") or "1"
+    source = f"{run_id}:{run_attempt}:{now_text}"
+    return sum((i + 1) * ord(ch) for i, ch in enumerate(source))
+
+def rotate_pick(items: list, seed: int, count: int) -> list:
+    if not items or count <= 0:
+        return []
+    return [items[(seed + i) % len(items)] for i in range(count)]
+
+def language_side_lines(seed: int, count: int) -> list:
+    if count <= 0:
+        return []
+
+    pet = PET_ARTS[seed % len(PET_ARTS)]
+    quote = TECH_QUOTES[(seed // 3) % len(TECH_QUOTES)]
+    lines = [
+        pet[0],
+        pet[1],
+        pet[2],
+        f'"{quote}"',
+    ]
+
+    if len(lines) < count:
+        remaining = count - len(lines)
+        lines.extend([f"Tip: {q}" for q in rotate_pick(TECH_QUOTES, seed + 7, remaining)])
+
+    return lines[:count]
+
 def wakatime_get(resource: str, params: dict | None = None, retries: int = 3) -> any:
     url = f"{WAKATIME_BASE_URL}/{resource}"
     for attempt in range(retries):
@@ -232,8 +320,6 @@ def extract_wakatime_percentages(
 def wakatime_activity_stats(wakatime_durations: list) -> tuple:
     hour_map = {"Morning": 0.0, "Daytime": 0.0, "Evening": 0.0, "Night": 0.0}
     day_map: dict = defaultdict(float)
-    hour_count_map = {"Morning": 0, "Daytime": 0, "Evening": 0, "Night": 0}
-    day_count_map: dict = defaultdict(int)
     total_seconds = 0.0
 
     for item in wakatime_durations:
@@ -259,11 +345,9 @@ def wakatime_activity_stats(wakatime_durations: list) -> tuple:
         )
         hour_map[bucket] += duration_sec
         day_map[local_dt.strftime("%A")] += duration_sec
-        hour_count_map[bucket] += 1
-        day_count_map[local_dt.strftime("%A")] += 1
         total_seconds += duration_sec
 
-    return hour_map, dict(day_map), total_seconds, hour_count_map, dict(day_count_map)
+    return hour_map, dict(day_map), total_seconds
 
 def wakatime_day_stats_from_summary(wakatime_stats: any) -> dict:
     day_map: dict = defaultdict(float)
@@ -341,13 +425,14 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     own   = [r for r in repos if not r.get("fork")]
     stars = sum(r.get("stargazers_count", 0) for r in own)
     year  = datetime.now(timezone.utc).year
-    now   = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M PHT")
+    now   = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S PHT")
     SEP   = "━" * 58
+    seed  = rotation_seed(now)
 
     cats = categorize_repos(repos)
     cat_total = sum(len(v) for v in cats.values()) or 1
 
-    hour_map, day_map, duration_total, hour_count_map, day_count_map = wakatime_activity_stats(
+    hour_map, day_map, duration_total = wakatime_activity_stats(
         wakatime_durations
     )
 
@@ -420,64 +505,72 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append("")
 
     # Languages (WakaTime)
-    L.append(" Languages")
+    L.append(with_right(" Languages", "Pet + Tech Notes"))
     if wt_languages:
-        for lang_name, lang_pct, lang_seconds in wt_languages:
-            L.append(
-                f" {lang_name:<17} {progress_bar(lang_pct)}   {lang_pct:5.2f} %   | {format_hours(lang_seconds):>7}"
-            )
+        lang_right = language_side_lines(seed, len(wt_languages))
+        for idx, (lang_name, lang_pct, lang_seconds) in enumerate(wt_languages):
+            row = f" {lang_name:<17} {progress_bar(lang_pct)}   {lang_pct:5.2f} %   | {format_hours(lang_seconds):>7}"
+            L.append(with_right(row, lang_right[idx]))
     else:
-        L.append(" WakaTime data unavailable (set WAKATIME_API_KEY).")
+        L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
     L.append("")
     L.append(SEP)
     L.append("")
 
     # Time of day (WakaTime durations)
-    L.append(" I Code Most During")
+    L.append(with_right(" I Code Most During", "Rhythm Notes"))
     L.append("")
+    time_right = rotate_pick(TIME_RIGHT_NOTES, seed + 11, 4)
     for slot, rng in [("Morning", "06-12"), ("Daytime", "12-18"), ("Evening", "18-24"), ("Night", "00-06")]:
         seconds = hour_map.get(slot, 0.0)
-        sessions = hour_count_map.get(slot, 0)
         pct = seconds / duration_total * 100 if duration_total else 0
-        L.append(
-            f" {slot:<10} ({rng})   {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7} | {sessions:2d} sess"
-        )
+        row = f" {slot:<10} ({rng})   {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
+        L.append(with_right(row, time_right.pop(0)))
 
     L.append("")
-    L.append(" I Am Most Productive On")
+    L.append(with_right(" I Am Most Productive On", "Weekly Notes"))
     L.append("")
     day_total = sum(day_map.values())
+    day_right = rotate_pick(DAY_RIGHT_NOTES, seed + 29, 7)
     for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]:
         seconds = day_map.get(day, 0.0)
-        sessions = day_count_map.get(day, 0)
         pct = seconds / day_total * 100 if day_total else 0
-        L.append(
-            f" {day:<10} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7} | {sessions:2d} sess"
-        )
+        row = f" {day:<10} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
+        L.append(with_right(row, day_right.pop(0)))
     L.append("")
     L.append(SEP)
     L.append("")
 
     # Editors (WakaTime)
-    L.append(" Editors")
-    for name, pct, seconds in (wt_editors or [("Unknown", 0.0, 0.0)]):
-        L.append(f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}")
+    L.append(with_right(" Editors", "Tooling Notes"))
+    editor_rows = wt_editors or [("Unknown", 0.0, 0.0)]
+    editor_right = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, len(editor_rows))
+    for idx, (name, pct, seconds) in enumerate(editor_rows):
+        row = f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
+        L.append(with_right(row, editor_right[idx]))
     L.append("")
 
     # Operating systems (WakaTime)
-    L.append(" Operating Systems")
-    for name, pct, seconds in (wt_os or [("Unknown", 0.0, 0.0)]):
-        L.append(f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}")
+    L.append(with_right(" Operating Systems", "Platform Notes"))
+    os_rows = wt_os or [("Unknown", 0.0, 0.0)]
+    os_right = rotate_pick(OS_RIGHT_NOTES, seed + 53, len(os_rows))
+    for idx, (name, pct, seconds) in enumerate(os_rows):
+        row = f" {name:<17} {progress_bar(pct)}   {pct:5.2f} %   | {format_hours(seconds):>7}"
+        L.append(with_right(row, os_right[idx]))
     L.append("")
     L.append(SEP)
     L.append("")
 
     # Project categories
-    L.append(" Projects (by repo category)")
-    for cat_name in ["AI & Automation","Web Development","Tools & Scripts","Bots & Messenger"]:
+    L.append(with_right(" Projects (by repo category)", "Category Notes"))
+    category_names = ["AI & Automation", "Web Development", "Tools & Scripts", "Bots & Messenger"]
+    project_right = rotate_pick(PROJECT_RIGHT_NOTES, seed + 67, len(category_names))
+    for idx, cat_name in enumerate(category_names):
         repos_in = cats.get(cat_name, [])
         pct      = len(repos_in) / cat_total * 100
-        L.append(f" {cat_name:<17} {progress_bar(pct)}   {pct:5.2f} %")
+        row = f" {cat_name:<17} {progress_bar(pct)}   {pct:5.2f} %"
+        side = f"{len(repos_in):2d} repos · {project_right[idx]}"
+        L.append(with_right(row, side))
     L.append("")
     L.append(SEP)
     L.append(f" Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: {now}")
