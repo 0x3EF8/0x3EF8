@@ -27,11 +27,12 @@ START_YEAR      = 2020
 MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
 MAIN_COL_WIDTH  = 72
+PET_LINE_WIDTH  = 8
 
 PET_ARTS = [
     ["/\\_/\\", "( o.o )", "> ^ <"],
     ["(\\_/)", "(o.o)", "/|_|\\"],
-    ["^__^", "(oo)\\_______", "(__)\\       )\\/\\"],
+    ["^__^", "(oo)", "/(__)\\"],
     ["/^ ^\\", "/ 0 0 \\", "V\\ Y /V"],
     [",_,", "(o,o)", "(\"_\")"],
 ]
@@ -232,11 +233,19 @@ def rotate_pick(items: list, seed: int, count: int) -> list:
         return []
     return [items[(seed + i) % len(items)] for i in range(count)]
 
+def align_pet_rows(rows: list) -> list:
+    aligned = []
+    for row in rows:
+        cell = (row or "").rstrip()
+        pad = max(1, (PET_LINE_WIDTH - len(cell)) // 2)
+        aligned.append(" " * pad + cell)
+    return aligned
+
 def language_side_lines(seed: int, count: int) -> list:
     if count <= 0:
         return []
 
-    pet = PET_ARTS[seed % len(PET_ARTS)]
+    pet = align_pet_rows(PET_ARTS[seed % len(PET_ARTS)])
     quote = TECH_QUOTES[(seed // 3) % len(TECH_QUOTES)]
     lines = [
         pet[0],

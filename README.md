@@ -53,9 +53,9 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                      | /\_/\
- Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                      | ( o.o )
- Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                      | > ^ <
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                      |  /\_/\
+ Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                      |  ( o.o )
+ Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                      |  > ^ <
  SQL               ▰▱▱▱▱▱▱▱▱▱    7.81 %   |  1.44 h                      | Tests turn fear into speed.
  JSON              ▱▱▱▱▱▱▱▱▱▱    4.31 %   |  0.80 h                      | Consistency compounds quality.
  Bash              ▱▱▱▱▱▱▱▱▱▱    4.15 %   |  0.77 h                      | Simple code survives long-t...
