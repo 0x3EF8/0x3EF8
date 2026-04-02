@@ -54,9 +54,9 @@ WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | Peak
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                      | /^ ^\
- Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                      | / 0 0 \
- Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                      | V\ Y /V
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                      | (=^.^=)
+ Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                      | (^_^)
+ Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                      | (o_o)
  SQL               ▰▱▱▱▱▱▱▱▱▱    7.81 %   |  1.44 h                      | Great DX creates great UX.
  JSON              ▱▱▱▱▱▱▱▱▱▱    4.31 %   |  0.80 h                      | Ship small. Learn fast.
  Bash              ▱▱▱▱▱▱▱▱▱▱    4.15 %   |  0.77 h                      | Readable code scales teams.

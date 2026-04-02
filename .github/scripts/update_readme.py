@@ -28,10 +28,13 @@ MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
 MAIN_COL_WIDTH  = 72
 
-PET_ARTS = [
-    [" /\\_/\\ ", "( o.o )", " > ^ < "],
-    [" (\\_/)", " (o.o)", " /|_|\\ "],
-    [" /^ ^\\ ", "/ 0 0 \\", " V\\ Y /V"],
+PET_ICONS = [
+    "(=^.^=)",
+    "(^_^)",
+    "(o_o)",
+    "(>_<)",
+    "(u_u)",
+    "(^.^)/",
 ]
 
 TECH_QUOTES = [
@@ -234,12 +237,12 @@ def language_side_lines(seed: int, count: int) -> list:
     if count <= 0:
         return []
 
-    pet = PET_ARTS[seed % len(PET_ARTS)]
+    pets = rotate_pick(PET_ICONS, seed, 3)
     quote = TECH_QUOTES[(seed // 3) % len(TECH_QUOTES)]
     lines = [
-        pet[0],
-        pet[1],
-        pet[2],
+        pets[0],
+        pets[1],
+        pets[2],
         quote,
     ]
 
