@@ -22,7 +22,7 @@ except ImportError:
 # ── Config ────────────────────────────────────────────────────────────────────
 GITHUB_USERNAME = "0x3EF8"
 README_PATH     = "README.md"
-BAR_WIDTH       = 20
+BAR_WIDTH       = 10
 START_YEAR      = 2020
 MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
