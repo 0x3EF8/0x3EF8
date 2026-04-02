@@ -214,8 +214,8 @@ def format_hours(seconds: float) -> str:
     return f"{seconds / 3600:5.2f} h"
 
 def with_right(main_text: str, side_text: str = "") -> str:
-    side = (side_text or "").strip()
-    if not side:
+    side = (side_text or "").rstrip()
+    if not side.strip():
         return main_text
     if len(side) > 30:
         side = side[:27].rstrip() + "..."
@@ -505,6 +505,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     )
     L.append(with_right("", f"Peak Day : {peak_day} ({peak_day_pct:5.2f}%)"))
     L.append(with_right("", f"Activity : {tracked_sessions} chunks"))
+    L.append("Stats & Proficiency")
     L.append("")
     L.append(SEP)
     L.append("")

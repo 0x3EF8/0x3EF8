@@ -41,8 +41,6 @@ const developer = {
 export default developer;
 ```
 
-### Stats & Proficiency
-
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                     | Quick Insights
@@ -50,6 +48,7 @@ From: 2020 - To: 2026   |   47+ public repos   |   52 stars              | Top L
 WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg        | Peak Time: Night (52.16%)
                                                                          | Peak Day : Monday (33.48%)
                                                                          | Activity : 44 chunks
+Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
