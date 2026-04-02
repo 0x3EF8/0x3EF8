@@ -28,13 +28,12 @@ MARKER_START    = "<!-- STATS:START -->"
 MARKER_END      = "<!-- STATS:END -->"
 MAIN_COL_WIDTH  = 72
 
-PET_ICONS = [
-    "(=^.^=)",
-    "(^_^)",
-    "(o_o)",
-    "(>_<)",
-    "(u_u)",
-    "(^.^)/",
+PET_ARTS = [
+    [" /\\_/\\", "( o.o )", " > ^ <"],
+    [" (\\_/)", " (o.o)", " /|_|\\"],
+    ["  ^__^", "  (oo)\\_______", "  (__)\\       )\\/\\"],
+    [" /^ ^\\", "/ 0 0 \\", " V\\ Y /V"],
+    ["  ,_,", " (o,o)", " (\"_\")"],
 ]
 
 TECH_QUOTES = [
@@ -215,11 +214,11 @@ def format_hours(seconds: float) -> str:
     return f"{seconds / 3600:5.2f} h"
 
 def with_right(main_text: str, side_text: str = "") -> str:
-    side = " ".join((side_text or "").split())
-    if not side:
+    side = (side_text or "").rstrip()
+    if not side.strip():
         return main_text
     if len(side) > 30:
-        side = side[:27] + "..."
+        side = side[:27].rstrip() + "..."
     return f"{main_text:<{MAIN_COL_WIDTH}} | {side}"
 
 def rotation_seed(now_text: str) -> int:
@@ -237,12 +236,12 @@ def language_side_lines(seed: int, count: int) -> list:
     if count <= 0:
         return []
 
-    pets = rotate_pick(PET_ICONS, seed, 3)
+    pet = PET_ARTS[seed % len(PET_ARTS)]
     quote = TECH_QUOTES[(seed // 3) % len(TECH_QUOTES)]
     lines = [
-        pets[0],
-        pets[1],
-        pets[2],
+        pet[0],
+        pet[1],
+        pet[2],
         quote,
     ]
 
