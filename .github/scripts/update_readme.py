@@ -447,6 +447,11 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     if wt_languages:
         top_lang_name, top_lang_pct, _ = wt_languages[0]
 
+    top_editor_name = "n/a"
+    top_editor_pct = 0.0
+    if wt_editors:
+        top_editor_name, top_editor_pct, _ = wt_editors[0]
+
     if duration_total > 0:
         peak_slot, peak_slot_seconds = max(hour_map.items(), key=lambda x: x[1])
         peak_slot_pct = peak_slot_seconds / duration_total * 100
@@ -471,7 +476,10 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         )
     )
     L.append(
-        f"{repo_visibility}   |   {stars} stars"
+        with_right(
+            f"{repo_visibility}   |   {stars} stars",
+            f"Top Editor: {top_editor_name} ({top_editor_pct:5.2f}%)",
+        )
     )
     L.append(
         with_right(
