@@ -45,19 +45,19 @@ export default developer;
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
 From: 2020 - To: 2026                                                      | Top Lang : TypeScript (44.99%)
-118 repos (47 public, 71 private)   |   53 stars
-WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg          | Peak Time: Night (55.60%)
-                                                                           | Peak Day : Monday (29.15%)
+118 repos (47 public, 71 private)   |   53 stars                           | Top Editor: VS Code (100.00%)
+WakaTime (last 7d): 18 hrs 24 mins total · 3 hrs 4 mins daily avg          | Peak Time: Night (54.85%)
+                                                                           | Peak Day : Monday (28.76%)
                                                                            | Activity : 46 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                        |   ^__^
- Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                        |   (oo)
- Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                        |  /(__)\
- SQL               ▰▱▱▱▱▱▱▱▱▱    7.81 %   |  1.44 h                        | Simple code survives long-t...
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   44.99 %   |  8.32 h                        |  (\_/)
+ Python            ▰▰▱▱▱▱▱▱▱▱   19.69 %   |  3.64 h                        |  (o.o)
+ Markdown          ▰▱▱▱▱▱▱▱▱▱   13.24 %   |  2.45 h                        |  /|_|\
+ SQL               ▰▱▱▱▱▱▱▱▱▱    7.81 %   |  1.44 h                        | Refactor early, ship confid...
  JSON              ▱▱▱▱▱▱▱▱▱▱    4.31 %   |  0.80 h                        | Great DX creates great UX.
  Bash              ▱▱▱▱▱▱▱▱▱▱    4.15 %   |  0.77 h                        | Consistency compounds quality.
  Text              ▱▱▱▱▱▱▱▱▱▱    2.48 %   |  0.46 h                        | Simple code survives long-t...
@@ -67,20 +67,20 @@ Stats & Proficiency
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    4.20 %   |  0.83 h                     | Deep focus zone.
- Daytime    (12-18)   ▰▰▱▱▱▱▱▱▱▱   16.73 %   |  3.29 h                     | Review and polish.
- Evening    (18-24)   ▰▰▱▱▱▱▱▱▱▱   23.47 %   |  4.62 h                     | Debug and refine.
- Night      (00-06)   ▰▰▰▰▰▰▱▱▱▱   55.60 %   | 10.94 h                     | Plan and warm up.
+ Morning    (06-12)   ▰▱▱▱▱▱▱▱▱▱    5.49 %   |  1.09 h                     | Build and iterate.
+ Daytime    (12-18)   ▰▰▱▱▱▱▱▱▱▱   16.50 %   |  3.29 h                     | Feature flow window.
+ Evening    (18-24)   ▰▰▱▱▱▱▱▱▱▱   23.16 %   |  4.62 h                     | Deep focus zone.
+ Night      (00-06)   ▰▰▰▰▰▱▱▱▱▱   54.85 %   | 10.94 h                     | Review and polish.
 
  I Am Most Productive On
 
- Monday     ▰▰▰▱▱▱▱▱▱▱   29.15 %   |  5.74 h                               | Refactor day
- Tuesday    ▰▰▱▱▱▱▱▱▱▱   22.06 %   |  4.34 h                               | Review day
- Wednesday  ▰▱▱▱▱▱▱▱▱▱    6.42 %   |  1.26 h                               | Automation day
- Thursday   ▰▰▱▱▱▱▱▱▱▱   24.08 %   |  4.74 h                               | Learning day
- Friday     ▰▱▱▱▱▱▱▱▱▱   14.56 %   |  2.87 h                               | Planning day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
- Sunday     ▱▱▱▱▱▱▱▱▱▱    3.73 %   |  0.73 h                               | Shipping day
+ Monday     ▰▰▰▱▱▱▱▱▱▱   28.76 %   |  5.74 h                               | Automation day
+ Tuesday    ▰▰▱▱▱▱▱▱▱▱   21.76 %   |  4.34 h                               | Learning day
+ Wednesday  ▰▱▱▱▱▱▱▱▱▱    6.33 %   |  1.26 h                               | Planning day
+ Thursday   ▰▰▱▱▱▱▱▱▱▱   23.76 %   |  4.74 h                               | Momentum day
+ Friday     ▰▰▱▱▱▱▱▱▱▱   15.71 %   |  3.13 h                               | Shipping day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
+ Sunday     ▱▱▱▱▱▱▱▱▱▱    3.68 %   |  0.73 h                               | Review day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -89,6 +89,6 @@ Stats & Proficiency
  Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.49 h                       | Automation friendly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-03 11:11:07 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-03 11:26:14 PHT
 ```
 <!-- STATS:END -->
