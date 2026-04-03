@@ -33,7 +33,7 @@ PET_ARTS = [
     ["/\\_/\\", "( o.o )", "> ^ <"],
     ["(\\_/)", "(o.o)", "/|_|\\"],
     ["^__^", "(oo)", "/(__)\\"],
-    ["/^ ^\\", "/ 0 0 \\", "V\\ Y /V"],
+    ["/\\_/\\", "/ o o \\", "\\_^_/"],
     [",_,", "(o,o)", "(\"_\")"],
 ]
 
@@ -214,7 +214,7 @@ def align_pet_rows(rows: list) -> list:
     aligned = []
     for row in rows:
         cell = (row or "").rstrip()
-        pad = max(1, (PET_LINE_WIDTH - len(cell)) // 2)
+        pad = max(0, (PET_LINE_WIDTH - len(cell)) // 2)
         aligned.append(" " * pad + cell)
     return aligned
 
@@ -466,9 +466,12 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(with_right("0x3EF8 · Dev Metrics", "Quick Insights"))
     L.append(
         with_right(
-            f"From: {START_YEAR} - To: {year}   |   {repo_visibility}   |   {stars} stars",
+            f"From: {START_YEAR} - To: {year}",
             f"Top Lang : {top_lang_name} ({top_lang_pct:5.2f}%)",
         )
+    )
+    L.append(
+        f"{repo_visibility}   |   {stars} stars"
     )
     L.append(
         with_right(
