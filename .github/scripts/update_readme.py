@@ -5,7 +5,7 @@ Fetches live data from the GitHub API and auto-updates the Stats block in README
 
 Data sources:
     - WakaTime      : languages, coding-time distribution, day-of-week, editors, operating systems
-    - GitHub API    : repo count, stars, and project categories
+    - GitHub API    : repo visibility count and stars
 """
 
 import os
@@ -81,18 +81,11 @@ OS_RIGHT_NOTES = [
     "Automation friendly.",
 ]
 
-PROJECT_RIGHT_NOTES = [
-    "Core growth lane.",
-    "Product-facing track.",
-    "Utility and ops track.",
-    "Community-facing track.",
-    "Long-term investment.",
-]
-
 # Philippines Standard Time = UTC+8 (no DST)
 LOCAL_TZ = timezone(timedelta(hours=8))
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
+PROFILE_GITHUB_TOKEN = os.environ.get("PROFILE_GITHUB_TOKEN", "").strip()
+GITHUB_TOKEN = PROFILE_GITHUB_TOKEN or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
 WAKATIME_API_KEY = os.environ.get("WAKATIME_API_KEY") or ""
 WAKATIME_BASE_URL = "https://wakatime.com/api/v1/users/current"
 HEADERS = {
@@ -186,22 +179,6 @@ def validate_stats_block(block: str) -> None:
         raise ValueError("Stats validation failed:\n  - " + "\n  - ".join(errors))
 
     print(f"Stats validation passed ({checked_rows} bar rows checked).")
-
-def api_get(url: str, retries: int = 3) -> any:
-    for attempt in range(retries):
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=15)
-            if r.status_code == 403 and "rate limit" in r.text.lower():
-                wait = int(r.headers.get("Retry-After", 60))
-                print(f"  Rate limited. Waiting {wait}s...")
-                time.sleep(wait)
-                continue
-            r.raise_for_status()
-            return r.json()
-        except requests.RequestException as e:
-            if attempt == retries - 1:
-                raise
-            time.sleep(2 ** attempt)
 
 def _to_float(value: any, default: float = 0.0) -> float:
     try:
@@ -401,50 +378,37 @@ def paginate(url: str) -> list:
 
 # ── Data fetching ─────────────────────────────────────────────────────────────
 def fetch_repos() -> list:
+    if PROFILE_GITHUB_TOKEN:
+        try:
+            repos = paginate(
+                "https://api.github.com/user/repos"
+                "?per_page=100&visibility=all&affiliation=owner&sort=pushed"
+            )
+            if repos:
+                return repos
+        except requests.RequestException as e:
+            print(f"  Failed private-repo fetch; falling back to public repos: {e}")
+
     return paginate(
         f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
         "?per_page=100&type=owner&sort=pushed"
     )
 
-_CAT_RULES = [
-    ("Bots & Messenger", ["bot", "messenger", "facebook", "nero", "gitbell", "gitchell"]),
-    ("AI & Automation",  ["ai", "ml", "agent", "nexus", "aether", "moltbook", "auto", "gpt"]),
-    ("Web Development",  ["web", "devpulse", "css", "edu", "design", "dashboard", "site", "pay"]),
-    ("Tools & Scripts",  ["tool", "script", "downloader", "micro", "xampp", "util", "cli"]),
-]
-
-def categorize_repos(repos: list) -> dict:
-    cats = {k: [] for k, _ in _CAT_RULES}
-    cats["Other"] = []
-    for repo in repos:
-        if repo.get("fork"):
-            continue
-        combined = (
-            repo["name"].lower() + " " +
-            (repo.get("description") or "").lower() + " " +
-            " ".join(repo.get("topics", []))
-        )
-        matched = False
-        for cat_name, keywords in _CAT_RULES:
-            if any(kw in combined for kw in keywords):
-                cats[cat_name].append(repo["name"])
-                matched = True
-                break
-        if not matched:
-            cats["Other"].append(repo["name"])
-    return cats
-
 # ── Block generator ───────────────────────────────────────────────────────────
 def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list) -> str:
     own   = [r for r in repos if not r.get("fork")]
+    public_count = sum(1 for r in own if not r.get("private"))
+    private_count = sum(1 for r in own if r.get("private"))
     stars = sum(r.get("stargazers_count", 0) for r in own)
     year  = datetime.now(timezone.utc).year
     now   = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S PHT")
     SEP   = "━" * 58
     seed  = rotation_seed(now)
 
-    cats = categorize_repos(repos)
-    cat_total = sum(len(v) for v in cats.values()) or 1
+    if private_count > 0:
+        repo_visibility = f"{len(own)} repos ({public_count} public, {private_count} private)"
+    else:
+        repo_visibility = f"{public_count}+ public repos"
 
     hour_map, day_map, duration_total = wakatime_activity_stats(
         wakatime_durations
@@ -502,7 +466,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(with_right("0x3EF8 · Dev Metrics", "Quick Insights"))
     L.append(
         with_right(
-            f"From: {START_YEAR} - To: {year}   |   {len(own)}+ public repos   |   {stars} stars",
+            f"From: {START_YEAR} - To: {year}   |   {repo_visibility}   |   {stars} stars",
             f"Top Lang : {top_lang_name} ({top_lang_pct:5.2f}%)",
         )
     )
@@ -571,21 +535,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(with_right(os_row, top_os_note))
     L.append("")
     L.append(SEP)
-    L.append("")
-
-    # Project categories
-    L.append(" Projects (by repo category)")
-    category_names = ["AI & Automation", "Web Development", "Tools & Scripts", "Bots & Messenger"]
-    project_right = rotate_pick(PROJECT_RIGHT_NOTES, seed + 67, len(category_names))
-    for idx, cat_name in enumerate(category_names):
-        repos_in = cats.get(cat_name, [])
-        pct      = len(repos_in) / cat_total * 100
-        row = f" {cat_name:<17} {progress_bar(pct)}   {pct:5.2f} %"
-        side = f"{len(repos_in):2d} repos · {project_right[idx]}"
-        L.append(with_right(row, side))
-    L.append("")
-    L.append(SEP)
-    L.append(f" Languages/Time/Day/Editors/OS from WakaTime API · Projects from GitHub API · Updated: {now}")
+    L.append(f" Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: {now}")
 
     return "\n".join(L)
 
@@ -621,7 +571,11 @@ def main():
     print(f"Fetching repos for {GITHUB_USERNAME}...")
     repos = fetch_repos()
     own   = [r for r in repos if not r.get("fork")]
-    print(f"  {len(own)} own repos ({len(repos) - len(own)} forks excluded)")
+    public_count = sum(1 for r in own if not r.get("private"))
+    private_count = sum(1 for r in own if r.get("private"))
+    print(
+        f"  {len(own)} own repos ({public_count} public, {private_count} private, {len(repos) - len(own)} forks excluded)"
+    )
 
     print("Fetching WakaTime stats...")
     wakatime_stats = fetch_wakatime_stats()
