@@ -24,7 +24,7 @@ const developer = {
     languages:  ["JavaScript", "TypeScript", "Python", "PHP", "C#"],
     frontend:   ["React", "Next.js", "Vue.js", "Tailwind CSS", "Sass"],
     backend:    ["Node.js", "Express.js", "Laravel", "REST APIs", "GraphQL"],
-    databases:  ["MongoDB", "MySQL", "PostgreSQL", "Firebase"],
+    databases:  ["MongoDB", "MySQL", "PostgreSQL", "Firebase", "Supabase"],
     devOps:     ["Git", "Docker", "GitHub Actions", "CI/CD", "AWS · GCP · Azure"],
     automation: ["Python Scripting", "Web Scraping", "Shell & Batch Scripts"],
   },
