@@ -54,33 +54,33 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   30.37 %   |  6.26 h                        |  /\_/\
- Markdown          ▰▰▰▱▱▱▱▱▱▱   25.38 %   |  5.23 h                        | / o o \
- Other             ▰▰▱▱▱▱▱▱▱▱   20.03 %   |  4.13 h                        |  \_^_/
- Bash              ▰▱▱▱▱▱▱▱▱▱    6.64 %   |  1.37 h                        | Tests turn fear into speed.
- CSS               ▱▱▱▱▱▱▱▱▱▱    4.72 %   |  0.97 h                        | Consistency compounds quality.
- SQL               ▱▱▱▱▱▱▱▱▱▱    4.26 %   |  0.88 h                        | Simple code survives long-t...
- JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.35 %   |  0.69 h                        | Ship small. Learn fast.
- JSON              ▱▱▱▱▱▱▱▱▱▱    2.22 %   |  0.46 h                        | Readable code scales teams.
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   30.37 %   |  6.26 h                        |  (\_/)
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   25.38 %   |  5.23 h                        |  (o.o)
+ Other             ▰▰▱▱▱▱▱▱▱▱   20.03 %   |  4.13 h                        |  /|_|\
+ Bash              ▰▱▱▱▱▱▱▱▱▱    6.64 %   |  1.37 h                        | Automation buys thinking time.
+ CSS               ▱▱▱▱▱▱▱▱▱▱    4.72 %   |  0.97 h                        | Tests turn fear into speed.
+ SQL               ▱▱▱▱▱▱▱▱▱▱    4.26 %   |  0.88 h                        | Automation buys thinking time.
+ JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.35 %   |  0.69 h                        | Refactor early, ship confid...
+ JSON              ▱▱▱▱▱▱▱▱▱▱    2.22 %   |  0.46 h                        | Great DX creates great UX.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▰▰▱▱▱▱▱▱▱▱   17.22 %   |  3.63 h                     | Plan and warm up.
- Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   11.66 %   |  2.46 h                     | Build and iterate.
- Evening    (18-24)   ▰▰▰▰▱▱▱▱▱▱   38.28 %   |  8.07 h                     | Feature flow window.
- Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   32.85 %   |  6.92 h                     | Deep focus zone.
+ Morning    (06-12)   ▰▰▱▱▱▱▱▱▱▱   17.22 %   |  3.63 h                     | Review and polish.
+ Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   11.66 %   |  2.46 h                     | Debug and refine.
+ Evening    (18-24)   ▰▰▰▰▱▱▱▱▱▱   38.28 %   |  8.07 h                     | Plan and warm up.
+ Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   32.85 %   |  6.92 h                     | Build and iterate.
 
  I Am Most Productive On
 
- Monday     ▰▱▱▱▱▱▱▱▱▱    9.94 %   |  2.10 h                               | Momentum day
- Tuesday    ▰▰▱▱▱▱▱▱▱▱   19.10 %   |  4.02 h                               | Shipping day
- Wednesday  ▰▱▱▱▱▱▱▱▱▱    5.09 %   |  1.07 h                               | Refactor day
- Thursday   ▰▰▰▰▱▱▱▱▱▱   43.15 %   |  9.09 h                               | Review day
- Friday     ▱▱▱▱▱▱▱▱▱▱    2.08 %   |  0.44 h                               | Automation day
- Saturday   ▰▱▱▱▱▱▱▱▱▱    9.03 %   |  1.90 h                               | Learning day
- Sunday     ▰▱▱▱▱▱▱▱▱▱   11.62 %   |  2.45 h                               | Planning day
+ Monday     ▰▱▱▱▱▱▱▱▱▱    9.94 %   |  2.10 h                               | Planning day
+ Tuesday    ▰▰▱▱▱▱▱▱▱▱   19.10 %   |  4.02 h                               | Momentum day
+ Wednesday  ▰▱▱▱▱▱▱▱▱▱    5.09 %   |  1.07 h                               | Shipping day
+ Thursday   ▰▰▰▰▱▱▱▱▱▱   43.15 %   |  9.09 h                               | Refactor day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    2.08 %   |  0.44 h                               | Review day
+ Saturday   ▰▱▱▱▱▱▱▱▱▱    9.03 %   |  1.90 h                               | Automation day
+ Sunday     ▰▱▱▱▱▱▱▱▱▱   11.62 %   |  2.45 h                               | Learning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -89,6 +89,6 @@ Stats & Proficiency
  Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 20.62 h                       | Stable dev environment.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-17 01:13:43 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-17 01:15:13 PHT
 ```
 <!-- STATS:END -->
