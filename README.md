@@ -54,14 +54,14 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   30.37 %   |  6.26 h                        |  (\_/)
- Markdown          ▰▰▰▱▱▱▱▱▱▱   25.38 %   |  5.23 h                        |  (o.o)
- Other             ▰▰▱▱▱▱▱▱▱▱   20.03 %   |  4.13 h                        |  /|_|\
- Bash              ▰▱▱▱▱▱▱▱▱▱    6.64 %   |  1.37 h                        | Refactor early, ship confid...
- CSS               ▱▱▱▱▱▱▱▱▱▱    4.72 %   |  0.97 h                        | Automation buys thinking time.
- SQL               ▱▱▱▱▱▱▱▱▱▱    4.26 %   |  0.88 h                        | Refactor early, ship confid...
- JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.35 %   |  0.69 h                        | Great DX creates great UX.
- JSON              ▱▱▱▱▱▱▱▱▱▱    2.22 %   |  0.46 h                        | Consistency compounds quality.
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   30.37 %   |  6.26 h                        |  /\_/\
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   25.38 %   |  5.23 h                        | / o o \
+ Other             ▰▰▱▱▱▱▱▱▱▱   20.03 %   |  4.13 h                        |  \_^_/
+ Bash              ▰▱▱▱▱▱▱▱▱▱    6.64 %   |  1.37 h                        | Tests turn fear into speed.
+ CSS               ▱▱▱▱▱▱▱▱▱▱    4.72 %   |  0.97 h                        | Great DX creates great UX.
+ SQL               ▱▱▱▱▱▱▱▱▱▱    4.26 %   |  0.88 h                        | Consistency compounds quality.
+ JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.35 %   |  0.69 h                        | Simple code survives long-t...
+ JSON              ▱▱▱▱▱▱▱▱▱▱    2.22 %   |  0.46 h                        | Ship small. Learn fast.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -85,10 +85,10 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▱   87.10 %   | 17.96 h                        | Fast feedback loop.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 20.62 h                       | Toolchain optimized.
+ VS Code           ▰▰▰▰▰▰▰▰▰▱   87.10 %   | 17.96 h                        | Focus mode ready.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 20.62 h                       | Automation friendly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-17 01:00:09 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-17 01:01:27 PHT
 ```
 <!-- STATS:END -->
