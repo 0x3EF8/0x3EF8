@@ -54,41 +54,41 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   30.37 %   |  6.26 h                        |   ^__^
- Markdown          ▰▰▰▱▱▱▱▱▱▱   25.38 %   |  5.23 h                        |   (oo)
- Other             ▰▰▱▱▱▱▱▱▱▱   20.03 %   |  4.13 h                        |  /(__)\
- Bash              ▰▱▱▱▱▱▱▱▱▱    6.64 %   |  1.37 h                        | Consistency compounds quality.
- CSS               ▱▱▱▱▱▱▱▱▱▱    4.72 %   |  0.97 h                        | Tests turn fear into speed.
- SQL               ▱▱▱▱▱▱▱▱▱▱    4.26 %   |  0.88 h                        | Automation buys thinking time.
- JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.35 %   |  0.69 h                        | Refactor early, ship confid...
- JSON              ▱▱▱▱▱▱▱▱▱▱    2.22 %   |  0.46 h                        | Great DX creates great UX.
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   30.37 %   |  6.26 h                        |  /\_/\
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   25.38 %   |  5.23 h                        | / o o \
+ Other             ▰▰▱▱▱▱▱▱▱▱   20.03 %   |  4.13 h                        |  \_^_/
+ Bash              ▰▱▱▱▱▱▱▱▱▱    6.64 %   |  1.37 h                        | Refactor early, ship confid...
+ CSS               ▱▱▱▱▱▱▱▱▱▱    4.72 %   |  0.97 h                        | Great DX creates great UX.
+ SQL               ▱▱▱▱▱▱▱▱▱▱    4.26 %   |  0.88 h                        | Consistency compounds quality.
+ JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.35 %   |  0.69 h                        | Simple code survives long-t...
+ JSON              ▱▱▱▱▱▱▱▱▱▱    2.22 %   |  0.46 h                        | Ship small. Learn fast.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▰▰▱▱▱▱▱▱▱▱   17.12 %   |  3.63 h                     | Plan and warm up.
- Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   11.59 %   |  2.46 h                     | Build and iterate.
- Evening    (18-24)   ▰▰▰▰▱▱▱▱▱▱   38.05 %   |  8.07 h                     | Feature flow window.
- Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   33.24 %   |  7.05 h                     | Deep focus zone.
+ Morning    (06-12)   ▰▰▱▱▱▱▱▱▱▱   17.12 %   |  3.63 h                     | Build and iterate.
+ Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   11.59 %   |  2.46 h                     | Feature flow window.
+ Evening    (18-24)   ▰▰▰▰▱▱▱▱▱▱   38.05 %   |  8.07 h                     | Deep focus zone.
+ Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   33.24 %   |  7.05 h                     | Review and polish.
 
  I Am Most Productive On
 
- Monday     ▰▱▱▱▱▱▱▱▱▱    9.89 %   |  2.10 h                               | Shipping day
- Tuesday    ▰▰▱▱▱▱▱▱▱▱   18.99 %   |  4.02 h                               | Refactor day
- Wednesday  ▰▱▱▱▱▱▱▱▱▱    5.06 %   |  1.07 h                               | Review day
- Thursday   ▰▰▰▰▱▱▱▱▱▱   42.89 %   |  9.09 h                               | Automation day
- Friday     ▱▱▱▱▱▱▱▱▱▱    2.65 %   |  0.56 h                               | Learning day
- Saturday   ▰▱▱▱▱▱▱▱▱▱    8.97 %   |  1.90 h                               | Planning day
- Sunday     ▰▱▱▱▱▱▱▱▱▱   11.55 %   |  2.45 h                               | Momentum day
+ Monday     ▰▱▱▱▱▱▱▱▱▱    9.89 %   |  2.10 h                               | Momentum day
+ Tuesday    ▰▰▱▱▱▱▱▱▱▱   18.99 %   |  4.02 h                               | Shipping day
+ Wednesday  ▰▱▱▱▱▱▱▱▱▱    5.06 %   |  1.07 h                               | Refactor day
+ Thursday   ▰▰▰▰▱▱▱▱▱▱   42.89 %   |  9.09 h                               | Review day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    2.65 %   |  0.56 h                               | Automation day
+ Saturday   ▰▱▱▱▱▱▱▱▱▱    8.97 %   |  1.90 h                               | Learning day
+ Sunday     ▰▱▱▱▱▱▱▱▱▱   11.55 %   |  2.45 h                               | Planning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▱   87.10 %   | 17.96 h                        | Keyboard-first workflow.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 20.62 h                       | Stable dev environment.
+ VS Code           ▰▰▰▰▰▰▰▰▰▱   87.10 %   | 17.96 h                        | Focus mode ready.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 20.62 h                       | Automation friendly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-17 13:34:19 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-17 15:57:01 PHT
 ```
 <!-- STATS:END -->
