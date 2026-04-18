@@ -54,14 +54,14 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   28.59 %   |  6.27 h                        |   ^__^
- Markdown          ▰▰▰▱▱▱▱▱▱▱   27.55 %   |  6.05 h                        |   (oo)
- Other             ▰▰▱▱▱▱▱▱▱▱   18.67 %   |  4.10 h                        |  /(__)\
- Bash              ▰▱▱▱▱▱▱▱▱▱    6.24 %   |  1.37 h                        | Great DX creates great UX.
- CSS               ▱▱▱▱▱▱▱▱▱▱    4.43 %   |  0.97 h                        | Simple code survives long-t...
- SQL               ▱▱▱▱▱▱▱▱▱▱    4.01 %   |  0.88 h                        | Ship small. Learn fast.
- JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.14 %   |  0.69 h                        | Readable code scales teams.
- Text              ▱▱▱▱▱▱▱▱▱▱    2.67 %   |  0.59 h                        | Tests turn fear into speed.
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   28.59 %   |  6.27 h                        |  /\_/\
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   27.55 %   |  6.05 h                        | / o o \
+ Other             ▰▰▱▱▱▱▱▱▱▱   18.67 %   |  4.10 h                        |  \_^_/
+ Bash              ▰▱▱▱▱▱▱▱▱▱    6.24 %   |  1.37 h                        | Automation buys thinking time.
+ CSS               ▱▱▱▱▱▱▱▱▱▱    4.43 %   |  0.97 h                        | Readable code scales teams.
+ SQL               ▱▱▱▱▱▱▱▱▱▱    4.01 %   |  0.88 h                        | Tests turn fear into speed.
+ JavaScript        ▱▱▱▱▱▱▱▱▱▱    3.14 %   |  0.69 h                        | Automation buys thinking time.
+ Text              ▱▱▱▱▱▱▱▱▱▱    2.67 %   |  0.59 h                        | Refactor early, ship confid...
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -74,21 +74,21 @@ Stats & Proficiency
 
  I Am Most Productive On
 
- Monday     ▰▱▱▱▱▱▱▱▱▱    9.51 %   |  2.10 h                               | Momentum day
- Tuesday    ▰▰▱▱▱▱▱▱▱▱   18.26 %   |  4.02 h                               | Shipping day
- Wednesday  ▱▱▱▱▱▱▱▱▱▱    4.86 %   |  1.07 h                               | Refactor day
- Thursday   ▰▰▰▰▱▱▱▱▱▱   41.24 %   |  9.09 h                               | Review day
- Friday     ▰▱▱▱▱▱▱▱▱▱    5.96 %   |  1.31 h                               | Automation day
- Saturday   ▰▱▱▱▱▱▱▱▱▱    9.06 %   |  2.00 h                               | Learning day
- Sunday     ▰▱▱▱▱▱▱▱▱▱   11.11 %   |  2.45 h                               | Planning day
+ Monday     ▰▱▱▱▱▱▱▱▱▱    9.51 %   |  2.10 h                               | Planning day
+ Tuesday    ▰▰▱▱▱▱▱▱▱▱   18.26 %   |  4.02 h                               | Momentum day
+ Wednesday  ▱▱▱▱▱▱▱▱▱▱    4.86 %   |  1.07 h                               | Shipping day
+ Thursday   ▰▰▰▰▱▱▱▱▱▱   41.24 %   |  9.09 h                               | Refactor day
+ Friday     ▰▱▱▱▱▱▱▱▱▱    5.96 %   |  1.31 h                               | Review day
+ Saturday   ▰▱▱▱▱▱▱▱▱▱    9.06 %   |  2.00 h                               | Automation day
+ Sunday     ▰▱▱▱▱▱▱▱▱▱   11.11 %   |  2.45 h                               | Learning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▱   87.88 %   | 19.29 h                        | Fast feedback loop.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 21.95 h                       | Toolchain optimized.
+ VS Code           ▰▰▰▰▰▰▰▰▰▱   87.88 %   | 19.29 h                        | Focus mode ready.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 21.95 h                       | Automation friendly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-18 10:02:02 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-18 10:05:28 PHT
 ```
 <!-- STATS:END -->
