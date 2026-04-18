@@ -8,6 +8,10 @@ on:
       - main
   workflow_dispatch:         
 
+concurrency:
+  group: update-readme-stats
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -22,6 +26,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v6
@@ -43,7 +49,14 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet && echo "Nothing to commit." || (
-            git commit -m "chore(readme): auto-update dev metrics [skip ci]" &&
-            git push
-          )
+
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(readme): auto-update dev metrics [skip ci]"
+
+          # Rebase on latest main to avoid non-fast-forward push failures.
+          git pull --rebase origin main
+          git push origin HEAD:main
