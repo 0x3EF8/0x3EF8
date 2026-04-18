@@ -30,13 +30,15 @@ const developer = {
   },
 
   business: {
-    focus:       ["SaaS Web Apps", "Business Automation", "Internal Tools"],
-    services:    ["Full-Stack Development", "API Integration", "Performance Optimization"],
-    availability:"Open for projects and long-term collaboration",
+    focus: [
+      "Building scalable web apps and internal tools for startups and SMEs",
+      "Automating repetitive workflows to save time and reduce operational cost",
+      "Delivering maintainable products with clear ROI and measurable impact to business",
+    ],
   },
 
   links: {
-    portfolio:  "https://jaypatrickcano.vercel.app",
+    portfolio:  "https://0x3ef8.vercel.app",
     github:     "https://github.com/0x3ef8",
     linktree:   "https://0x3ef8.github.io/linktree",
   },
@@ -50,12 +52,6 @@ const developer = {
 
 export default developer;
 ```
-
-### Business Focus
-- Building scalable web apps and internal tools for startups and SMEs
-- Automating repetitive workflows to save time and reduce operational cost
-- Delivering maintainable products with clear ROI and measurable impact
-
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
