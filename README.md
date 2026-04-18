@@ -1,6 +1,12 @@
 <div align="left">
     <a href="https://www.facebook.com/x3ef8">
-        <img src="https://img.shields.io/badge/-x3ef8-blue?style=flat&logo=facebook&logoColor=white&link=https://facebook.com/0x3ef8.dev" alt="Stalk Me, also click FOLLOW button">
+        <img src="https://img.shields.io/badge/Facebook-x3ef8-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://www.linkedin.com/in/0x3ef8">
+        <img src="https://img.shields.io/badge/LinkedIn-0x3ef8-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="https://jaypatrickcano.vercel.app">
+        <img src="https://img.shields.io/badge/Portfolio-jaypatrickcano.vercel.app-111111?style=flat&logo=vercel&logoColor=white" alt="Portfolio">
     </a>
     <a href="https://user-badge.committers.top/philippines/0x3EF8">
         <img src="https://user-badge.committers.top/philippines/0x3EF8.svg" alt="committers.top badge">
@@ -12,34 +18,27 @@
     <img width="100%" src="https://github.com/0x3EF8/0x3EF8/blob/main/images/header_.png" />
 </div>
 
-```typescript
-const developer = {
-  name:       "Jay Patrick Cano",
-  alias:      "0x3EF8",
-  role:       "Full-Stack Developer",
-  location:   "Philippines 🇵🇭",
-  status:     "Open to opportunities · Always learning",
+## Jay Patrick Cano | Full-Stack Developer
 
-  stack: {
-    languages:  ["JavaScript", "TypeScript", "Python", "PHP", "C#"],
-    frontend:   ["React", "Next.js", "Vue.js", "Tailwind CSS", "Sass"],
-    backend:    ["Node.js", "Express.js", "Laravel", "REST APIs", "GraphQL"],
-    databases:  ["MongoDB", "MySQL", "PostgreSQL", "Firebase", "Supabase"],
-    devOps:     ["Git", "Docker", "GitHub Actions", "CI/CD", "AWS · GCP · Azure"],
-    automation: ["Python Scripting", "Web Scraping", "Shell & Batch Scripts"],
-  },
+I build scalable web applications and automation workflows with a focus on maintainability, performance, and clean architecture.
 
-  links: {
-    portfolio:  "https://jaypatrickcano.vercel.app",
-    github:     "https://github.com/0x3ef8",
-    linktree:   "https://0x3ef8.github.io/linktree",
-  },
+- Open to full-time and freelance opportunities
+- Based in Maasin City, Southern Leyte, Philippines (UTC+8)
+- Currently focused on TypeScript, React/Next.js, Node.js, Laravel, PostgreSQL, and CI/CD
 
-  quote: "Programming knowledge is the key to unlocking the power of a god.",
-} as const;
+## Core Stack
 
-export default developer;
-```
+- Frontend: React, Next.js, Vue.js, Tailwind CSS, Sass
+- Backend: Node.js, Express.js, Laravel, REST APIs, GraphQL
+- Databases: PostgreSQL, MySQL, MongoDB, Supabase, Firebase
+- DevOps and Cloud: GitHub Actions, Docker, AWS, GCP, Azure
+- Automation: Python scripting, web scraping, shell and batch scripts
+
+## Contact
+
+- Portfolio: https://jaypatrickcano.vercel.app
+- LinkedIn: https://www.linkedin.com/in/0x3ef8
+- Email: 0x3EF8@gmail.com
 
 <!-- STATS:START -->
 ```text
