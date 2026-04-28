@@ -55,51 +55,51 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
-From: 2020 - To: 2026                                                      | Top Lang : TypeScript (41.57%)
+From: 2020 - To: 2026                                                      | Top Lang : TypeScript (39.61%)
 120 repos (50 public, 70 private)   |   59 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 17 hrs 56 mins total · 2 hrs 33 mins daily avg         | Peak Time: Evening (39.34%)
-                                                                           | Peak Day : Friday (34.11%)
-                                                                           | Activity : 302 chunks
+WakaTime (last 7d): 15 hrs 16 mins total · 2 hrs 10 mins daily avg         | Peak Time: Evening (46.68%)
+                                                                           | Peak Day : Friday (29.95%)
+                                                                           | Activity : 312 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   41.57 %   |  8.74 h                        |  /\_/\
- Markdown          ▰▰▰▱▱▱▱▱▱▱   25.99 %   |  5.46 h                        | / o o \
- Other             ▰▱▱▱▱▱▱▱▱▱   14.61 %   |  3.07 h                        |  \_^_/
- JSON              ▰▱▱▱▱▱▱▱▱▱    6.60 %   |  1.39 h                        | Automation buys thinking time.
- Java Properties   ▱▱▱▱▱▱▱▱▱▱    1.84 %   |  0.39 h                        | Readable code scales teams.
- Python            ▱▱▱▱▱▱▱▱▱▱    1.52 %   |  0.32 h                        | Tests turn fear into speed.
- Bash              ▱▱▱▱▱▱▱▱▱▱    1.46 %   |  0.31 h                        | Automation buys thinking time.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    1.30 %   |  0.27 h                        | Refactor early, ship confid...
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   39.61 %   |  7.17 h                        |   ,_,
+ Markdown          ▰▰▱▱▱▱▱▱▱▱   24.70 %   |  4.47 h                        |  (o,o)
+ Other             ▰▰▱▱▱▱▱▱▱▱   15.65 %   |  2.83 h                        |  ("_")
+ Text              ▰▱▱▱▱▱▱▱▱▱    5.26 %   |  0.95 h                        | Ship small. Learn fast.
+ JSON              ▱▱▱▱▱▱▱▱▱▱    4.46 %   |  0.81 h                        | Simple code survives long-t...
+ Git Config        ▱▱▱▱▱▱▱▱▱▱    2.43 %   |  0.44 h                        | Ship small. Learn fast.
+ Python            ▱▱▱▱▱▱▱▱▱▱    1.94 %   |  0.35 h                        | Readable code scales teams.
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    1.61 %   |  0.29 h                        | Tests turn fear into speed.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▰▱▱▱▱▱▱▱▱▱    9.45 %   |  1.56 h                     | Deep focus zone.
- Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   14.63 %   |  2.41 h                     | Review and polish.
- Evening    (18-24)   ▰▰▰▰▱▱▱▱▱▱   39.34 %   |  6.49 h                     | Debug and refine.
- Night      (00-06)   ▰▰▰▰▱▱▱▱▱▱   36.58 %   |  6.04 h                     | Plan and warm up.
+ Morning    (06-12)   ▰▱▱▱▱▱▱▱▱▱   12.79 %   |  2.40 h                     | Debug and refine.
+ Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   12.84 %   |  2.41 h                     | Plan and warm up.
+ Evening    (18-24)   ▰▰▰▰▰▱▱▱▱▱   46.68 %   |  8.77 h                     | Build and iterate.
+ Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   27.68 %   |  5.20 h                     | Feature flow window.
 
  I Am Most Productive On
 
- Monday     ▰▱▱▱▱▱▱▱▱▱   13.48 %   |  2.22 h                               | Automation day
- Tuesday    ▰▱▱▱▱▱▱▱▱▱   10.22 %   |  1.69 h                               | Learning day
- Wednesday  ▰▰▱▱▱▱▱▱▱▱   21.31 %   |  3.52 h                               | Planning day
- Thursday   ▰▱▱▱▱▱▱▱▱▱    9.85 %   |  1.63 h                               | Momentum day
- Friday     ▰▰▰▱▱▱▱▱▱▱   34.11 %   |  5.63 h                               | Shipping day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    2.00 %   |  0.33 h                               | Refactor day
- Sunday     ▰▱▱▱▱▱▱▱▱▱    9.02 %   |  1.49 h                               | Review day
+ Monday     ▰▰▰▱▱▱▱▱▱▱   25.71 %   |  4.83 h                               | Planning day
+ Tuesday    ▰▱▱▱▱▱▱▱▱▱    7.30 %   |  1.37 h                               | Momentum day
+ Wednesday  ▰▰▱▱▱▱▱▱▱▱   18.71 %   |  3.52 h                               | Shipping day
+ Thursday   ▰▱▱▱▱▱▱▱▱▱    8.65 %   |  1.63 h                               | Refactor day
+ Friday     ▰▰▰▱▱▱▱▱▱▱   29.95 %   |  5.63 h                               | Review day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    1.76 %   |  0.33 h                               | Automation day
+ Sunday     ▰▱▱▱▱▱▱▱▱▱    7.92 %   |  1.49 h                               | Learning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 21.02 h                       | Focus mode ready.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 21.02 h                       | Automation friendly.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.10 h                       | Fast feedback loop.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 18.10 h                       | Toolchain optimized.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-27 21:21:51 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-04-28 10:09:34 PHT
 ```
 <!-- STATS:END -->
