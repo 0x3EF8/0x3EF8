@@ -57,17 +57,17 @@ export default developer;
 0x3EF8 · Dev Metrics                                                       | Quick Insights
 From: 2020 - To: 2026                                                      | Top Lang : TypeScript (37.33%)
 120 repos (50 public, 70 private)   |   59 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 17 hrs 19 mins total · 2 hrs 28 mins daily avg         | Peak Time: Night (41.76%)
-                                                                           | Peak Day : Wednesday (28.90%)
-                                                                           | Activity : 319 chunks
+WakaTime (last 7d): 17 hrs 19 mins total · 2 hrs 28 mins daily avg         | Peak Time: Night (37.97%)
+                                                                           | Peak Day : Friday (26.49%)
+                                                                           | Activity : 350 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   37.33 %   |  7.35 h                        |  (\_/)
- Markdown          ▰▰▰▱▱▱▱▱▱▱   25.53 %   |  5.02 h                        |  (o.o)
- Other             ▰▱▱▱▱▱▱▱▱▱   12.01 %   |  2.36 h                        |  /|_|\
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   37.33 %   |  7.35 h                        |   ,_,
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   25.53 %   |  5.02 h                        |  (o,o)
+ Other             ▰▱▱▱▱▱▱▱▱▱   12.01 %   |  2.36 h                        |  ("_")
  Text              ▰▱▱▱▱▱▱▱▱▱    7.74 %   |  1.52 h                        | Consistency compounds quality.
  Bash              ▱▱▱▱▱▱▱▱▱▱    4.04 %   |  0.79 h                        | Tests turn fear into speed.
  JSON              ▱▱▱▱▱▱▱▱▱▱    4.03 %   |  0.79 h                        | Automation buys thinking time.
@@ -78,20 +78,20 @@ Stats & Proficiency
 
  I Code Most During
 
- Morning    (06-12)   ▰▱▱▱▱▱▱▱▱▱    7.35 %   |  1.28 h                     | Plan and warm up.
- Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   14.57 %   |  2.53 h                     | Build and iterate.
- Evening    (18-24)   ▰▰▰▰▱▱▱▱▱▱   36.32 %   |  6.31 h                     | Feature flow window.
- Night      (00-06)   ▰▰▰▰▱▱▱▱▱▱   41.76 %   |  7.26 h                     | Deep focus zone.
+ Morning    (06-12)   ▰▱▱▱▱▱▱▱▱▱    6.68 %   |  1.28 h                     | Plan and warm up.
+ Daytime    (12-18)   ▰▰▱▱▱▱▱▱▱▱   22.33 %   |  4.27 h                     | Build and iterate.
+ Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   33.02 %   |  6.31 h                     | Feature flow window.
+ Night      (00-06)   ▰▰▰▰▱▱▱▱▱▱   37.97 %   |  7.26 h                     | Deep focus zone.
 
  I Am Most Productive On
 
- Monday     ▰▰▰▱▱▱▱▱▱▱   27.80 %   |  4.83 h                               | Refactor day
- Tuesday    ▰▱▱▱▱▱▱▱▱▱    7.97 %   |  1.38 h                               | Review day
- Wednesday  ▰▰▰▱▱▱▱▱▱▱   28.90 %   |  5.02 h                               | Automation day
- Thursday   ▰▱▱▱▱▱▱▱▱▱    5.73 %   |  1.00 h                               | Learning day
- Friday     ▰▰▱▱▱▱▱▱▱▱   19.14 %   |  3.33 h                               | Planning day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    1.90 %   |  0.33 h                               | Momentum day
- Sunday     ▰▱▱▱▱▱▱▱▱▱    8.56 %   |  1.49 h                               | Shipping day
+ Monday     ▰▰▰▱▱▱▱▱▱▱   25.27 %   |  4.83 h                               | Learning day
+ Tuesday    ▰▱▱▱▱▱▱▱▱▱    7.24 %   |  1.38 h                               | Planning day
+ Wednesday  ▰▰▰▱▱▱▱▱▱▱   26.27 %   |  5.02 h                               | Momentum day
+ Thursday   ▰▱▱▱▱▱▱▱▱▱    5.21 %   |  1.00 h                               | Shipping day
+ Friday     ▰▰▰▱▱▱▱▱▱▱   26.49 %   |  5.06 h                               | Refactor day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    1.73 %   |  0.33 h                               | Review day
+ Sunday     ▰▱▱▱▱▱▱▱▱▱    7.79 %   |  1.49 h                               | Automation day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -100,6 +100,6 @@ Stats & Proficiency
  Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   | 19.68 h                       | Stable dev environment.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-01 10:14:53 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-01 21:01:20 PHT
 ```
 <!-- STATS:END -->
