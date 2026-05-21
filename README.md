@@ -55,9 +55,9 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
-From: 2020 - To: 2026                                                      | Top Lang : Markdown (72.86%)
-121 repos (50 public, 71 private)   |   59 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 1 hr 17 mins total · 1 hr 17 mins daily avg            | Peak Time: Evening (96.39%)
+From: 2020 - To: 2026                                                      | Top Lang : Markdown (54.97%)
+121 repos (50 public, 71 private)   |   60 stars                           | Top Editor: VS Code (100.00%)
+WakaTime (last 7d): 1 hr 43 mins total · 51 mins daily avg                 | Peak Time: Evening (96.39%)
                                                                            | Peak Day : Wednesday (96.39%)
                                                                            | Activity : 28 chunks
 Stats & Proficiency
@@ -65,11 +65,12 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▰▰▰▱▱▱   72.86 %   |  0.94 h                        |   ^__^
- TypeScript        ▰▰▱▱▱▱▱▱▱▱   24.38 %   |  0.32 h                        |   (oo)
- JSON              ▱▱▱▱▱▱▱▱▱▱    1.37 %   |  0.02 h                        |  /(__)\
- Text              ▱▱▱▱▱▱▱▱▱▱    0.95 %   |  0.01 h                        | Refactor early, ship confid...
- YAML              ▱▱▱▱▱▱▱▱▱▱    0.44 %   |  0.01 h                        | Automation buys thinking time.
+ Markdown          ▰▰▰▰▰▱▱▱▱▱   54.97 %   |  0.94 h                        |   ^__^
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   41.49 %   |  0.71 h                        |   (oo)
+ SQL               ▱▱▱▱▱▱▱▱▱▱    1.46 %   |  0.03 h                        |  /(__)\
+ JSON              ▱▱▱▱▱▱▱▱▱▱    1.03 %   |  0.02 h                        | Consistency compounds quality.
+ Text              ▱▱▱▱▱▱▱▱▱▱    0.72 %   |  0.01 h                        | Readable code scales teams.
+ YAML              ▱▱▱▱▱▱▱▱▱▱    0.33 %   |  0.01 h                        | Tests turn fear into speed.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -82,21 +83,21 @@ Stats & Proficiency
 
  I Am Most Productive On
 
- Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
- Wednesday  ▰▰▰▰▰▰▰▰▰▰   96.39 %   |  1.41 h                               | Refactor day
- Thursday   ▱▱▱▱▱▱▱▱▱▱    3.61 %   |  0.05 h                               | Review day
- Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
- Sunday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
+ Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
+ Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
+ Wednesday  ▰▰▰▰▰▰▰▰▰▰   96.39 %   |  1.41 h                               | Review day
+ Thursday   ▱▱▱▱▱▱▱▱▱▱    3.61 %   |  0.05 h                               | Automation day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
+ Sunday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.30 h                       | Fast feedback loop.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.30 h                       | Toolchain optimized.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.72 h                       | Focus mode ready.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.72 h                       | Automation friendly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-21 08:35:01 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-21 21:03:30 PHT
 ```
 <!-- STATS:END -->
