@@ -65,21 +65,21 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▰▰▰▱▱▱   65.50 %   |  0.96 h                        |  /\_/\
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   29.50 %   |  0.43 h                        | / o o \
- JSON              ▱▱▱▱▱▱▱▱▱▱    3.77 %   |  0.06 h                        |  \_^_/
- Text              ▱▱▱▱▱▱▱▱▱▱    0.84 %   |  0.01 h                        | Ship small. Learn fast.
- YAML              ▱▱▱▱▱▱▱▱▱▱    0.39 %   |  0.01 h                        | Ship small. Learn fast.
- Other             ▱▱▱▱▱▱▱▱▱▱    0.00 %   |  0.00 h                        | Readable code scales teams.
+ Markdown          ▰▰▰▰▰▰▰▱▱▱   65.50 %   |  0.96 h                        |   ,_,
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   29.50 %   |  0.43 h                        |  (o,o)
+ JSON              ▱▱▱▱▱▱▱▱▱▱    3.77 %   |  0.06 h                        |  ("_")
+ Text              ▱▱▱▱▱▱▱▱▱▱    0.84 %   |  0.01 h                        | Great DX creates great UX.
+ YAML              ▱▱▱▱▱▱▱▱▱▱    0.39 %   |  0.01 h                        | Consistency compounds quality.
+ Other             ▱▱▱▱▱▱▱▱▱▱    0.00 %   |  0.00 h                        | Simple code survives long-t...
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Plan and warm up.
- Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Build and iterate.
- Evening    (18-24)   ▰▰▰▰▰▰▰▰▰▰   96.39 %   |  1.41 h                     | Feature flow window.
- Night      (00-06)   ▱▱▱▱▱▱▱▱▱▱    3.61 %   |  0.05 h                     | Deep focus zone.
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
+ Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
+ Evening    (18-24)   ▰▰▰▰▰▰▰▰▰▰   96.39 %   |  1.41 h                     | Review and polish.
+ Night      (00-06)   ▱▱▱▱▱▱▱▱▱▱    3.61 %   |  0.05 h                     | Debug and refine.
 
  I Am Most Productive On
 
@@ -94,10 +94,10 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.46 h                       | Plugins tuned for speed.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.46 h                       | Build-ready setup.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.46 h                       | Keyboard-first workflow.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.46 h                       | Stable dev environment.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-22 08:32:59 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-22 20:45:56 PHT
 ```
 <!-- STATS:END -->
