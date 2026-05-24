@@ -66,38 +66,38 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▱▱▱▱▱▱   43.64 %   |  1.47 h                        |  /\_/\
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   43.06 %   |  1.45 h                        | / o o \
- Other             ▰▱▱▱▱▱▱▱▱▱    9.11 %   |  0.31 h                        |  \_^_/
- JSON              ▱▱▱▱▱▱▱▱▱▱    1.64 %   |  0.06 h                        | Readable code scales teams.
- Text              ▱▱▱▱▱▱▱▱▱▱    1.38 %   |  0.05 h                        | Tests turn fear into speed.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.80 %   |  0.03 h                        | Automation buys thinking time.
- Bash              ▱▱▱▱▱▱▱▱▱▱    0.19 %   |  0.01 h                        | Refactor early, ship confid...
- YAML              ▱▱▱▱▱▱▱▱▱▱    0.17 %   |  0.01 h                        | Great DX creates great UX.
+ Markdown          ▰▰▰▰▱▱▱▱▱▱   43.64 %   |  1.47 h                        |   ,_,
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   43.06 %   |  1.45 h                        |  (o,o)
+ Other             ▰▱▱▱▱▱▱▱▱▱    9.11 %   |  0.31 h                        |  ("_")
+ JSON              ▱▱▱▱▱▱▱▱▱▱    1.64 %   |  0.06 h                        | Consistency compounds quality.
+ Text              ▱▱▱▱▱▱▱▱▱▱    1.38 %   |  0.05 h                        | Automation buys thinking time.
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.80 %   |  0.03 h                        | Refactor early, ship confid...
+ Bash              ▱▱▱▱▱▱▱▱▱▱    0.19 %   |  0.01 h                        | Great DX creates great UX.
+ YAML              ▱▱▱▱▱▱▱▱▱▱    0.17 %   |  0.01 h                        | Consistency compounds quality.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▱▱    84.50 %   |  2h 50m                       | Design and architect.
- Coding            ▰▰▱▱▱▱▱▱▱▱    15.14 %   |     30m                       | Write tests first.
- Writing Docs      ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Refactor for clarity.
+ AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▱▱    84.50 %   |  2h 50m                       | Write tests first.
+ Coding            ▰▰▱▱▱▱▱▱▱▱    15.14 %   |     30m                       | Refactor for clarity.
+ Writing Docs      ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Document everything.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- nimji             ▰▰▰▰▱▱▱▱▱▱    44.73 %   |  1h 30m                       | Focus on target.
- instructions      ▰▰▰▱▱▱▱▱▱▱    27.99 %   |     56m                       | Fast iteration.
- LeafSense         ▰▰▰▱▱▱▱▱▱▱    26.16 %   |     52m                       | Refactor and clean.
- Unknown Project   ▱▱▱▱▱▱▱▱▱▱     1.12 %   |      2m                       | Keep shipping.
+ nimji             ▰▰▰▰▱▱▱▱▱▱    44.73 %   |  1h 30m                       | Fast iteration.
+ instructions      ▰▰▰▱▱▱▱▱▱▱    27.99 %   |     56m                       | Refactor and clean.
+ LeafSense         ▰▰▰▱▱▱▱▱▱▱    26.16 %   |     52m                       | Keep shipping.
+ Unknown Project   ▱▱▱▱▱▱▱▱▱▱     1.12 %   |      2m                       | Solve problems.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▰▰▰▰▱▱▱▱▱▱   38.22 %   |  1.89 h                     | Feature flow window.
- Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
- Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   28.88 %   |  1.42 h                     | Review and polish.
- Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   32.91 %   |  1.62 h                     | Debug and refine.
+ Morning    (06-12)   ▰▰▰▰▱▱▱▱▱▱   38.22 %   |  1.89 h                     | Build and iterate.
+ Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
+ Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   28.88 %   |  1.42 h                     | Deep focus zone.
+ Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   32.91 %   |  1.62 h                     | Review and polish.
 
  I Am Most Productive On
 
@@ -112,15 +112,15 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Keyboard-first workflow.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Fast feedback loop.
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Stable dev environment.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Toolchain optimized.
 
  Machines & Devices
- ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Hardware optimized.
+ ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Ready to build.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-24 19:49:54 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-24 20:21:23 PHT
 ```
 <!-- STATS:END -->
