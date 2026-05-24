@@ -81,6 +81,14 @@ OS_RIGHT_NOTES = [
     "Automation friendly.",
 ]
 
+CATEGORY_RIGHT_NOTES = [
+    "Design and architect.",
+    "Write tests first.",
+    "Refactor for clarity.",
+    "Document everything.",
+    "Optimize hot paths.",
+]
+
 # Philippines Standard Time = UTC+8 (no DST)
 LOCAL_TZ = timezone(timedelta(hours=8))
 
@@ -102,7 +110,7 @@ def progress_bar(pct: float) -> str:
 
 BAR_LINE_PATTERN = re.compile(
     rf"^\s*(?P<label>.+?)\s+(?P<bar>[▰▱]{{{BAR_WIDTH}}})\s+"
-    r"(?P<pct>\d+(?:\.\d+)?)\s*%(?:\s+.*)?$"
+    r"(?P<pct><?\s*\d+(?:\.\d+)?)\s*%(?:\s+.*)?$"
 )
 
 def _extract_section_percentages(block: str, start_title: str, end_title: str) -> list:
@@ -133,13 +141,17 @@ def validate_stats_block(block: str) -> None:
             continue
 
         checked_rows += 1
-        pct = float(match.group("pct"))
+        pct_str = match.group("pct").strip()
+        if pct_str.startswith("<"):
+            pct = 0.5
+        else:
+            pct = float(pct_str)
         bar = match.group("bar")
         expected_filled = max(0, min(BAR_WIDTH, round(pct / 100 * BAR_WIDTH)))
         actual_filled = bar.count("▰")
 
         if not 0.0 <= pct <= 100.0:
-            errors.append(f"line {line_no}: percentage out of bounds ({pct:.2f}%)")
+            errors.append(f"line {line_no}: percentage out of bounds ({pct_str}%)")
         if actual_filled != expected_filled:
             errors.append(
                 f"line {line_no}: bar mismatch (expected {expected_filled} filled, got {actual_filled})"
@@ -190,6 +202,17 @@ def format_hours(seconds: float) -> str:
     if seconds <= 0:
         return "n/a"
     return f"{seconds / 3600:5.2f} h"
+
+def format_category_time(seconds: float) -> str:
+    if seconds <= 0:
+        return "0m"
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    if hours > 0:
+        return f"{hours}h {minutes}m"
+    if minutes == 0:
+        return "1m"
+    return f"{minutes}m"
 
 def with_right(main_text: str, side_text: str = "") -> str:
     side = (side_text or "").rstrip()
@@ -432,6 +455,12 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         limit=5,
         fallback_total_seconds=duration_total,
     )
+    wt_categories = extract_wakatime_percentages(
+        wakatime_stats,
+        "categories",
+        limit=5,
+        fallback_total_seconds=duration_total,
+    )
 
     if sum(day_map.values()) == 0:
         day_map = wakatime_day_stats_from_summary(wakatime_stats)
@@ -501,6 +530,27 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         for idx, (lang_name, lang_pct, lang_seconds) in enumerate(wt_languages):
             row = f" {lang_name:<17} {progress_bar(lang_pct)}   {lang_pct:5.2f} %   | {format_hours(lang_seconds):>7}"
             L.append(with_right(row, lang_right[idx]))
+    else:
+        L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
+    L.append("")
+    L.append(SEP)
+    L.append("")
+
+    # Categories (WakaTime)
+    L.append(" Categories")
+    if wt_categories:
+        cat_right = rotate_pick(CATEGORY_RIGHT_NOTES, seed + 17, len(wt_categories))
+        for idx, (cat_name, cat_pct, cat_seconds) in enumerate(wt_categories):
+            display_name = cat_name
+            if idx == 0 and cat_pct > 0:
+                display_name = f"{cat_name} [MAIN]"
+            time_str = format_category_time(cat_seconds)
+            if 0 < cat_pct < 1:
+                pct_str = "<1 %"
+            else:
+                pct_str = f"{cat_pct:5.2f} %"
+            row = f" {display_name:<17} {progress_bar(cat_pct)}   {pct_str:>8}   | {time_str:>7}"
+            L.append(with_right(row, cat_right[idx]))
     else:
         L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
     L.append("")
