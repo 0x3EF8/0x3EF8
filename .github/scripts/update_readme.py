@@ -318,13 +318,7 @@ def fetch_wakatime_all_time(retries: int = 3) -> any:
         return data
     return None
 
-def fetch_wakatime_goals(retries: int = 3) -> any:
-    if not WAKATIME_API_KEY:
-        return None
-    data = wakatime_get("goals", retries=retries)
-    if isinstance(data, list):
-        return data
-    return None
+#
 
 def fetch_wakatime_durations(days: int = 7, retries: int = 3) -> list:
     if not WAKATIME_API_KEY:
@@ -449,7 +443,7 @@ def fetch_repos() -> list:
     )
 
 # ── Block generator ───────────────────────────────────────────────────────────
-def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list, wakatime_all_time: any = None, wakatime_goals: any = None) -> str:
+def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list, wakatime_all_time: any = None) -> str:
     own   = [r for r in repos if not r.get("fork")]
     public_count = sum(1 for r in own if not r.get("private"))
     private_count = sum(1 for r in own if r.get("private"))
@@ -692,32 +686,6 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
     L.append("")
     L.append(SEP)
-    L.append("")
-
-    # Goals (WakaTime)
-    L.append(" Goals")
-    if wakatime_goals:
-        goal_right = rotate_pick(CATEGORY_RIGHT_NOTES, seed + 113, len(wakatime_goals))
-        for idx, goal in enumerate(wakatime_goals):
-            title = goal.get("title") or "Coding Goal"
-            pct = max(0.0, min(100.0, _to_float(goal.get("percent_completed"), 0.0)))
-            
-            seconds_so_far = _to_float(goal.get("seconds"), 0.0)
-            target_seconds = _to_float(goal.get("target_seconds"), 0.0)
-            
-            if target_seconds > 0:
-                so_far_str = format_category_time(seconds_so_far)
-                target_str = format_category_time(target_seconds)
-                status_text = f"{so_far_str}/{target_str}"
-            else:
-                status_text = goal.get("status") or "active"
-                
-            row = f" {title:<17} {progress_bar(pct)}   {pct:5.2f} %   | {status_text:>7}"
-            L.append(with_right(row, goal_right[idx]))
-    else:
-        L.append(with_right(" No active WakaTime goals set.", "Pet is sleeping."))
-    L.append("")
-    L.append(SEP)
     L.append(f" Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: {now}")
 
     return "\n".join(L)
@@ -766,15 +734,12 @@ def main():
     print("Fetching WakaTime all-time total...")
     wakatime_all_time = fetch_wakatime_all_time()
 
-    print("Fetching WakaTime goals...")
-    wakatime_goals = fetch_wakatime_goals()
-
     print("Fetching WakaTime durations...")
     wakatime_durations = fetch_wakatime_durations(days=7)
     print(f"  {len(wakatime_durations)} duration records")
 
     print("Building stats block...")
-    block = build_stats_block(repos, wakatime_stats, wakatime_durations, wakatime_all_time, wakatime_goals)
+    block = build_stats_block(repos, wakatime_stats, wakatime_durations, wakatime_all_time)
 
     print("Validating stats block...")
     validate_stats_block(block)
