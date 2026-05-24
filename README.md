@@ -55,58 +55,64 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
-From: 2020 - To: 2026                                                      | Top Lang : Markdown (43.64%)
-121 repos (50 public, 71 private)   |   60 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 3 hrs 3 mins total · 1 hr 1 min daily avg              | Peak Time: Morning (38.22%)
-                                                                           | Peak Day : Saturday (38.46%)
-                                                                           | Activity : 63 chunks
+From: 2020 - To: 2026                                                      | Top Lang : n/a ( 0.00%)
+50+ public repos   |   59 stars                                            | Top Editor: n/a ( 0.00%)
+WakaTime (last 7d): n/a total · n/a daily avg                              | Peak Time: n/a ( 0.00%)
+                                                                           | Peak Day : n/a ( 0.00%)
+                                                                           | All-Time : n/a
+                                                                           | Activity : 0 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▱▱▱▱▱▱   43.64 %   |  1.47 h                        |  /\_/\
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   43.06 %   |  1.45 h                        | ( o.o )
- Other             ▰▱▱▱▱▱▱▱▱▱    9.11 %   |  0.31 h                        |  > ^ <
- JSON              ▱▱▱▱▱▱▱▱▱▱    1.64 %   |  0.06 h                        | Refactor early, ship confid...
- Text              ▱▱▱▱▱▱▱▱▱▱    1.38 %   |  0.05 h                        | Automation buys thinking time.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.80 %   |  0.03 h                        | Refactor early, ship confid...
- Bash              ▱▱▱▱▱▱▱▱▱▱    0.19 %   |  0.01 h                        | Great DX creates great UX.
- YAML              ▱▱▱▱▱▱▱▱▱▱    0.17 %   |  0.01 h                        | Consistency compounds quality.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▱▱    84.50 %   |  2h 50m                       | Refactor for clarity.
- Coding            ▰▰▱▱▱▱▱▱▱▱    15.14 %   |     30m                       | Document everything.
- Writing Docs      ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Optimize hot paths.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Projects
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▰▰▰▰▱▱▱▱▱▱   38.22 %   |  1.89 h                     | Debug and refine.
- Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Plan and warm up.
- Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   28.88 %   |  1.42 h                     | Build and iterate.
- Night      (00-06)   ▰▰▰▱▱▱▱▱▱▱   32.91 %   |  1.62 h                     | Feature flow window.
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Plan and warm up.
+ Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Build and iterate.
+ Evening    (18-24)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
+ Night      (00-06)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
 
  I Am Most Productive On
 
- Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
- Wednesday  ▰▰▰▱▱▱▱▱▱▱   28.63 %   |  1.41 h                               | Review day
- Thursday   ▰▱▱▱▱▱▱▱▱▱   12.68 %   |  0.63 h                               | Automation day
- Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
- Saturday   ▰▰▰▰▱▱▱▱▱▱   38.46 %   |  1.90 h                               | Planning day
- Sunday     ▰▰▱▱▱▱▱▱▱▱   20.22 %   |  1.00 h                               | Momentum day
+ Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
+ Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
+ Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
+ Thursday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Review day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Sunday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- Editors and Operating Systems
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Fast feedback loop.
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.36 h                       | Toolchain optimized.
+ Editors
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-24 19:10:38 PHT
+
+ Operating Systems
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Machines & Devices
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-24 19:23:02 PHT
 ```
 <!-- STATS:END -->

@@ -89,6 +89,21 @@ CATEGORY_RIGHT_NOTES = [
     "Optimize hot paths.",
 ]
 
+PROJECT_RIGHT_NOTES = [
+    "Focus on target.",
+    "Fast iteration.",
+    "Refactor and clean.",
+    "Keep shipping.",
+    "Solve problems.",
+]
+
+MACHINE_RIGHT_NOTES = [
+    "Hardware optimized.",
+    "Ready to build.",
+    "Workstation tuned.",
+    "On-the-go focus.",
+]
+
 # Philippines Standard Time = UTC+8 (no DST)
 LOCAL_TZ = timezone(timedelta(hours=8))
 
@@ -295,6 +310,14 @@ def fetch_wakatime_stats(retries: int = 3) -> any:
     print("  Unexpected WakaTime stats shape; continuing without WakaTime stats.")
     return None
 
+def fetch_wakatime_all_time(retries: int = 3) -> any:
+    if not WAKATIME_API_KEY:
+        return None
+    data = wakatime_get("all_time_since_today", retries=retries)
+    if isinstance(data, dict):
+        return data
+    return None
+
 def fetch_wakatime_durations(days: int = 7, retries: int = 3) -> list:
     if not WAKATIME_API_KEY:
         return []
@@ -418,7 +441,7 @@ def fetch_repos() -> list:
     )
 
 # ── Block generator ───────────────────────────────────────────────────────────
-def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list) -> str:
+def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list, wakatime_all_time: any = None) -> str:
     own   = [r for r in repos if not r.get("fork")]
     public_count = sum(1 for r in own if not r.get("private"))
     private_count = sum(1 for r in own if r.get("private"))
@@ -458,6 +481,18 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     wt_categories = extract_wakatime_percentages(
         wakatime_stats,
         "categories",
+        limit=5,
+        fallback_total_seconds=duration_total,
+    )
+    wt_projects = extract_wakatime_percentages(
+        wakatime_stats,
+        "projects",
+        limit=5,
+        fallback_total_seconds=duration_total,
+    )
+    wt_machines = extract_wakatime_percentages(
+        wakatime_stats,
+        "machines",
         limit=5,
         fallback_total_seconds=duration_total,
     )
@@ -510,6 +545,10 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
             f"Top Editor: {top_editor_name} ({top_editor_pct:5.2f}%)",
         )
     )
+    all_time_str = "n/a"
+    if isinstance(wakatime_all_time, dict):
+        all_time_str = wakatime_all_time.get("text") or "n/a"
+
     L.append(
         with_right(
             f"WakaTime (last 7d): {total_time} total · {daily_avg} daily avg",
@@ -517,6 +556,7 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
         )
     )
     L.append(with_right("", f"Peak Day : {peak_day} ({peak_day_pct:5.2f}%)"))
+    L.append(with_right("", f"All-Time : {all_time_str}"))
     L.append(with_right("", f"Activity : {tracked_sessions} chunks"))
     L.append("Stats & Proficiency")
     L.append("")
@@ -557,6 +597,24 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(SEP)
     L.append("")
 
+    # Projects (WakaTime)
+    L.append(" Projects")
+    if wt_projects:
+        proj_right = rotate_pick(PROJECT_RIGHT_NOTES, seed + 67, len(wt_projects))
+        for idx, (proj_name, proj_pct, proj_seconds) in enumerate(wt_projects):
+            time_str = format_category_time(proj_seconds)
+            if 0 < proj_pct < 1:
+                pct_str = "<1 %"
+            else:
+                pct_str = f"{proj_pct:5.2f} %"
+            row = f" {proj_name:<17} {progress_bar(proj_pct)}   {pct_str:>8}   | {time_str:>7}"
+            L.append(with_right(row, proj_right[idx]))
+    else:
+        L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
+    L.append("")
+    L.append(SEP)
+    L.append("")
+
     # Time of day (WakaTime durations)
     L.append(" I Code Most During")
     L.append("")
@@ -581,19 +639,53 @@ def build_stats_block(repos: list, wakatime_stats: any, wakatime_durations: list
     L.append(SEP)
     L.append("")
 
-    # Editors + Operating systems (WakaTime)
-    L.append(" Editors and Operating Systems")
-    top_editor = (wt_editors or [("Unknown", 0.0, 0.0)])[0]
-    top_editor_note = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, 1)[0]
-    editor_name, editor_pct, editor_seconds = top_editor
-    editor_row = f" {editor_name:<17} {progress_bar(editor_pct)}   {editor_pct:5.2f} %   | {format_hours(editor_seconds):>7}"
-    L.append(with_right(editor_row, top_editor_note))
+    # Editors (WakaTime)
+    L.append(" Editors")
+    if wt_editors:
+        edit_right = rotate_pick(EDITOR_RIGHT_NOTES, seed + 41, len(wt_editors))
+        for idx, (edit_name, edit_pct, edit_seconds) in enumerate(wt_editors):
+            if 0 < edit_pct < 1:
+                pct_str = "<1 %"
+            else:
+                pct_str = f"{edit_pct:5.2f} %"
+            row = f" {edit_name:<17} {progress_bar(edit_pct)}   {pct_str:>8}   | {format_hours(edit_seconds):>7}"
+            L.append(with_right(row, edit_right[idx]))
+    else:
+        L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
+    L.append("")
+    L.append(SEP)
+    L.append("")
 
-    top_os = (wt_os or [("Unknown", 0.0, 0.0)])[0]
-    top_os_note = rotate_pick(OS_RIGHT_NOTES, seed + 53, 1)[0]
-    os_name, os_pct, os_seconds = top_os
-    os_row = f" {os_name:<17} {progress_bar(os_pct)}   {os_pct:5.2f} %   | {format_hours(os_seconds):>7}"
-    L.append(with_right(os_row, top_os_note))
+    # Operating Systems (WakaTime)
+    L.append(" Operating Systems")
+    if wt_os:
+        os_right = rotate_pick(OS_RIGHT_NOTES, seed + 53, len(wt_os))
+        for idx, (os_name, os_pct, os_seconds) in enumerate(wt_os):
+            if 0 < os_pct < 1:
+                pct_str = "<1 %"
+            else:
+                pct_str = f"{os_pct:5.2f} %"
+            row = f" {os_name:<17} {progress_bar(os_pct)}   {pct_str:>8}   | {format_hours(os_seconds):>7}"
+            L.append(with_right(row, os_right[idx]))
+    else:
+        L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
+    L.append("")
+    L.append(SEP)
+    L.append("")
+
+    # Machines & Devices (WakaTime)
+    L.append(" Machines & Devices")
+    if wt_machines:
+        mach_right = rotate_pick(MACHINE_RIGHT_NOTES, seed + 89, len(wt_machines))
+        for idx, (mach_name, mach_pct, mach_seconds) in enumerate(wt_machines):
+            if 0 < mach_pct < 1:
+                pct_str = "<1 %"
+            else:
+                pct_str = f"{mach_pct:5.2f} %"
+            row = f" {mach_name:<17} {progress_bar(mach_pct)}   {pct_str:>8}   | {format_hours(mach_seconds):>7}"
+            L.append(with_right(row, mach_right[idx]))
+    else:
+        L.append(with_right(" WakaTime data unavailable (set WAKATIME_API_KEY).", "Pet is sleeping."))
     L.append("")
     L.append(SEP)
     L.append(f" Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: {now}")
@@ -641,12 +733,15 @@ def main():
     print("Fetching WakaTime stats...")
     wakatime_stats = fetch_wakatime_stats()
 
+    print("Fetching WakaTime all-time total...")
+    wakatime_all_time = fetch_wakatime_all_time()
+
     print("Fetching WakaTime durations...")
     wakatime_durations = fetch_wakatime_durations(days=7)
     print(f"  {len(wakatime_durations)} duration records")
 
     print("Building stats block...")
-    block = build_stats_block(repos, wakatime_stats, wakatime_durations)
+    block = build_stats_block(repos, wakatime_stats, wakatime_durations, wakatime_all_time)
 
     print("Validating stats block...")
     validate_stats_block(block)
