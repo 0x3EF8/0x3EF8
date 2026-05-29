@@ -55,72 +55,60 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
-From: 2020 - To: 2026                                                      | Top Lang : Markdown (39.20%)
-122 repos (50 public, 72 private)   |   60 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 4 hrs total · 1 hr daily avg                           | Peak Time: Night (44.44%)
-                                                                           | Peak Day : Saturday (39.06%)
-                                                                           | All-Time : 883 hrs 5 mins
-                                                                           | Activity : 74 chunks
+From: 2020 - To: 2026                                                      | Top Lang : n/a ( 0.00%)
+122 repos (50 public, 72 private)   |   60 stars                           | Top Editor: n/a ( 0.00%)
+WakaTime (last 7d): n/a total · n/a daily avg                              | Peak Time: Night (45.63%)
+                                                                           | Peak Day : Saturday (38.22%)
+                                                                           | All-Time : 0 secs
+                                                                           | Activity : 82 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▱▱▱▱▱▱   39.20 %   |  1.69 h                        |  /\_/\
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   37.72 %   |  1.63 h                        | / o o \
- Other             ▰▱▱▱▱▱▱▱▱▱    7.15 %   |  0.31 h                        |  \_^_/
- SQL               ▰▱▱▱▱▱▱▱▱▱    7.03 %   |  0.30 h                        | Automation buys thinking time.
- Bash              ▱▱▱▱▱▱▱▱▱▱    2.75 %   |  0.12 h                        | Readable code scales teams.
- JSON              ▱▱▱▱▱▱▱▱▱▱    2.15 %   |  0.09 h                        | Tests turn fear into speed.
- Text              ▱▱▱▱▱▱▱▱▱▱    2.09 %   |  0.09 h                        | Automation buys thinking time.
- JavaScript        ▱▱▱▱▱▱▱▱▱▱    1.28 %   |  0.06 h                        | Refactor early, ship confid...
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▱▱▱▱▱    46.96 %   |   2h 1m                       | Design and architect.
- Coding            ▰▰▰▱▱▱▱▱▱▱    27.55 %   |  1h 11m                       | Write tests first.
- Writing Docs      ▰▰▰▱▱▱▱▱▱▱    25.49 %   |   1h 6m                       | Refactor for clarity.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- LeafSense         ▰▰▰▰▰▱▱▱▱▱    50.68 %   |  2h 11m                       | Focus on target.
- nimji             ▰▰▰▱▱▱▱▱▱▱    34.80 %   |  1h 30m                       | Fast iteration.
- instructions      ▰▱▱▱▱▱▱▱▱▱    12.37 %   |     32m                       | Refactor and clean.
- Unknown Project   ▱▱▱▱▱▱▱▱▱▱     2.15 %   |      5m                       | Keep shipping.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▰▰▰▰▱▱▱▱▱▱   38.81 %   |  1.89 h                     | Deep focus zone.
- Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    4.64 %   |  0.23 h                     | Review and polish.
- Evening    (18-24)   ▰▱▱▱▱▱▱▱▱▱   12.12 %   |  0.59 h                     | Debug and refine.
- Night      (00-06)   ▰▰▰▰▱▱▱▱▱▱   44.44 %   |  2.16 h                     | Plan and warm up.
+ Morning    (06-12)   ▰▰▰▰▱▱▱▱▱▱   37.97 %   |  1.89 h                     | Deep focus zone.
+ Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    4.54 %   |  0.23 h                     | Review and polish.
+ Evening    (18-24)   ▰▱▱▱▱▱▱▱▱▱   11.86 %   |  0.59 h                     | Debug and refine.
+ Night      (00-06)   ▰▰▰▰▰▱▱▱▱▱   45.63 %   |  2.27 h                     | Plan and warm up.
 
  I Am Most Productive On
 
- Monday     ▰▰▱▱▱▱▱▱▱▱   16.50 %   |  0.80 h                               | Momentum day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
- Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
- Thursday   ▰▰▱▱▱▱▱▱▱▱   23.90 %   |  1.16 h                               | Review day
- Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
- Saturday   ▰▰▰▰▱▱▱▱▱▱   39.06 %   |  1.90 h                               | Learning day
- Sunday     ▰▰▱▱▱▱▱▱▱▱   20.53 %   |  1.00 h                               | Planning day
+ Monday     ▰▰▱▱▱▱▱▱▱▱   16.15 %   |  0.80 h                               | Automation day
+ Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
+ Thursday   ▰▰▰▱▱▱▱▱▱▱   25.54 %   |  1.27 h                               | Momentum day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
+ Saturday   ▰▰▰▰▱▱▱▱▱▱   38.22 %   |  1.90 h                               | Refactor day
+ Sunday     ▰▰▱▱▱▱▱▱▱▱   20.09 %   |  1.00 h                               | Review day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  4.32 h                       | Focus mode ready.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  4.32 h                       | Automation friendly.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
  Machines & Devices
- ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  4.32 h                       | On-the-go focus.
+ WakaTime data unavailable (set WAKATIME_API_KEY).                         | Pet is sleeping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-28 21:09:45 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-29 08:36:34 PHT
 ```
 <!-- STATS:END -->
