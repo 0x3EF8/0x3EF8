@@ -66,49 +66,49 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▱▱▱▱▱▱   39.15 %   |  1.94 h                        |   ^__^
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   34.28 %   |  1.70 h                        |   (oo)
- CSS               ▰▱▱▱▱▱▱▱▱▱   10.06 %   |  0.50 h                        |  /(__)\
- Other             ▰▱▱▱▱▱▱▱▱▱    6.55 %   |  0.32 h                        | Great DX creates great UX.
- SQL               ▰▱▱▱▱▱▱▱▱▱    6.12 %   |  0.30 h                        | Consistency compounds quality.
- Bash              ▱▱▱▱▱▱▱▱▱▱    2.40 %   |  0.12 h                        | Simple code survives long-t...
- Text              ▱▱▱▱▱▱▱▱▱▱    0.69 %   |  0.03 h                        | Ship small. Learn fast.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.55 %   |  0.03 h                        | Readable code scales teams.
+ Markdown          ▰▰▰▰▱▱▱▱▱▱   39.15 %   |  1.94 h                        |   ,_,
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   34.28 %   |  1.70 h                        |  (o,o)
+ CSS               ▰▱▱▱▱▱▱▱▱▱   10.06 %   |  0.50 h                        |  ("_")
+ Other             ▰▱▱▱▱▱▱▱▱▱    6.55 %   |  0.32 h                        | Automation buys thinking time.
+ SQL               ▰▱▱▱▱▱▱▱▱▱    6.12 %   |  0.30 h                        | Tests turn fear into speed.
+ Bash              ▱▱▱▱▱▱▱▱▱▱    2.40 %   |  0.12 h                        | Automation buys thinking time.
+ Text              ▱▱▱▱▱▱▱▱▱▱    0.69 %   |  0.03 h                        | Refactor early, ship confid...
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.55 %   |  0.03 h                        | Great DX creates great UX.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▱▱▱▱▱    52.51 %   |  2h 36m                       | Optimize hot paths.
- Coding            ▰▰▰▱▱▱▱▱▱▱    25.30 %   |  1h 15m                       | Design and architect.
- Writing Docs      ▰▰▱▱▱▱▱▱▱▱    22.19 %   |   1h 6m                       | Write tests first.
+ AI Coding [MAIN]  ▰▰▰▰▰▱▱▱▱▱    52.51 %   |  2h 36m                       | Write tests first.
+ Coding            ▰▰▰▱▱▱▱▱▱▱    25.30 %   |  1h 15m                       | Refactor for clarity.
+ Writing Docs      ▰▰▱▱▱▱▱▱▱▱    22.19 %   |   1h 6m                       | Document everything.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- LeafSense         ▰▰▰▰▱▱▱▱▱▱    36.48 %   |  1h 48m                       | Solve problems.
- nimji             ▰▰▰▱▱▱▱▱▱▱    30.30 %   |  1h 30m                       | Focus on target.
- 0x3ef8.github.io  ▰▰▱▱▱▱▱▱▱▱    18.39 %   |     54m                       | Fast iteration.
- instructions      ▰▱▱▱▱▱▱▱▱▱    14.20 %   |     42m                       | Refactor and clean.
- Unknown Project   ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Keep shipping.
+ LeafSense         ▰▰▰▰▱▱▱▱▱▱    36.48 %   |  1h 48m                       | Fast iteration.
+ nimji             ▰▰▰▱▱▱▱▱▱▱    30.30 %   |  1h 30m                       | Refactor and clean.
+ 0x3ef8.github.io  ▰▰▱▱▱▱▱▱▱▱    18.39 %   |     54m                       | Keep shipping.
+ instructions      ▰▱▱▱▱▱▱▱▱▱    14.20 %   |     42m                       | Solve problems.
+ Unknown Project   ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Focus on target.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
- Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱    7.34 %   |  0.23 h                     | Deep focus zone.
- Evening    (18-24)   ▰▰▱▱▱▱▱▱▱▱   18.80 %   |  0.58 h                     | Review and polish.
- Night      (00-06)   ▰▰▰▰▰▰▰▱▱▱   73.86 %   |  2.27 h                     | Debug and refine.
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Review and polish.
+ Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱    7.34 %   |  0.23 h                     | Debug and refine.
+ Evening    (18-24)   ▰▰▱▱▱▱▱▱▱▱   18.80 %   |  0.58 h                     | Plan and warm up.
+ Night      (00-06)   ▰▰▰▰▰▰▰▱▱▱   73.86 %   |  2.27 h                     | Build and iterate.
 
  I Am Most Productive On
 
- Monday     ▰▰▰▱▱▱▱▱▱▱   26.14 %   |  0.80 h                               | Planning day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
- Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
- Thursday   ▰▰▰▰▱▱▱▱▱▱   41.34 %   |  1.27 h                               | Refactor day
- Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Review day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
- Sunday     ▰▰▰▱▱▱▱▱▱▱   32.52 %   |  1.00 h                               | Learning day
+ Monday     ▰▰▰▱▱▱▱▱▱▱   26.14 %   |  0.80 h                               | Automation day
+ Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
+ Thursday   ▰▰▰▰▱▱▱▱▱▱   41.34 %   |  1.27 h                               | Momentum day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
+ Sunday     ▰▰▰▱▱▱▱▱▱▱   32.52 %   |  1.00 h                               | Review day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -122,6 +122,6 @@ Stats & Proficiency
  ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  4.96 h                       | Hardware optimized.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-30 08:33:34 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-30 20:23:32 PHT
 ```
 <!-- STATS:END -->
