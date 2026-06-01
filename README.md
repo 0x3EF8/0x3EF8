@@ -55,73 +55,73 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
-From: 2020 - To: 2026                                                      | Top Lang : Markdown (46.81%)
+From: 2020 - To: 2026                                                      | Top Lang : TypeScript (33.14%)
 122 repos (50 public, 72 private)   |   60 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 3 hrs 2 mins total · 1 hr daily avg                    | Peak Time: Night (61.27%)
-                                                                           | Peak Day : Thursday (61.27%)
+WakaTime (last 7d): 2 hrs 3 mins total · 1 hr 1 min daily avg              | Peak Time: Night (100.00%)
+                                                                           | Peak Day : Thursday (100.00%)
                                                                            | All-Time : 883 hrs 45 mins
-                                                                           | Activity : 55 chunks
+                                                                           | Activity : 50 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- Markdown          ▰▰▰▰▰▱▱▱▱▱   46.81 %   |  1.44 h                        |  (\_/)
- TypeScript        ▰▰▱▱▱▱▱▱▱▱   22.36 %   |  0.69 h                        |  (o.o)
- CSS               ▰▰▱▱▱▱▱▱▱▱   16.29 %   |  0.50 h                        |  /|_|\
- SQL               ▰▱▱▱▱▱▱▱▱▱    9.91 %   |  0.30 h                        | Great DX creates great UX.
- Bash              ▱▱▱▱▱▱▱▱▱▱    3.68 %   |  0.11 h                        | Simple code survives long-t...
- Other             ▱▱▱▱▱▱▱▱▱▱    0.61 %   |  0.02 h                        | Ship small. Learn fast.
- Git Config        ▱▱▱▱▱▱▱▱▱▱    0.32 %   |  0.01 h                        | Readable code scales teams.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.01 %   |  0.00 h                        | Tests turn fear into speed.
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   33.14 %   |  0.69 h                        |  (\_/)
+ CSS               ▰▰▱▱▱▱▱▱▱▱   24.14 %   |  0.50 h                        |  (o.o)
+ Markdown          ▰▰▱▱▱▱▱▱▱▱   21.18 %   |  0.44 h                        |  /|_|\
+ SQL               ▰▱▱▱▱▱▱▱▱▱   14.68 %   |  0.30 h                        | Tests turn fear into speed.
+ Bash              ▰▱▱▱▱▱▱▱▱▱    5.45 %   |  0.11 h                        | Consistency compounds quality.
+ Other             ▱▱▱▱▱▱▱▱▱▱    0.90 %   |  0.02 h                        | Simple code survives long-t...
+ Git Config        ▱▱▱▱▱▱▱▱▱▱    0.48 %   |  0.01 h                        | Ship small. Learn fast.
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.01 %   |  0.00 h                        | Readable code scales teams.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▱▱▱▱▱▱    39.21 %   |  1h 12m                       | Document everything.
- Writing Docs      ▰▰▰▰▱▱▱▱▱▱    35.53 %   |   1h 5m                       | Optimize hot paths.
- Coding            ▰▰▰▱▱▱▱▱▱▱    25.26 %   |     46m                       | Design and architect.
+ AI Coding [MAIN]  ▰▰▰▰▰▰▱▱▱▱    58.10 %   |  1h 12m                       | Document everything.
+ Coding            ▰▰▰▰▱▱▱▱▱▱    37.44 %   |     46m                       | Optimize hot paths.
+ Writing Docs      ▱▱▱▱▱▱▱▱▱▱     4.46 %   |      5m                       | Design and architect.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- LeafSense         ▰▰▰▰▰▰▱▱▱▱    58.66 %   |  1h 47m                       | Keep shipping.
- 0x3ef8.github.io  ▰▰▰▱▱▱▱▱▱▱    29.76 %   |     54m                       | Solve problems.
- instructions      ▰▱▱▱▱▱▱▱▱▱    10.56 %   |     19m                       | Focus on target.
- Unknown Project   ▱▱▱▱▱▱▱▱▱▱     1.02 %   |      1m                       | Fast iteration.
+ 0x3ef8.github.io  ▰▰▰▰▱▱▱▱▱▱    44.10 %   |     54m                       | Keep shipping.
+ LeafSense         ▰▰▰▰▱▱▱▱▱▱    38.73 %   |     48m                       | Solve problems.
+ instructions      ▰▰▱▱▱▱▱▱▱▱    15.65 %   |     19m                       | Focus on target.
+ Unknown Project   ▱▱▱▱▱▱▱▱▱▱     1.51 %   |      1m                       | Fast iteration.
  Desktop           ▱▱▱▱▱▱▱▱▱▱     0.00 %   |      1m                       | Refactor and clean.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
- Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   10.88 %   |  0.23 h                     | Review and polish.
- Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   27.85 %   |  0.58 h                     | Debug and refine.
- Night      (00-06)   ▰▰▰▰▰▰▱▱▱▱   61.27 %   |  1.27 h                     | Plan and warm up.
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Plan and warm up.
+ Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Build and iterate.
+ Evening    (18-24)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
+ Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                    | Deep focus zone.
 
  I Am Most Productive On
 
- Monday     ▰▰▰▰▱▱▱▱▱▱   38.73 %   |  0.80 h                               | Planning day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
- Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
- Thursday   ▰▰▰▰▰▰▱▱▱▱   61.27 %   |  1.27 h                               | Refactor day
- Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Review day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
- Sunday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
+ Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
+ Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
+ Thursday   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                              | Review day
+ Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Sunday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.07 h                       | Fast feedback loop.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  2.07 h                       | Keyboard-first workflow.
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.07 h                       | Toolchain optimized.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  2.07 h                       | Stable dev environment.
 
  Machines & Devices
- ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  3.07 h                       | Ready to build.
+ ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  2.07 h                       | Hardware optimized.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-05-31 20:26:38 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-01 08:36:25 PHT
 ```
 <!-- STATS:END -->
