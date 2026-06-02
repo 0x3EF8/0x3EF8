@@ -55,9 +55,9 @@ export default developer;
 <!-- STATS:START -->
 ```text
 0x3EF8 · Dev Metrics                                                       | Quick Insights
-From: 2020 - To: 2026                                                      | Top Lang : TypeScript (33.14%)
+From: 2020 - To: 2026                                                      | Top Lang : CSS (39.40%)
 122 repos (50 public, 72 private)   |   60 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 2 hrs 3 mins total · 1 hr 1 min daily avg              | Peak Time: Night (100.00%)
+WakaTime (last 7d): 1 hr 15 mins total · 1 hr 15 mins daily avg            | Peak Time: Night (100.00%)
                                                                            | Peak Day : Thursday (100.00%)
                                                                            | All-Time : 883 hrs 45 mins
                                                                            | Activity : 50 chunks
@@ -66,39 +66,38 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   33.14 %   |  0.69 h                        |   ,_,
- CSS               ▰▰▱▱▱▱▱▱▱▱   24.14 %   |  0.50 h                        |  (o,o)
- Markdown          ▰▰▱▱▱▱▱▱▱▱   21.18 %   |  0.44 h                        |  ("_")
- SQL               ▰▱▱▱▱▱▱▱▱▱   14.68 %   |  0.30 h                        | Tests turn fear into speed.
- Bash              ▰▱▱▱▱▱▱▱▱▱    5.45 %   |  0.11 h                        | Simple code survives long-t...
- Other             ▱▱▱▱▱▱▱▱▱▱    0.90 %   |  0.02 h                        | Ship small. Learn fast.
- Git Config        ▱▱▱▱▱▱▱▱▱▱    0.48 %   |  0.01 h                        | Readable code scales teams.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.01 %   |  0.00 h                        | Tests turn fear into speed.
+ CSS               ▰▰▰▰▱▱▱▱▱▱   39.40 %   |  0.50 h                        |  (\_/)
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   31.20 %   |  0.40 h                        |  (o.o)
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   27.31 %   |  0.35 h                        |  /|_|\
+ Other             ▱▱▱▱▱▱▱▱▱▱    1.26 %   |  0.02 h                        | Automation buys thinking time.
+ Git Config        ▱▱▱▱▱▱▱▱▱▱    0.76 %   |  0.01 h                        | Readable code scales teams.
+ Bash              ▱▱▱▱▱▱▱▱▱▱    0.03 %   |  0.00 h                        | Tests turn fear into speed.
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.02 %   |  0.00 h                        | Automation buys thinking time.
+ JSON              ▱▱▱▱▱▱▱▱▱▱    0.01 %   |  0.00 h                        | Refactor early, ship confid...
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▰▱▱▱▱    58.10 %   |  1h 12m                       | Write tests first.
- Coding            ▰▰▰▰▱▱▱▱▱▱    37.44 %   |     46m                       | Refactor for clarity.
- Writing Docs      ▱▱▱▱▱▱▱▱▱▱     4.46 %   |      5m                       | Document everything.
+ AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▰▱    94.83 %   |  1h 12m                       | Document everything.
+ Coding            ▰▱▱▱▱▱▱▱▱▱     5.15 %   |      3m                       | Optimize hot paths.
+ Writing Docs      ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Design and architect.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- 0x3ef8.github.io  ▰▰▰▰▱▱▱▱▱▱    44.10 %   |     54m                       | Fast iteration.
- LeafSense         ▰▰▰▰▱▱▱▱▱▱    38.73 %   |     48m                       | Refactor and clean.
- instructions      ▰▰▱▱▱▱▱▱▱▱    15.65 %   |     19m                       | Keep shipping.
- Unknown Project   ▱▱▱▱▱▱▱▱▱▱     1.51 %   |      1m                       | Solve problems.
- Desktop           ▱▱▱▱▱▱▱▱▱▱     0.00 %   |      1m                       | Focus on target.
+ 0x3ef8.github.io  ▰▰▰▰▰▰▰▱▱▱    71.98 %   |     54m                       | Keep shipping.
+ instructions      ▰▰▰▱▱▱▱▱▱▱    25.55 %   |     19m                       | Solve problems.
+ Unknown Project   ▱▱▱▱▱▱▱▱▱▱     2.47 %   |      1m                       | Focus on target.
+ Desktop           ▱▱▱▱▱▱▱▱▱▱     0.00 %   |      1m                       | Fast iteration.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Build and iterate.
- Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
- Evening    (18-24)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
- Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                    | Review and polish.
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
+ Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Review and polish.
+ Evening    (18-24)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Debug and refine.
+ Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                    | Plan and warm up.
 
  I Am Most Productive On
 
@@ -113,15 +112,15 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  2.07 h                       | Fast feedback loop.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Focus mode ready.
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  2.07 h                       | Toolchain optimized.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Automation friendly.
 
  Machines & Devices
- ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  2.07 h                       | Ready to build.
+ ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | On-the-go focus.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-01 21:57:56 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-02 08:39:21 PHT
 ```
 <!-- STATS:END -->
