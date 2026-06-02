@@ -57,54 +57,54 @@ export default developer;
 0x3EF8 · Dev Metrics                                                       | Quick Insights
 From: 2020 - To: 2026                                                      | Top Lang : CSS (39.40%)
 122 repos (50 public, 72 private)   |   60 stars                           | Top Editor: VS Code (100.00%)
-WakaTime (last 7d): 1 hr 15 mins total · 1 hr 15 mins daily avg            | Peak Time: Night (100.00%)
-                                                                           | Peak Day : Thursday (100.00%)
-                                                                           | All-Time : 883 hrs 45 mins
-                                                                           | Activity : 50 chunks
+WakaTime (last 7d): 1 hr 15 mins total · 1 hr 15 mins daily avg            | Peak Time: Night (54.07%)
+                                                                           | Peak Day : Thursday (54.07%)
+                                                                           | All-Time : 884 hrs 50 mins
+                                                                           | Activity : 85 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- CSS               ▰▰▰▰▱▱▱▱▱▱   39.40 %   |  0.50 h                        |  (\_/)
- TypeScript        ▰▰▰▱▱▱▱▱▱▱   31.20 %   |  0.40 h                        |  (o.o)
- Markdown          ▰▰▰▱▱▱▱▱▱▱   27.31 %   |  0.35 h                        |  /|_|\
+ CSS               ▰▰▰▰▱▱▱▱▱▱   39.40 %   |  0.50 h                        |   ^__^
+ TypeScript        ▰▰▰▱▱▱▱▱▱▱   31.20 %   |  0.40 h                        |   (oo)
+ Markdown          ▰▰▰▱▱▱▱▱▱▱   27.31 %   |  0.35 h                        |  /(__)\
  Other             ▱▱▱▱▱▱▱▱▱▱    1.26 %   |  0.02 h                        | Automation buys thinking time.
- Git Config        ▱▱▱▱▱▱▱▱▱▱    0.76 %   |  0.01 h                        | Readable code scales teams.
- Bash              ▱▱▱▱▱▱▱▱▱▱    0.03 %   |  0.00 h                        | Tests turn fear into speed.
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.02 %   |  0.00 h                        | Automation buys thinking time.
- JSON              ▱▱▱▱▱▱▱▱▱▱    0.01 %   |  0.00 h                        | Refactor early, ship confid...
+ Git Config        ▱▱▱▱▱▱▱▱▱▱    0.76 %   |  0.01 h                        | Ship small. Learn fast.
+ Bash              ▱▱▱▱▱▱▱▱▱▱    0.03 %   |  0.00 h                        | Readable code scales teams.
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    0.02 %   |  0.00 h                        | Tests turn fear into speed.
+ JSON              ▱▱▱▱▱▱▱▱▱▱    0.01 %   |  0.00 h                        | Automation buys thinking time.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▰▱    94.83 %   |  1h 12m                       | Document everything.
- Coding            ▰▱▱▱▱▱▱▱▱▱     5.15 %   |      3m                       | Optimize hot paths.
- Writing Docs      ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Design and architect.
+ AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▰▱    94.83 %   |  1h 12m                       | Optimize hot paths.
+ Coding            ▰▱▱▱▱▱▱▱▱▱     5.15 %   |      3m                       | Design and architect.
+ Writing Docs      ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Write tests first.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- 0x3ef8.github.io  ▰▰▰▰▰▰▰▱▱▱    71.98 %   |     54m                       | Keep shipping.
- instructions      ▰▰▰▱▱▱▱▱▱▱    25.55 %   |     19m                       | Solve problems.
- Unknown Project   ▱▱▱▱▱▱▱▱▱▱     2.47 %   |      1m                       | Focus on target.
- Desktop           ▱▱▱▱▱▱▱▱▱▱     0.00 %   |      1m                       | Fast iteration.
+ 0x3ef8.github.io  ▰▰▰▰▰▰▰▱▱▱    71.98 %   |     54m                       | Solve problems.
+ instructions      ▰▰▰▱▱▱▱▱▱▱    25.55 %   |     19m                       | Focus on target.
+ Unknown Project   ▱▱▱▱▱▱▱▱▱▱     2.47 %   |      1m                       | Fast iteration.
+ Desktop           ▱▱▱▱▱▱▱▱▱▱     0.00 %   |      1m                       | Refactor and clean.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  I Code Most During
 
- Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Deep focus zone.
- Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Review and polish.
- Evening    (18-24)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Debug and refine.
- Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                    | Plan and warm up.
+ Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Feature flow window.
+ Daytime    (12-18)   ▰▱▱▱▱▱▱▱▱▱   13.59 %   |  0.32 h                     | Deep focus zone.
+ Evening    (18-24)   ▰▰▰▱▱▱▱▱▱▱   32.35 %   |  0.76 h                     | Review and polish.
+ Night      (00-06)   ▰▰▰▰▰▱▱▱▱▱   54.07 %   |  1.27 h                     | Debug and refine.
 
  I Am Most Productive On
 
  Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
+ Tuesday    ▰▰▰▰▰▱▱▱▱▱   45.93 %   |  1.08 h                               | Learning day
  Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
- Thursday   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                              | Momentum day
+ Thursday   ▰▰▰▰▰▱▱▱▱▱   54.07 %   |  1.27 h                               | Momentum day
  Friday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
  Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
  Sunday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Review day
@@ -112,15 +112,15 @@ Stats & Proficiency
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Editors
- VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Focus mode ready.
+ VS Code           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Plugins tuned for speed.
 
  Operating Systems
- Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Automation friendly.
+ Windows           ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Build-ready setup.
 
  Machines & Devices
- ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | On-the-go focus.
+ ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.27 h                       | Workstation tuned.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-02 08:39:21 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-02 21:11:57 PHT
 ```
 <!-- STATS:END -->
