@@ -58,37 +58,37 @@ export default developer;
 From: 2020 - To: 2026                                                      | Top Lang : TypeScript (39.66%)
 122 repos (50 public, 72 private)   |   59 stars                           | Top Editor: VS Code (100.00%)
 WakaTime (last 7d): 1 hr 31 mins total · 30 mins daily avg                 | Peak Time: Night (100.00%)
-                                                                           | Peak Day : Thursday (56.20%)
+                                                                           | Peak Day : Sunday (81.11%)
                                                                            | All-Time : 886 hrs 21 mins
-                                                                           | Activity : 101 chunks
+                                                                           | Activity : 24 chunks
 Stats & Proficiency
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Languages
- TypeScript        ▰▰▰▰▱▱▱▱▱▱   39.66 %   |  0.67 h                        |  /\_/\
- Python            ▰▰▱▱▱▱▱▱▱▱   18.38 %   |  0.31 h                        | ( o.o )
- Markdown          ▰▰▱▱▱▱▱▱▱▱   16.00 %   |  0.27 h                        |  > ^ <
- Other             ▰▱▱▱▱▱▱▱▱▱    9.60 %   |  0.16 h                        | Simple code survives long-t...
- CSS               ▰▱▱▱▱▱▱▱▱▱    5.95 %   |  0.10 h                        | Consistency compounds quality.
- Text              ▰▱▱▱▱▱▱▱▱▱    5.60 %   |  0.09 h                        | Simple code survives long-t...
- TSConfig          ▱▱▱▱▱▱▱▱▱▱    4.30 %   |  0.07 h                        | Ship small. Learn fast.
- Bash              ▱▱▱▱▱▱▱▱▱▱    0.53 %   |  0.01 h                        | Readable code scales teams.
+ TypeScript        ▰▰▰▰▱▱▱▱▱▱   39.66 %   |  0.67 h                        |   ^__^
+ Python            ▰▰▱▱▱▱▱▱▱▱   18.38 %   |  0.31 h                        |   (oo)
+ Markdown          ▰▰▱▱▱▱▱▱▱▱   16.00 %   |  0.27 h                        |  /(__)\
+ Other             ▰▱▱▱▱▱▱▱▱▱    9.60 %   |  0.16 h                        | Automation buys thinking time.
+ CSS               ▰▱▱▱▱▱▱▱▱▱    5.95 %   |  0.10 h                        | Tests turn fear into speed.
+ Text              ▰▱▱▱▱▱▱▱▱▱    5.60 %   |  0.09 h                        | Automation buys thinking time.
+ TSConfig          ▱▱▱▱▱▱▱▱▱▱    4.30 %   |  0.07 h                        | Refactor early, ship confid...
+ Bash              ▱▱▱▱▱▱▱▱▱▱    0.53 %   |  0.01 h                        | Great DX creates great UX.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Categories
- AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▰▱    91.18 %   |  1h 32m                       | Refactor for clarity.
- Coding            ▰▱▱▱▱▱▱▱▱▱     8.82 %   |      8m                       | Document everything.
+ AI Coding [MAIN]  ▰▰▰▰▰▰▰▰▰▱    91.18 %   |  1h 32m                       | Optimize hot paths.
+ Coding            ▰▱▱▱▱▱▱▱▱▱     8.82 %   |      8m                       | Design and architect.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
  Projects
- portfolio         ▰▰▰▰▱▱▱▱▱▱    41.48 %   |     41m                       | Refactor and clean.
- instructions      ▰▰▰▱▱▱▱▱▱▱    30.63 %   |     30m                       | Keep shipping.
- hugging face      ▰▰▰▱▱▱▱▱▱▱    27.21 %   |     27m                       | Solve problems.
- LeafSense         ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Focus on target.
- mobile            ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Fast iteration.
+ portfolio         ▰▰▰▰▱▱▱▱▱▱    41.48 %   |     41m                       | Solve problems.
+ instructions      ▰▰▰▱▱▱▱▱▱▱    30.63 %   |     30m                       | Focus on target.
+ hugging face      ▰▰▰▱▱▱▱▱▱▱    27.21 %   |     27m                       | Fast iteration.
+ LeafSense         ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Refactor and clean.
+ mobile            ▱▱▱▱▱▱▱▱▱▱       <1 %   |      1m                       | Keep shipping.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -97,17 +97,17 @@ Stats & Proficiency
  Morning    (06-12)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Review and polish.
  Daytime    (12-18)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Debug and refine.
  Evening    (18-24)   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                     | Plan and warm up.
- Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.69 h                    | Build and iterate.
+ Night      (00-06)   ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  0.74 h                    | Build and iterate.
 
  I Am Most Productive On
 
- Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Learning day
- Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
- Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
- Thursday   ▰▰▰▰▰▰▱▱▱▱   56.20 %   |  0.95 h                               | Shipping day
- Friday     ▰▱▱▱▱▱▱▱▱▱    8.27 %   |  0.14 h                               | Refactor day
- Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Review day
- Sunday     ▰▰▰▰▱▱▱▱▱▱   35.53 %   |  0.60 h                               | Automation day
+ Monday     ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Planning day
+ Tuesday    ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Momentum day
+ Wednesday  ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Shipping day
+ Thursday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Refactor day
+ Friday     ▰▰▱▱▱▱▱▱▱▱   18.89 %   |  0.14 h                               | Review day
+ Saturday   ▱▱▱▱▱▱▱▱▱▱    0.00 %   |     n/a                               | Automation day
+ Sunday     ▰▰▰▰▰▰▰▰▱▱   81.11 %   |  0.60 h                               | Learning day
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -121,6 +121,6 @@ Stats & Proficiency
  ROG-Zephyrus      ▰▰▰▰▰▰▰▰▰▰   100.00 %   |  1.69 h                       | Hardware optimized.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-10 21:05:42 PHT
+ Languages/Time/Day/Editors/OS from WakaTime API · Repo stats from GitHub API · Updated: 2026-06-11 08:39:14 PHT
 ```
 <!-- STATS:END -->
